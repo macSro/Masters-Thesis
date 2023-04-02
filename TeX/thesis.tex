@@ -1,0 +1,66 @@
+% !TEX encoding = UTF-8 Unicode 
+%
+% Use:
+% magister / inzynier - for master thesis or engineering thesis
+% druk / archiwum - for print version or archive version
+% en - to translate template into english
+% examples:
+%\documentclass[inzynier,druk,en] - master thesis, print version, english
+%\documentclass[magister,druk,en]{dyplom}
+%\documentclass[magister,druk]{dyplom}
+
+\documentclass[magister,druk,en]{dyplom}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+% Maximum section's depth.
+\setcounter{secnumdepth}{4}
+
+% Listings settings
+\setminted{breaklines, 
+frame=lines,           
+framesep=3mm,          
+baselinestretch=1.1,   
+fontsize=\small,       
+% linenos              % line numbering
+}
+
+\usepackage{lipsum}
+
+\fieldofstudy{IST}
+\specialisation{CE}                          
+\author{Maciej Sroczek}
+\title{Title}
+\supervisor{dr inż. Dariusz Konieczny}
+\keywords{keyword1, keyword2, keyword3}
+
+\begin{document}
+
+\maketitle
+
+\input{abstract}
+
+\tableofcontents
+
+\input{chapter1}
+
+\input{chapter2}
+
+\input{chapter3}
+
+\input{chapter4}
+
+\input{chapter5}
+
+\input{chapter6}
+
+\input{chapter7}
+
+\bibliographystyle{dyplom}
+\bibliography{bibliography}
+
+\listoffigures
+\listoftables
+
+\end{document}
