@@ -3,29 +3,28 @@
 
 \chapter{Introduction}
 
-In the book \cite{docker_compose_reference} \dots
+Over the last few years, mobile devices, such as smartphones, tablets, or even smartwatches, could be seen as a rather essential part of human lives. This is confirmed by the big and still increasing number of over 7 billion mobile users across the world \cite{statista_mobile_users_worldwide}. Because nearly 90 percent of users spend their time using different apps, the number of mobile app downloads is very high, at over 200 billion in 2020, which has a direct impact on the expansion of the mobile app market \cite{techjury_app_statistics}. The growth of the mentioned market results in the evolution of different implementation methods for mobile development, with native and cross-platform being the most widely used.
 
-This template is an adaptation of the template elaborated by Wojciech Myszka (see https://kmim.wm.pwr.edu.pl/myszka/projekty).
-The template worked successfully in the following tools:
-\begin{itemize}
-    \item Overleaf.com -- an on-line version; no installation required
-    \item TeXStudio/TeXLive or TeXStudio/MiKTeX or TeXWorks/MiKTex
-\end{itemize}
+Native mobile development implies creating software that can only be run on a specific platform (operating system), such as Android or iOS \cite{cma_mobile_ecosystems_report}. In order to do so, platform-specific tools must be utilized. In the case of Android, the programming language Kotlin may be used, and in the case of iOS, Swift. While it can be seen as a limitation, it provides some advantages, such as being able to use different elements of the system directly and, with that, maximize the achievable performance.
 
-Usage of the full version may require (e.g. for TeXWorks/MikTeX):
-\begin{itemize}
-    \item Python 2.7+ plus Pygments scripts installed; path to both should be set to the PATH environment variable -- they are used to color source code keywords in programming language
-    \item -shell-escape option for Latex compiblation enabled -- required by the minted Latex package
-\end{itemize}
+Cross-platform mobile development aims to eliminate the need to implement multiple versions of the same mobile app in order to make it available for users of different platforms. This method assumes the use of a single codebase that enables building the app for various operating systems. From the perspective of a user, each of them should perform and look as if they were implemented natively \cite{ijmcmc_decision_framework_cross_plaftorm}. Such an approach quickly became popular among developers, including successful companies such as Meta and Google \cite{kotlin_popular_cross_platform_frameworks}. Some examples of cross-platform frameworks are Flutter, React Native, and Ionic.
+
+All of the differences between the above-mentioned implementation approaches can make them more or less applicable in various scenarios. The selection of either native or cross-platform development method as well as the specific technology is really important because it may directly affect aspects such as development time, cost, and overall end-product quality. However, most of the popular solutions are constantly being updated, which leads to the necessity of recurrent comparative analysis in order to obtain the most up-to-date state of the art. Such knowledge will then be helpful to determine in which cases different development approaches and tools should be optimally used.
+
+% \begin{itemize}
+%     \item Overleaf.com -- an on-line version; no installation required
+%     \item TeXStudio/TeXLive or TeXStudio/MiKTeX or TeXWorks/MiKTex
+% \end{itemize}
+
 
 \section{The aim of the thesis}
 
-\lipsum[1]
+The purpose of this master's thesis is to carry out research on the performance of selected cross-platform frameworks in comparison to each other and to native development methods. A number of metrics will be selected for analysis based on a literature review and personal experience. Exemplary applications will be prepared as an environment for the experiments. The results will form the basis for defining the advantages and downsides of developing single codebase cross-platform applications. Furthermore, optimal scenarios of use will be proposed for each studied framework and native technology.
 
 \section{The scope of the thesis}
 
-\lipsum[1]
+To begin with, a problem analysis will be performed, which will result in defining the specifications for the experiments to be carried out. Conducted experiments will provide data for further analysis, which will be organized into groups based on the experiment environments, studied platforms, and frameworks. The results will be interpreted in the context of quality and possible optimal use-cases for implementing mobile applications using the selected frameworks and native methods. All of the research must be documented.
 
 \section{The structure of the thesis}
 
-\lipsum[1]
+The thesis has been divided into seven chapters. The first chapter aims to provide a brief introduction to the topic. The second chapter contains the literature review, which helps to present the relevancy of the subject matter as well as provide knowledge necessary for the further work. In the third chapter, the research method is mostly defined based on the literature review. The fourth chapter concerns the implementation of testing environments and the realization of prepared experiments. In the fifth chapter, the results from performed experiments are visualized and described. The sixth chapter contains the discussion that emerged from the experiment results and the conclusions drawn. Finally, in the last chapter, the complete work is summarized and key takeaways are featured. Additionally, limitations are explained, and suggestions for future work are proposed. The dissertation closes with a bibliography as well as lists of figures and tables.
