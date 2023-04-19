@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.27)  19 APR 2023 01:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.27)  19 APR 2023 19:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -884,7 +884,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}] [2
 
 ] (./abstract.tex
-Package hyperref Info: Option `pageanchor' set `true' on input line 11.
+Package hyperref Info: Option `pageanchor' set `true' on input line 13.
  [3
 
 
@@ -894,7 +894,7 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 11.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 }
+l.13 }
        [4
 
 ]) (./thesis.toc
@@ -972,18 +972,18 @@ Underfull \hbox (badness 1067) in paragraph at lines 7--8
 
 ] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3735E3EFE6DD093458465C7CC549D6FE;6222.
+(rerunfilecheck)             Checksum: F5ED82C57C6F7B077FBA85EB092CE001;6242.
  ) 
 Here is how much of TeX's memory you used:
- 29216 strings out of 476025
- 548546 string characters out of 5794015
+ 29220 strings out of 476025
+ 548582 string characters out of 5794015
  1862382 words of memory out of 5000000
  48936 multiletter control sequences out of 15000+600000
- 558521 words of font info for 119 fonts, out of 8000000 for 9000
+ 558733 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,9n,120p,1053b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (18 pages, 140380 bytes).
+Output written on thesis.pdf (18 pages, 142316 bytes).
 PDF statistics:
  360 PDF objects out of 1000 (max. 8388607)
  328 compressed objects within 4 object streams
