@@ -11,8 +11,8 @@
 \contentsline {section}{\numberline {2.2\relax .\enspace }Mobile development relevancy}{5}{section.2.2}%
 \contentsline {section}{\numberline {2.3\relax .\enspace }Development approaches}{5}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1\relax .\enspace }Native mobile development}{5}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2\relax .\enspace }Web development}{5}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3\relax .\enspace }Cross-platform mobile development}{5}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.2\relax .\enspace }Web development}{6}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3\relax .\enspace }Cross-platform mobile development}{6}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4\relax .\enspace }Evaluation of cross-platform frameworks}{6}{section.2.4}%
 \contentsline {section}{\numberline {2.5\relax .\enspace }Performance measurement}{6}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1\relax .\enspace }Mobile development}{6}{subsection.2.5.1}%

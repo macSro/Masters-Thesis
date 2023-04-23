@@ -4,15 +4,21 @@
 {Competition Markets Authority}, \emph{Mobile ecosystems. {Market} study final report.} Updated 4 Aug. 2022.
 
 \bibitem{kotlin_popular_cross_platform_frameworks}
-{Kotlin}, \emph{The six most popular cross-platform app development frameworks}, \url{https://kotlinlang.org/docs/cross-platform-frameworks.html}. Accessed 18 Apr. 2023.
+Kotlin, \emph{The six most popular cross-platform app development frameworks}, \url{https://kotlinlang.org/docs/cross-platform-frameworks.html}. Accessed 18 Apr. 2023.
 
 \bibitem{ijmcmc_decision_framework_cross_plaftorm}
 Lachgar, M., Hanine, M., Benouda, H., Ommane, Y., \emph{Decision framework for cross-platform mobile development frameworks using an integrated multi-criteria decision-making methodology}, International Journal of Mobile Computing and Multimedia Communications 13(1). 2022.
+
+\bibitem{microsoft_mobile_development}
+Microsoft, \emph{What is mobile application development?}, \url{https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-mobile-app-development/#definition}. Accessed 22 Apr. 2023.
 
 \bibitem{statista_mobile_users_worldwide}
 {Statista}, \emph{Forecast number of mobile users worldwide 2020-2025}, \url{https://www.statista.com/statistics/218984/number-of-global-mobile-users-since-2010/}. Accessed 18 Apr. 2023.
 
 \bibitem{techjury_app_statistics}
 {TechJury}, \emph{55+ jaw dropping app usage statistics in 2023}, \url{https://techjury.net/blog/app-usage-statistics/#gref}. Accessed 18 Apr. 2023.
+
+\bibitem{velvetech_mobile_dev_approaches}
+Velvetech, \emph{5 key mobile development approaches}, \url{https://www.velvetech.com/blog/5-key-mobile-development-approaches/}. Accessed 22 Apr. 2023.
 
 \end{thebibliography}
