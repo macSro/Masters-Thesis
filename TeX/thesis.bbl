@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{cma_mobile_ecosystems_report}
 {Competition Markets Authority}, \emph{Mobile ecosystems. {Market} study final report.} Updated 4 Aug. 2022.
@@ -12,6 +12,18 @@ Lachgar, M., Hanine, M., Benouda, H., Ommane, Y., \emph{Decision framework for c
 \bibitem{microsoft_mobile_development}
 Microsoft, \emph{What is mobile application development?}, \url{https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-mobile-app-development/#definition}. Accessed 22 Apr. 2023.
 
+\bibitem{approach_to_assess_performance_case_study}
+Mota, D., Martinho, R., \emph{An approach to assess the performance of mobile applications: A case study of multiplatform development frameworks}, Proceedings of the 16th International Conference on Evaluation of Novel Approaches to Software Engineering - Volume 1: ENASE,. 2021.
+
+\bibitem{statcounter_mobile_os_market}
+{Statcounter}, \emph{Mobile operating system market share worldwide}, \url{https://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-202303-202303-bar}. Accessed 23 Apr. 2023.
+
+\bibitem{statcounter_android_version_market}
+{Statcounter}, \emph{Mobile tablet android version market share worldwide}, \url{https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide/#monthly-202303-202303-bar}. Accessed 23 Apr. 2023.
+
+\bibitem{statcounter_ios_version_market}
+{Statcounter}, \emph{Mobile tablet ios version market share worldwide}, \url{https://gs.statcounter.com/ios-version-market-share/mobile-tablet/worldwide/#monthly-202303-202303-bar}. Accessed 23 Apr. 2023.
+
 \bibitem{statista_mobile_users_worldwide}
 {Statista}, \emph{Forecast number of mobile users worldwide 2020-2025}, \url{https://www.statista.com/statistics/218984/number-of-global-mobile-users-since-2010/}. Accessed 18 Apr. 2023.
 
@@ -20,5 +32,8 @@ Microsoft, \emph{What is mobile application development?}, \url{https://azure.mi
 
 \bibitem{velvetech_mobile_dev_approaches}
 Velvetech, \emph{5 key mobile development approaches}, \url{https://www.velvetech.com/blog/5-key-mobile-development-approaches/}. Accessed 22 Apr. 2023.
+
+\bibitem{comparative_analysis_native_hybrid}
+Vilček, T., Jakopec, T., \emph{Comparative analysis of tools for development of native and hybrid mobile applications}, 2017 40th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO). 2017.
 
 \end{thebibliography}

@@ -11,35 +11,35 @@
 \contentsline {section}{\numberline {2.2\relax .\enspace }Mobile development relevancy}{5}{section.2.2}%
 \contentsline {section}{\numberline {2.3\relax .\enspace }Development approaches}{5}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1\relax .\enspace }Native mobile development}{5}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2\relax .\enspace }Web development}{6}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3\relax .\enspace }Cross-platform mobile development}{6}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4\relax .\enspace }Evaluation of cross-platform frameworks}{6}{section.2.4}%
-\contentsline {section}{\numberline {2.5\relax .\enspace }Performance measurement}{6}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1\relax .\enspace }Mobile development}{6}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2\relax .\enspace }Web development}{6}{subsection.2.5.2}%
-\contentsline {chapter}{\numberline {3\relax .\enspace }Research method}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1\relax .\enspace }Performance metrics}{7}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1\relax .\enspace }Mobile environment}{7}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2\relax .\enspace }Web environment}{7}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2\relax .\enspace }Research scenarios}{7}{section.3.2}%
-\contentsline {section}{\numberline {3.3\relax .\enspace }Testing tools}{7}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1\relax .\enspace }Mobile environment}{7}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2\relax .\enspace }Web environment}{7}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4\relax .\enspace }Testing devices}{7}{section.3.4}%
-\contentsline {chapter}{\numberline {4\relax .\enspace }Implementation of sample applications}{8}{chapter.4}%
-\contentsline {section}{\numberline {4.1\relax .\enspace }App 1???}{8}{section.4.1}%
-\contentsline {chapter}{\numberline {5\relax .\enspace }Research results}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1\relax .\enspace }Mobile environment}{9}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1\relax .\enspace }App 1???}{9}{subsection.5.1.1}%
-\contentsline {section}{\numberline {5.2\relax .\enspace }Web environment}{9}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1\relax .\enspace }App 1???}{9}{subsection.5.2.1}%
-\contentsline {chapter}{\numberline {6\relax .\enspace }Discussion}{10}{chapter.6}%
-\contentsline {section}{\numberline {6.1\relax .\enspace }Mobile environment}{10}{section.6.1}%
-\contentsline {section}{\numberline {6.2\relax .\enspace }Web environment}{10}{section.6.2}%
-\contentsline {chapter}{\numberline {7\relax .\enspace }Summary}{11}{chapter.7}%
-\contentsline {section}{\numberline {7.1\relax .\enspace }Contribution}{11}{section.7.1}%
-\contentsline {section}{\numberline {7.2\relax .\enspace }Limitations}{11}{section.7.2}%
-\contentsline {section}{\numberline {7.3\relax .\enspace }Suggestions for future work}{11}{section.7.3}%
-\contentsline {chapter}{Bibliography}{12}{chapter*.4}%
-\contentsline {chapter}{List of Figures}{13}{chapter*.5}%
-\contentsline {chapter}{List of Tables}{14}{chapter*.6}%
+\contentsline {subsection}{\numberline {2.3.2\relax .\enspace }Web development}{7}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3\relax .\enspace }Cross-platform mobile development}{7}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4\relax .\enspace }Evaluation of cross-platform frameworks}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5\relax .\enspace }Performance measurement}{7}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1\relax .\enspace }Mobile development}{7}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2\relax .\enspace }Web development}{7}{subsection.2.5.2}%
+\contentsline {chapter}{\numberline {3\relax .\enspace }Research method}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1\relax .\enspace }Performance metrics}{8}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1\relax .\enspace }Mobile environment}{8}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2\relax .\enspace }Web environment}{8}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2\relax .\enspace }Research scenarios}{8}{section.3.2}%
+\contentsline {section}{\numberline {3.3\relax .\enspace }Testing tools}{8}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1\relax .\enspace }Mobile environment}{8}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2\relax .\enspace }Web environment}{8}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4\relax .\enspace }Testing devices}{8}{section.3.4}%
+\contentsline {chapter}{\numberline {4\relax .\enspace }Implementation of sample applications}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1\relax .\enspace }App 1???}{9}{section.4.1}%
+\contentsline {chapter}{\numberline {5\relax .\enspace }Research results}{10}{chapter.5}%
+\contentsline {section}{\numberline {5.1\relax .\enspace }Mobile environment}{10}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1\relax .\enspace }App 1???}{10}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2\relax .\enspace }Web environment}{10}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1\relax .\enspace }App 1???}{10}{subsection.5.2.1}%
+\contentsline {chapter}{\numberline {6\relax .\enspace }Discussion}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1\relax .\enspace }Mobile environment}{11}{section.6.1}%
+\contentsline {section}{\numberline {6.2\relax .\enspace }Web environment}{11}{section.6.2}%
+\contentsline {chapter}{\numberline {7\relax .\enspace }Summary}{12}{chapter.7}%
+\contentsline {section}{\numberline {7.1\relax .\enspace }Contribution}{12}{section.7.1}%
+\contentsline {section}{\numberline {7.2\relax .\enspace }Limitations}{12}{section.7.2}%
+\contentsline {section}{\numberline {7.3\relax .\enspace }Suggestions for future work}{12}{section.7.3}%
+\contentsline {chapter}{Bibliography}{13}{chapter*.4}%
+\contentsline {chapter}{List of Figures}{14}{chapter*.5}%
+\contentsline {chapter}{List of Tables}{15}{chapter*.6}%
