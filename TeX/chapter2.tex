@@ -13,11 +13,38 @@
 
 \subsection{Cross-platform mobile development}
 
+Most cross-platform frameworks require a middle layer that connects the app with the system and translates the commands to be natively called. This is considered to be a possible root of performance decrease \cite{appdynamics_mobile_app_performance}.
+
 \subsubsection{Flutter}
 \subsubsection{React Native}
 \subsubsection{Ionic}
 \subsubsection{Comparison}
 tutaj tabelka z frameworkami I w kolumnach rozne elementy, np., supported platforms, itd.?
+
+\begin{table}
+	\centering
+    \caption{Cross-platform frameworks comparison (Source: Own work based on \dots)}
+    \label{tab:framework_comparison}
+	\begin{tabular}{ |l|p{30mm}|p{30mm}|p{30mm}| }
+		\hline
+        \diagbox{Element}{Framework} & Flutter & React Native & Ionic \\
+		\hline
+		Initial release&2017&&\\
+        \hline
+		Current stable version&&&\\
+        \hline
+		Implemented with&C, C++, Dart&&\\
+        \hline
+		Supported platforms&Android, iOS, Web, Windows, macOS, Linux&&\\
+        \hline
+		Supported IDEs??&&&\\
+        \hline
+		Programming language&Dart&&\\
+        \hline
+		Rendering&Canvas drawing&Native platform components&Native platform components\\
+		\hline
+	\end{tabular}
+\end{table}
 
 \section{Evaluation of cross-platform frameworks}
 
@@ -27,66 +54,10 @@ tutaj tabelka z frameworkami I w kolumnach rozne elementy, np., supported platfo
 
 \subsection{Web development}
 
-
-
-% \section{The figure}
-
-% \begin{figure}
-% 	\centering\includegraphics[width=.6\textwidth]{img/swarm-network}
-% 	\caption{Docker network \cite{docker_compose_reference}}  \label{rys:network}
-% \end{figure}
-
-% In the figure \ref{rys:network} \dots
-
-
-% \subsection{Two figures side by side}
-
-% \begin{figure}[ht]
-% 	\centering
-% 	\begin{minipage}[b]{0.45\textwidth}
-% 		\centering\includegraphics[width=0.9\textwidth]{img/kotek} % left figure
-% 		\caption{The left figure}\label{fig:lewy}
-% 	\end{minipage}
-% 	\begin{minipage}[b]{0.45\textwidth}
-% 		\centering
-% 		\includegraphics[width=0.9\textwidth]{img/swarm-network} % right figure
-% 		\caption{The right figure}\label{fig:prawy}
-% 	\end{minipage}
-% \end{figure}
-
-% In the figures \ref{fig:lewy} and \ref{fig:prawy} \dots
-
-
-% \section{The table}
-
-% In the table \ref{table:table1} \dots
-
-% \begin{table}
-% 	\centering\caption{The table caption \label{table:table1}}
-% 	\begin{tabular}{|l|l|l|}% table alignment -> l c r - left, center, right
-% 		\hline
-% 		First & Second & Third \\
-% 		\hline
-% 		First & Second & Third \\
-% 		\hline
-% 	\end{tabular}
-% \end{table}
-
-
-
-% \subsection{The equation}
-
 % \begin{equation}
 % 	\sum_{i=1}^{\infty}a_i
 % 	\label{eq:myEquation}
 % \end{equation}
-
-% In the equation \ref{eq:myEquation} \dots
-
-
-% \section{The listing}
-
-% In the code \ref{listing:myListing} \dots
 
 % % replace {c} with the appropriate language
 % \begin{listing}
