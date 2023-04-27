@@ -1,13 +1,49 @@
 \begin{thebibliography}{10}
 
+\bibitem{android_what_is}
+Android, \url{https://www.android.com/what-is-android/}. Accessed 24 Apr. 2023.
+
+\bibitem{android_architecture}
+{Android Developers}, \url{https://developer.android.com/guide/platform}. Accessed 24 Apr. 2023.
+
+\bibitem{android_studio_intro}
+{Android Developers}, \url{https://developer.android.com/studio/intro}. Accessed 25 Apr. 2023.
+
+\bibitem{android_kotlin}
+{Android Developers}, \url{https://developer.android.com/kotlin}. Accessed 25 Apr. 2023.
+
+\bibitem{android_kotlin_first}
+{Android Developers}, \emph{Android's {Kotlin-first} approach}, \url{https://developer.android.com/kotlin/first}. Accessed 25 Apr. 2023.
+
+\bibitem{android_api_desugaring}
+{Android Developers}, \emph{Api desugaring supporting {Android} 13 and java.nio}, \url{https://android-developers.googleblog.com/2023/02/api-desugaring-supporting-android-13-and-java-nio.html}. Accessed 26 Apr. 2023.
+
+\bibitem{appdynamics_mobile_app_performance}
+{AppDynamics}, \emph{Mobile app performance explained}, \url{https://www.appdynamics.com/media/uploaded-files/mobileapp.pdf}. Accessed 23 Apr. 2023.
+
 \bibitem{cma_mobile_ecosystems_report}
 {Competition Markets Authority}, \emph{Mobile ecosystems. {Market} study final report.} Updated 4 Aug. 2022.
+
+\bibitem{comparison_technologies_multiplatform}
+Crha, J., \emph{Comparison of Technologies for Multiplatform Mobile Applications Development}, Master's thesis, Masaryk University. 2021.
+
+\bibitem{cross_platform_development_study_rn_flutter}
+Fentaw, A.E., \emph{Cross platform mobile application development: a comparison study of {React Native} Vs {Flutter}}, Master's thesis, University of Jyväskylä. 2020.
+
+\bibitem{eval_rn_flutter}
+Hjort, E., \emph{Evaluation of {React Native} and {Flutter} for cross-platform mobile application development}, Master's thesis, Åbo Akademi University. 2020.
+
+\bibitem{kotlin_multiplatform}
+Kotlin, \url{https://kotlinlang.org/docs/multiplatform.html}. Accessed 26 Apr. 2023.
 
 \bibitem{kotlin_popular_cross_platform_frameworks}
 Kotlin, \emph{The six most popular cross-platform app development frameworks}, \url{https://kotlinlang.org/docs/cross-platform-frameworks.html}. Accessed 18 Apr. 2023.
 
-\bibitem{ijmcmc_decision_framework_cross_plaftorm}
-Lachgar, M., Hanine, M., Benouda, H., Ommane, Y., \emph{Decision framework for cross-platform mobile development frameworks using an integrated multi-criteria decision-making methodology}, International Journal of Mobile Computing and Multimedia Communications 13(1). 2022.
+\bibitem{kc_kotlin_vs_java}
+{Krusche Company}, \emph{Kotlin vs {Java}: strengths, weaknesses and when to use which}, \url{https://kruschecompany.com/kotlin-vs-java/}. Accessed 26 Apr. 2023.
+
+\bibitem{decision_framework_cross_plaftorm}
+Lachgar, M., Hanine, M., Benouda, H., Ommane, Y., \emph{Decision framework for cross-platform mobile development frameworks using an integrated multi-criteria decision-making methodology}, International Journal of Mobile Computing and Multimedia Communications. 2022, Volume~13, 1.
 
 \bibitem{microsoft_mobile_development}
 Microsoft, \emph{What is mobile application development?}, \url{https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-mobile-app-development/#definition}. Accessed 22 Apr. 2023.
@@ -15,20 +51,29 @@ Microsoft, \emph{What is mobile application development?}, \url{https://azure.mi
 \bibitem{approach_to_assess_performance_case_study}
 Mota, D., Martinho, R., \emph{An approach to assess the performance of mobile applications: A case study of multiplatform development frameworks}, Proceedings of the 16th International Conference on Evaluation of Novel Approaches to Software Engineering - Volume 1: ENASE,. 2021.
 
+\bibitem{comparison_perf_looks_flutter_native}
+Olsson, M., \emph{A Comparison of Performance and Looks Between {Flutter} and Native Applications}, Bachelor's thesis, Blekinge Institute of Technology. 2020.
+
+\bibitem{android_architecture_and_application}
+Shaheen, J.A., Asghar, M.A., Hussain, A., \emph{Android os with its architecture and android application with dalvik virtual machine review}, International Journal of Multimedia and Ubiquitous Engineering. 2017, Volume~12, 7.
+
+\bibitem{comp_analysis_hybrid_frameworks}
+Singh, M., Shobha, G., \emph{Comparative analysis of hybrid mobile app development frameworks}, International Journal of Soft Computing and Engineering (IJSCE). 2021, Volume~10, 6.
+
 \bibitem{statcounter_mobile_os_market}
-{Statcounter}, \emph{Mobile operating system market share worldwide}, \url{https://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-202303-202303-bar}. Accessed 23 Apr. 2023.
+Statcounter, \emph{Mobile operating system market share worldwide}, \url{https://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-202303-202303-bar}. Accessed 23 Apr. 2023.
 
 \bibitem{statcounter_android_version_market}
-{Statcounter}, \emph{Mobile tablet android version market share worldwide}, \url{https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide/#monthly-202303-202303-bar}. Accessed 23 Apr. 2023.
+Statcounter, \emph{Mobile tablet android version market share worldwide}, \url{https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide/#monthly-202303-202303-bar}. Accessed 23 Apr. 2023.
 
 \bibitem{statcounter_ios_version_market}
-{Statcounter}, \emph{Mobile tablet ios version market share worldwide}, \url{https://gs.statcounter.com/ios-version-market-share/mobile-tablet/worldwide/#monthly-202303-202303-bar}. Accessed 23 Apr. 2023.
+Statcounter, \emph{Mobile tablet ios version market share worldwide}, \url{https://gs.statcounter.com/ios-version-market-share/mobile-tablet/worldwide/#monthly-202303-202303-bar}. Accessed 23 Apr. 2023.
 
 \bibitem{statista_mobile_users_worldwide}
-{Statista}, \emph{Forecast number of mobile users worldwide 2020-2025}, \url{https://www.statista.com/statistics/218984/number-of-global-mobile-users-since-2010/}. Accessed 18 Apr. 2023.
+Statista, \emph{Forecast number of mobile users worldwide 2020-2025}, \url{https://www.statista.com/statistics/218984/number-of-global-mobile-users-since-2010/}. Accessed 18 Apr. 2023.
 
 \bibitem{techjury_app_statistics}
-{TechJury}, \emph{55+ jaw dropping app usage statistics in 2023}, \url{https://techjury.net/blog/app-usage-statistics/#gref}. Accessed 18 Apr. 2023.
+TechJury, \emph{55+ jaw dropping app usage statistics in 2023}, \url{https://techjury.net/blog/app-usage-statistics/#gref}. Accessed 18 Apr. 2023.
 
 \bibitem{velvetech_mobile_dev_approaches}
 Velvetech, \emph{5 key mobile development approaches}, \url{https://www.velvetech.com/blog/5-key-mobile-development-approaches/}. Accessed 22 Apr. 2023.

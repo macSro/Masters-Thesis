@@ -231,7 +231,7 @@ FUNCTION {bbl.edition}
 { "wyd." }
 
 FUNCTION {bbl.volume}
-{ "tom" }
+{ "Volume" }
 
 FUNCTION {bbl.of}
 { "z serii" }
@@ -258,7 +258,7 @@ FUNCTION {bbl.techrep}
 { "Rap. tech." }
 
 FUNCTION {bbl.mthesis}
-{ "Praca magisterska" }
+{ "Master's thesis" }
 
 FUNCTION {bbl.phdthesis}
 { "Rozprawa doktorska" }
