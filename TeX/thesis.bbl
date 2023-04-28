@@ -48,14 +48,14 @@ Kotlin, \emph{The six most popular cross-platform app development frameworks}, \
 \bibitem{decision_framework_cross_plaftorm}
 Lachgar, M., Hanine, M., Benouda, H., Ommane, Y., \emph{Decision framework for cross-platform mobile development frameworks using an integrated multi-criteria decision-making methodology}, International Journal of Mobile Computing and Multimedia Communications. 2022, Volume~13, 1.
 
+\bibitem{material_design_get_started}
+{Material Design 3}, \url{https://m3.material.io/get-started}. Accessed 28 Apr. 2023.
+
 \bibitem{microsoft_mobile_development}
 Microsoft, \emph{What is mobile application development?}, \url{https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-mobile-app-development/#definition}. Accessed 22 Apr. 2023.
 
 \bibitem{approach_to_assess_performance_case_study}
 Mota, D., Martinho, R., \emph{An approach to assess the performance of mobile applications: A case study of multiplatform development frameworks}, Proceedings of the 16th International Conference on Evaluation of Novel Approaches to Software Engineering - Volume 1: ENASE,. 2021.
-
-\bibitem{jetpack_compose_vs_xml}
-{Mustafa Yiğit}, \emph{Say hello to {Jetpack Compose} and compare with {XML}}, \url{https://blog.kotlin-academy.com/say-hello-to-jetpack-compose-and-compare-with-xml-6bc6053aec13}. Accessed 27 Apr. 2023.
 
 \bibitem{comparison_perf_looks_flutter_native}
 Olsson, M., \emph{A Comparison of Performance and Looks Between {Flutter} and Native Applications}, Bachelor's thesis, Blekinge Institute of Technology. 2020.
@@ -65,6 +65,9 @@ Shaheen, J.A., Asghar, M.A., Hussain, A., \emph{Android os with its architecture
 
 \bibitem{comp_analysis_hybrid_frameworks}
 Singh, M., Shobha, G., \emph{Comparative analysis of hybrid mobile app development frameworks}, International Journal of Soft Computing and Engineering (IJSCE). 2021, Volume~10, 6.
+
+\bibitem{material_design_pros_cons}
+Sinicki, A., \emph{Implementing {Material Design} components and guidelines - {Googlify} your app!}, \url{https://www.androidauthority.com/material-design-components-1177515/}. Accessed 28 Apr. 2023.
 
 \bibitem{statcounter_mobile_os_market}
 Statcounter, \emph{Mobile operating system market share worldwide}, \url{https://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-202303-202303-bar}. Accessed 23 Apr. 2023.
@@ -86,5 +89,8 @@ Velvetech, \emph{5 key mobile development approaches}, \url{https://www.velvetec
 
 \bibitem{comparative_analysis_native_hybrid}
 Vilček, T., Jakopec, T., \emph{Comparative analysis of tools for development of native and hybrid mobile applications}, 2017 40th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO). 2017.
+
+\bibitem{jetpack_compose_vs_xml}
+Yiğit, M., \emph{Say hello to {Jetpack Compose} and compare with {XML}}, \url{https://blog.kotlin-academy.com/say-hello-to-jetpack-compose-and-compare-with-xml-6bc6053aec13}. Accessed 27 Apr. 2023.
 
 \end{thebibliography}
