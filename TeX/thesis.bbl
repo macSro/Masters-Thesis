@@ -18,6 +18,9 @@ Android, \url{https://www.android.com/what-is-android/}. Accessed 24 Apr. 2023.
 \bibitem{android_api_desugaring}
 {Android Developers}, \emph{Api desugaring supporting {Android} 13 and java.nio}, \url{https://android-developers.googleblog.com/2023/02/api-desugaring-supporting-android-13-and-java-nio.html}. Accessed 26 Apr. 2023.
 
+\bibitem{android_jetpack_compose}
+{Android Developers Blog}, \emph{Jetpack compose is now 1.0: announcing android's modern toolkit for building native ui}, \url{https://android-developers.googleblog.com/2021/07/jetpack-compose-announcement.html}. Accessed 27 Apr. 2023.
+
 \bibitem{appdynamics_mobile_app_performance}
 {AppDynamics}, \emph{Mobile app performance explained}, \url{https://www.appdynamics.com/media/uploaded-files/mobileapp.pdf}. Accessed 23 Apr. 2023.
 
@@ -50,6 +53,9 @@ Microsoft, \emph{What is mobile application development?}, \url{https://azure.mi
 
 \bibitem{approach_to_assess_performance_case_study}
 Mota, D., Martinho, R., \emph{An approach to assess the performance of mobile applications: A case study of multiplatform development frameworks}, Proceedings of the 16th International Conference on Evaluation of Novel Approaches to Software Engineering - Volume 1: ENASE,. 2021.
+
+\bibitem{jetpack_compose_vs_xml}
+{Mustafa Yiğit}, \emph{Say hello to {Jetpack Compose} and compare with {XML}}, \url{https://blog.kotlin-academy.com/say-hello-to-jetpack-compose-and-compare-with-xml-6bc6053aec13}. Accessed 27 Apr. 2023.
 
 \bibitem{comparison_perf_looks_flutter_native}
 Olsson, M., \emph{A Comparison of Performance and Looks Between {Flutter} and Native Applications}, Bachelor's thesis, Blekinge Institute of Technology. 2020.
