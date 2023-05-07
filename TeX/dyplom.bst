@@ -246,10 +246,10 @@ FUNCTION {bbl.in}
 { "w" }
 
 FUNCTION {bbl.pages}
-{ "str." }
+{ "pages" }
 
 FUNCTION {bbl.page}
-{ "str." }
+{ "page" }
 
 FUNCTION {bbl.chapter}
 { "rozdz." }

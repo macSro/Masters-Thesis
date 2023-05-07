@@ -24,6 +24,18 @@ Android, \url{https://www.android.com/what-is-android/}. Accessed 24 Apr. 2023.
 \bibitem{appdynamics_mobile_app_performance}
 {AppDynamics}, \emph{Mobile app performance explained}, \url{https://www.appdynamics.com/media/uploaded-files/mobileapp.pdf}. Accessed 23 Apr. 2023.
 
+\bibitem{xcode_documentation}
+{Apple Developer}, \url{https://developer.apple.com/documentation/xcode/}. Accessed 6 May 2023.
+
+\bibitem{swift_overview}
+{Apple Developer}, \url{https://developer.apple.com/swift/}. Accessed 6 May 2023.
+
+\bibitem{swiftui_overview}
+{Apple Developer}, \url{https://developer.apple.com/documentation/swiftui/}. Accessed 6 May 2023.
+
+\bibitem{xib_why_use}
+Carney, T., \emph{What's a xib and why would i ever use one?}, \url{https://medium.com/@tjcarney89/whats-a-xib-and-why-would-i-ever-use-one-58d608cd5e9b}. Accessed 6 May 2023.
+
 \bibitem{cma_mobile_ecosystems_report}
 {Competition Markets Authority}, \emph{Mobile ecosystems. {Market} study final report.} Updated 4 Aug. 2022.
 
@@ -32,6 +44,12 @@ Crha, J., \emph{Comparison of Technologies for Multiplatform Mobile Applications
 
 \bibitem{cross_platform_development_study_rn_flutter}
 Fentaw, A.E., \emph{Cross platform mobile application development: a comparison study of {React Native} Vs {Flutter}}, Master's thesis, University of Jyväskylä. 2020.
+
+\bibitem{swift_objective_c_new_language}
+García, C.G., Espada, J.P., García-Bustelo, B.P., Lovelle, J.M.C., \emph{Swift vs. objective-c: A new programming language}, International Journal of Artificial Intelligence and Interactive Multimedia. 2015, Volume~3, pages 74--81.
+
+\bibitem{geeks_objective_c_swift}
+GeeksForGeeks, \url{https://www.geeksforgeeks.org/difference-between-swift-vs-objective-c/}. Accessed 6 May 2023.
 
 \bibitem{mobile_market_size}
 {Grand View Research}, \emph{{Global Mobile Application Market Size, Share, \& Trends Analysis Report by Store Type (Google Store, Apple Store, Others), by Application, by Region, and Segment Forecasts, 2022-2030}}. 2022.
@@ -54,17 +72,32 @@ Lachgar, M., Hanine, M., Benouda, H., Ommane, Y., \emph{Decision framework for c
 \bibitem{material_design_get_started}
 {Material Design 3}, \url{https://m3.material.io/get-started}. Accessed 28 Apr. 2023.
 
+\bibitem{swiftui_uikit}
+Mejia, R., \emph{Declarative and imperative programming using swiftui and uikit}, \url{https://medium.com/@rmeji1/declarative-and-imperative-programming-using-swiftui-and-uikit-c91f1f104252}. Accessed 6 May 2023.
+
 \bibitem{microsoft_mobile_development}
 Microsoft, \emph{What is mobile application development?}, \url{https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-mobile-app-development/#definition}. Accessed 22 Apr. 2023.
 
 \bibitem{approach_to_assess_performance_case_study}
 Mota, D., Martinho, R., \emph{An approach to assess the performance of mobile applications: A case study of multiplatform development frameworks}, Proceedings of the 16th International Conference on Evaluation of Novel Approaches to Software Engineering - Volume 1: ENASE,. 2021.
 
+\bibitem{ios_architecture}
+Naveen, \url{https://intellipaat.com/blog/tutorial/ios-tutorial/ios-architecture/?US}. Accessed 5 May 2023.
+
+\bibitem{mobile_os_survey}
+Okediran, O.O., Arulogun, O.T., Ganiyu, R.A., Oyeleye, C.A., \emph{Mobile operating systems and application development platforms: A survey}, International Journal of Advanced Networking and Applications. 2014, Volume~6, pages 2195--2201.
+
 \bibitem{comparison_perf_looks_flutter_native}
 Olsson, M., \emph{A Comparison of Performance and Looks Between {Flutter} and Native Applications}, Bachelor's thesis, Blekinge Institute of Technology. 2020.
 
+\bibitem{comp_study_hybrid}
+Rahman, A., \emph{A comparative study of hybrid mobile application development}, EasyChair Preprint no. 3905. EasyChair, 2020.
+
 \bibitem{android_architecture_and_application}
 Shaheen, J.A., Asghar, M.A., Hussain, A., \emph{Android os with its architecture and android application with dalvik virtual machine review}, International Journal of Multimedia and Ubiquitous Engineering. 2017, Volume~12, 7.
+
+\bibitem{speed_performance_swift_objective_c}
+Singh, H., \emph{{SPEED PERFORMANCE BETWEEN SWIFT AND OBJECTIVE-C}}, International Journal of Engineering Applied Sciences and Technology. 2016, Volume 1(10), pages 185--189.
 
 \bibitem{comp_analysis_hybrid_frameworks}
 Singh, M., Shobha, G., \emph{Comparative analysis of hybrid mobile app development frameworks}, International Journal of Soft Computing and Engineering (IJSCE). 2021, Volume~10, 6.
@@ -87,11 +120,17 @@ Statista, \emph{Forecast number of mobile users worldwide 2020-2025}, \url{https
 \bibitem{techjury_app_statistics}
 TechJury, \emph{55+ jaw dropping app usage statistics in 2023}, \url{https://techjury.net/blog/app-usage-statistics/#gref}. Accessed 18 Apr. 2023.
 
+\bibitem{swift_vs_objective_c}
+Upwork, \url{https://www.upwork.com/resources/swift-vs-objective-c-a-look-at-ios-programming-languages}. Accessed 6 May 2023.
+
 \bibitem{velvetech_mobile_dev_approaches}
 Velvetech, \emph{5 key mobile development approaches}, \url{https://www.velvetech.com/blog/5-key-mobile-development-approaches/}. Accessed 22 Apr. 2023.
 
 \bibitem{comparative_analysis_native_hybrid}
 Vilček, T., Jakopec, T., \emph{Comparative analysis of tools for development of native and hybrid mobile applications}, 2017 40th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO). 2017.
+
+\bibitem{wiki_objective_c}
+Wikipedia, \url{https://en.wikipedia.org/wiki/Objective-C}. Accessed 6 May 2023.
 
 \bibitem{jetpack_compose_vs_xml}
 Yiğit, M., \emph{Say hello to {Jetpack Compose} and compare with {XML}}, \url{https://blog.kotlin-academy.com/say-hello-to-jetpack-compose-and-compare-with-xml-6bc6053aec13}. Accessed 27 Apr. 2023.
