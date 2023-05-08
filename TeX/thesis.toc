@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {2.1\relax .\enspace }Related work}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2\relax .\enspace }Mobile development approaches}{5}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1\relax .\enspace }Native mobile development}{5}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2\relax .\enspace }Cross-platform mobile development}{11}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2\relax .\enspace }Cross-platform mobile development}{12}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3\relax .\enspace }Evaluation of cross-platform frameworks}{12}{section.2.3}%
 \contentsline {section}{\numberline {2.4\relax .\enspace }Performance measurement}{12}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1\relax .\enspace }Mobile development}{12}{subsection.2.4.1}%

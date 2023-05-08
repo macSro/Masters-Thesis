@@ -33,8 +33,14 @@ Android, \url{https://www.android.com/what-is-android/}. Accessed 24 Apr. 2023.
 \bibitem{swiftui_overview}
 {Apple Developer}, \url{https://developer.apple.com/documentation/swiftui/}. Accessed 6 May 2023.
 
+\bibitem{hig_overview}
+{Apple Developer}, \emph{{Human Interface Guidelines}}, \url{https://developer.apple.com/design/human-interface-guidelines}. Accessed 7 May 2023.
+
+\bibitem{web_mobile_app}
+{BrainHub}, \emph{Web app vs mobile app - which to develop first?}, \url{https://brainhub.eu/library/app-vs-website-which-to-develop-first}. Accessed 7 May 2023.
+
 \bibitem{xib_why_use}
-Carney, T., \emph{What's a xib and why would i ever use one?}, \url{https://medium.com/@tjcarney89/whats-a-xib-and-why-would-i-ever-use-one-58d608cd5e9b}. Accessed 6 May 2023.
+Carney, T., \emph{What's a {XIB} and why would i ever use one?}, \url{https://medium.com/@tjcarney89/whats-a-xib-and-why-would-i-ever-use-one-58d608cd5e9b}. Accessed 6 May 2023.
 
 \bibitem{cma_mobile_ecosystems_report}
 {Competition Markets Authority}, \emph{Mobile ecosystems. {Market} study final report.} Updated 4 Aug. 2022.
@@ -73,7 +79,7 @@ Lachgar, M., Hanine, M., Benouda, H., Ommane, Y., \emph{Decision framework for c
 {Material Design 3}, \url{https://m3.material.io/get-started}. Accessed 28 Apr. 2023.
 
 \bibitem{swiftui_uikit}
-Mejia, R., \emph{Declarative and imperative programming using swiftui and uikit}, \url{https://medium.com/@rmeji1/declarative-and-imperative-programming-using-swiftui-and-uikit-c91f1f104252}. Accessed 6 May 2023.
+Mejia, R., \emph{Declarative and imperative programming using {SwiftUI} and {UIKit}}, \url{https://medium.com/@rmeji1/declarative-and-imperative-programming-using-swiftui-and-uikit-c91f1f104252}. Accessed 6 May 2023.
 
 \bibitem{microsoft_mobile_development}
 Microsoft, \emph{What is mobile application development?}, \url{https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-mobile-app-development/#definition}. Accessed 22 Apr. 2023.
