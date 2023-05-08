@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex thesis"] 1683562280 "thesis.aux" "thesis.bbl" "thesis" 1683562282 0
+["bibtex thesis"] 1683563579 "thesis.aux" "thesis.bbl" "thesis" 1683563647 0
   "./bibliography.bib" 1683562277 15167 15b2e4300ff071afde8683758ff6c20a ""
   "./dyplom.bst" 1683312429 28166 b94d5ff4e0beb504e96ee4ac5c846535 ""
-  "thesis.aux" 1683562282 13799 f73b62684edf7946958705de1e45cd0a "pdflatex"
+  "thesis.aux" 1683563647 13799 0e2ff5f1b2ecf7fdbb7d6f0c3fcae26a "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1683562280 "/Users/maciejsroczek/Desktop/University/MastersThesis/TeX/thesis.tex" "thesis.pdf" "thesis" 1683562282 0
+["pdflatex"] 1683563645 "/Users/maciejsroczek/Desktop/University/MastersThesis/TeX/thesis.tex" "thesis.pdf" "thesis" 1683563647 0
   "/Users/maciejsroczek/Desktop/University/MastersThesis/TeX/thesis.tex" 1683230086 1275 838738c467277755f257b0fcd21b8ee1 ""
-  "/dev/null" 1683562282 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1683563645 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc" 1529098226 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -222,7 +222,7 @@
   "chapter2/chapter2.tex" 1683307407 661 a8cd3ba914d37711f07494e5d40d994a ""
   "chapter2/cross.tex" 1683230464 1177 0366ccdac9c100a8161c79ffe9fb63a7 ""
   "chapter2/eval.tex" 1683230625 108 ba20f24d4e40f011478e4f65d7d16604 ""
-  "chapter2/native.tex" 1683562277 19391 3477696a29da18c642e6ef668a91774e ""
+  "chapter2/native.tex" 1683563645 19467 5616550b95498a9b41325455e38568c8 ""
   "chapter2/perf.tex" 1683230623 155 54bdfbc2488f03b905f8ad82fc3f17e4 ""
   "chapter2/related.tex" 1683230739 81 a22b64322307c276618ec973caab5aa1 ""
   "chapter3.tex" 1682024000 322 56a9268e0c27ae948d7a35a7226e696f ""
@@ -236,13 +236,13 @@
   "img/ios_architecture.png" 1683315423 9873 94b4fbd536cc15a7f6e6ac2fe52d4152 ""
   "img/ios_ver_market_share.png" 1682278372 130751 2a60ffbea0d1396cb24d8de5af28159e ""
   "img/mobile_os_market.png" 1683309070 335129 c7179b03023dd51fe5e2edd3882d2464 ""
-  "thesis.aux" 1683562282 13799 f73b62684edf7946958705de1e45cd0a "pdflatex"
-  "thesis.bbl" 1683562280 9408 26bfa627efb1137559065e66fba45f0b "bibtex thesis"
-  "thesis.lof" 1683562282 1033 075f84677117491ecca631f0e426a996 "pdflatex"
-  "thesis.lot" 1683562282 541 e4e8b1e17611a0ac136e15988f7cec32 "pdflatex"
-  "thesis.out" 1683562282 5939 527640b92f9a3af22ef778f11ea92a96 "pdflatex"
+  "thesis.aux" 1683563647 13799 0e2ff5f1b2ecf7fdbb7d6f0c3fcae26a "pdflatex"
+  "thesis.bbl" 1683563579 9408 26bfa627efb1137559065e66fba45f0b "bibtex thesis"
+  "thesis.lof" 1683563647 1033 075f84677117491ecca631f0e426a996 "pdflatex"
+  "thesis.lot" 1683563647 541 e4e8b1e17611a0ac136e15988f7cec32 "pdflatex"
+  "thesis.out" 1683563647 5939 527640b92f9a3af22ef778f11ea92a96 "pdflatex"
   "thesis.tex" 1683230086 1275 838738c467277755f257b0fcd21b8ee1 ""
-  "thesis.toc" 1683562282 3853 539145f912e1fd0304a896ab6736c222 "pdflatex"
+  "thesis.toc" 1683563647 3853 06e459cf711de926cde9ea1d195a0eea "pdflatex"
   (generated)
   "thesis.aux"
   "thesis.lof"
