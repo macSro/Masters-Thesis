@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.2)  8 MAY 2023 18:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.2)  11 MAY 2023 19:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -989,22 +989,22 @@ File: img/ios_architecture.png Graphic file (type png)
 Package pdftex.def Info: img/ios_architecture.png  used on input line 114.
 (pdftex.def)             Requested size: 183.91557pt x 169.26094pt.
  [10 <./img/ios_architecture.png>]) [11] (./chapter2/cross.tex
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\T1/qtm/m/n/12 (+20) Android, iOS,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \T1/qtm/m/n/12 (+20) Web, Win-dows,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []|\T1/qtm/m/n/12 (+20) Native plat-form
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 []|\T1/qtm/m/n/12 (+20) Native plat-form
  []
 
@@ -1188,7 +1188,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  123i,17n,120p,1383b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (27 pages, 558545 bytes).
+Output written on thesis.pdf (27 pages, 558528 bytes).
 PDF statistics:
  585 PDF objects out of 1000 (max. 8388607)
  532 compressed objects within 6 object streams
