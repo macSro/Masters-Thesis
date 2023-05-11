@@ -21,6 +21,9 @@ Android, \url{https://www.android.com/what-is-android/}. Accessed 24 Apr. 2023.
 \bibitem{android_jetpack_compose}
 {Android Developers Blog}, \emph{Jetpack compose is now 1.0: announcing android's modern toolkit for building native ui}, \url{https://android-developers.googleblog.com/2021/07/jetpack-compose-announcement.html}. Accessed 27 Apr. 2023.
 
+\bibitem{cross_platform_ux}
+Angulo, E., Ferre, X., \emph{A case study on cross-platform development frameworks for mobile applications and {UX}}, Interacción '14: Proceedings of the XV International Conference on Human Computer Interaction. 2014, pages 1--8.
+
 \bibitem{appdynamics_mobile_app_performance}
 {AppDynamics}, \emph{Mobile app performance explained}, \url{https://www.appdynamics.com/media/uploaded-files/mobileapp.pdf}. Accessed 23 Apr. 2023.
 
@@ -35,6 +38,9 @@ Android, \url{https://www.android.com/what-is-android/}. Accessed 24 Apr. 2023.
 
 \bibitem{hig_overview}
 {Apple Developer}, \emph{{Human Interface Guidelines}}, \url{https://developer.apple.com/design/human-interface-guidelines}. Accessed 7 May 2023.
+
+\bibitem{baseline_cross_platform}
+Biørn-Hansen, A., Grønli, T.M., \emph{Baseline requirements for comparative research on cross-platform mobile development}, Norwegian Informatics Conference. 2017.
 
 \bibitem{web_mobile_app}
 {BrainHub}, \emph{Web app vs mobile app - which to develop first?}, \url{https://brainhub.eu/library/app-vs-website-which-to-develop-first}. Accessed 7 May 2023.
