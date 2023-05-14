@@ -2,11 +2,19 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1.}{\ignorespaces Mobile OS market (Source: Own work based on \cite {statcounter_mobile_os_market})}}{6}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2.}{\ignorespaces iOS version market share (Source: Own work based on \cite {statcounter_ios_version_market})}}{7}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3.}{\ignorespaces Android version market share (Source: Own work based on \cite {statcounter_android_version_market})}}{7}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4.}{\ignorespaces Android architecture (Source: Own work based on \cite {android_architecture})}}{8}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5.}{\ignorespaces iOS architecture (Source: Own work based on \cite {ios_architecture})}}{10}{figure.2.5}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1.}{\ignorespaces Mobile OS market (Source: Own work based on \cite {statcounter_mobile_os_market})}}{7}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2.}{\ignorespaces iOS version market share (Source: Own work based on \cite {statcounter_ios_version_market})}}{8}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3.}{\ignorespaces Android version market share (Source: Own work based on \cite {statcounter_android_version_market})}}{8}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4.}{\ignorespaces Android architecture (Source: Own work based on \cite {android_architecture})}}{9}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5.}{\ignorespaces iOS architecture (Source: Own work based on \cite {ios_architecture})}}{11}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6.}{\ignorespaces Google Trends search popularity of cross-platform app development (Source: Own work based on \cite {trends_cross_platform})}}{14}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7.}{\ignorespaces Google Trends search popularity of selected cross-platform frameworks (Source: Own work based on \cite {trends_comparison})}}{15}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8.}{\ignorespaces Hybrid app architecture (Source: \cite {karim_flutter_different})}}{16}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9.}{\ignorespaces Interpreted app architecture (Source: \cite {karim_flutter_different})}}{16}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10.}{\ignorespaces Cross-compiled approach workflow (Source: \cite {survey_taxonomy_cross_platform})}}{17}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11.}{\ignorespaces Progressive Web App architecture (Source: \cite {dawning_pwa})}}{18}{figure.3.11}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

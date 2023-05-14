@@ -1,5 +1,8 @@
 \begin{thebibliography}{10}
 
+\bibitem{dawning_pwa}
+Adetunji, O., Ajaegbu, C., Omotosho, O.J., \emph{{Dawning of Progressive Web Applications (PWA): Edging Out the Pitfalls of Traditional Mobile Development}}, American Scientific Research Journal for Engineering, Technology, and Sciences. 2020, Volume~68, pages 85--99.
+
 \bibitem{android_what_is}
 Android, \url{https://www.android.com/what-is-android/}. Accessed 24 Apr. 2023.
 
@@ -42,6 +45,9 @@ Angulo, E., Ferre, X., \emph{A case study on cross-platform development framewor
 \bibitem{baseline_cross_platform}
 Biørn-Hansen, A., Grønli, T.M., \emph{Baseline requirements for comparative research on cross-platform mobile development}, Norwegian Informatics Conference. 2017.
 
+\bibitem{survey_taxonomy_cross_platform}
+Biørn-Hansen, A., Grønli, T.M., Ghinea, G., \emph{A survey and taxonomy of core concepts and research challenges in cross-platform mobile development}, ACM Computing Surveys. 2018, Volume~51, pages 1--34.
+
 \bibitem{web_mobile_app}
 {BrainHub}, \emph{Web app vs mobile app - which to develop first?}, \url{https://brainhub.eu/library/app-vs-website-which-to-develop-first}. Accessed 7 May 2023.
 
@@ -63,11 +69,23 @@ García, C.G., Espada, J.P., García-Bustelo, B.P., Lovelle, J.M.C., \emph{Swift
 \bibitem{geeks_objective_c_swift}
 GeeksForGeeks, \url{https://www.geeksforgeeks.org/difference-between-swift-vs-objective-c/}. Accessed 6 May 2023.
 
+\bibitem{micro_moments_guide}
+Google, \emph{Micro-moments: Your guide to winning the shift to mobile}, \url{https://www.thinkwithgoogle.com/marketing-strategies/micro-moments/micromoments-guide/}. Accessed 26 Mar. 2023.
+
+\bibitem{trends_cross_platform}
+{Google Trends}, \url{https://trends.google.pl/trends/explore?date=2008-01-01%202023-03-26&q=cross%20platform%20app%20development&hl=pl}. Accessed 26 Mar. 2023.
+
+\bibitem{trends_comparison}
+{Google Trends}, \url{https://trends.google.pl/trends/explore?date=2008-01-01%202023-03-26&q=ionic,flutter,react%20native,xamarin,cordova&hl=pl}. Accessed 26 Mar. 2023.
+
 \bibitem{mobile_market_size}
 {Grand View Research}, \emph{{Global Mobile Application Market Size, Share, \& Trends Analysis Report by Store Type (Google Store, Apple Store, Others), by Application, by Region, and Segment Forecasts, 2022-2030}}. 2022.
 
 \bibitem{eval_rn_flutter}
 Hjort, E., \emph{Evaluation of {React Native} and {Flutter} for cross-platform mobile application development}, Master's thesis, Åbo Akademi University. 2020.
+
+\bibitem{karim_flutter_different}
+Karim, W., \emph{How is {Flutter} different from {Native}, {Web-view}, and other cross-platform frameworks}, \url{https://wajahatkarim.com/2019/11/how-is-flutter-different-from-native-web-view-and-other-cross-platform-frameworks/}. Accessed 13 May 2023.
 
 \bibitem{kotlin_multiplatform}
 Kotlin, \url{https://kotlinlang.org/docs/multiplatform.html}. Accessed 26 Apr. 2023.
@@ -78,8 +96,8 @@ Kotlin, \emph{The six most popular cross-platform app development frameworks}, \
 \bibitem{kc_kotlin_vs_java}
 {Krusche Company}, \emph{Kotlin vs {Java}: strengths, weaknesses and when to use which}, \url{https://kruschecompany.com/kotlin-vs-java/}. Accessed 26 Apr. 2023.
 
-\bibitem{decision_framework_cross_plaftorm}
-Lachgar, M., Hanine, M., Benouda, H., Ommane, Y., \emph{Decision framework for cross-platform mobile development frameworks using an integrated multi-criteria decision-making methodology}, International Journal of Mobile Computing and Multimedia Communications. 2022, Volume~13, 1.
+\bibitem{lachgar_mcdm_cp}
+Lachgar, M., Hanine, M., Benouda, H., Ommane, Y., \emph{{Decision Framework for Cross-Platform Mobile Development Frameworks Using an Integrated Multi-Criteria Decision-Making Methodology}}, International Journal of Mobile Computing and Multimedia Communications. 2022, Volume~13, 1, pages 1--22.
 
 \bibitem{material_design_get_started}
 {Material Design 3}, \url{https://m3.material.io/get-started}. Accessed 28 Apr. 2023.
@@ -104,6 +122,9 @@ Olsson, M., \emph{A Comparison of Performance and Looks Between {Flutter} and Na
 
 \bibitem{comp_study_hybrid}
 Rahman, A., \emph{A comparative study of hybrid mobile application development}, EasyChair Preprint no. 3905. EasyChair, 2020.
+
+\bibitem{rieger_eval_cp}
+Rieger, C., Majchrzak, T.A., \emph{Towards the definitive evaluation framework for cross-platform app development approaches}, Journal of Systems and Software. 2019, Volume 153, C, pages 175--199.
 
 \bibitem{android_architecture_and_application}
 Shaheen, J.A., Asghar, M.A., Hussain, A., \emph{Android os with its architecture and android application with dalvik virtual machine review}, International Journal of Multimedia and Ubiquitous Engineering. 2017, Volume~12, 7.
