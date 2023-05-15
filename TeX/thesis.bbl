@@ -42,6 +42,9 @@ Angulo, E., Ferre, X., \emph{A case study on cross-platform development framewor
 \bibitem{hig_overview}
 {Apple Developer}, \emph{{Human Interface Guidelines}}, \url{https://developer.apple.com/design/human-interface-guidelines}. Accessed 7 May 2023.
 
+\bibitem{bialkowski_eval_flutter}
+Białkowski, D., Smołka, J., \emph{Evaluation of flutter framework time efficiency in context of user interface tasks}, Journal of Computer Sciences Institute. 2022, Volume~25, pages 309--314.
+
 \bibitem{baseline_cross_platform}
 Biørn-Hansen, A., Grønli, T.M., \emph{Baseline requirements for comparative research on cross-platform mobile development}, Norwegian Informatics Conference. 2017.
 
@@ -59,6 +62,9 @@ Carney, T., \emph{What's a {XIB} and why would i ever use one?}, \url{https://me
 
 \bibitem{comparison_technologies_multiplatform}
 Crha, J., \emph{Comparison of Technologies for Multiplatform Mobile Applications Development}, Master's thesis, Masaryk University. 2021.
+
+\bibitem{denko_comp_hybrid}
+Denko, B., Pecnik, S., Fister~jr, I., \emph{A comprehensive comparison of hybrid mobile application development frameworks}, International Journal of Security and Privacy in Pervasive Computing. 2021, Volume~13, pages 78--90.
 
 \bibitem{cross_platform_development_study_rn_flutter}
 Fentaw, A.E., \emph{Cross platform mobile application development: a comparison study of {React Native} Vs {Flutter}}, Master's thesis, University of Jyväskylä. 2020.
@@ -84,8 +90,14 @@ Google, \emph{Micro-moments: Your guide to winning the shift to mobile}, \url{ht
 \bibitem{eval_rn_flutter}
 Hjort, E., \emph{Evaluation of {React Native} and {Flutter} for cross-platform mobile application development}, Master's thesis, Åbo Akademi University. 2020.
 
+\bibitem{hort_survey_perf_optimization}
+Hort, M., Kechagia, M., Sarro, F., Harman, M., \emph{A survey of performance optimization for mobile applications}, IEEE Transactions on Software Engineering. 2022, Volume~48, 8, pages 2879--2904.
+
 \bibitem{karim_flutter_different}
 Karim, W., \emph{How is {Flutter} different from {Native}, {Web-view}, and other cross-platform frameworks}, \url{https://wajahatkarim.com/2019/11/how-is-flutter-different-from-native-web-view-and-other-cross-platform-frameworks/}. Accessed 13 May 2023.
+
+\bibitem{kocki_comp_hybrid_ios}
+Kocki, M., Urban, M., Kopniak, P., \emph{Comparison of hybrid and native {iOS} mobile application development technologies}, Journal of Computer Sciences Institute. 2022, Volume~25, pages 280--287.
 
 \bibitem{kotlin_multiplatform}
 Kotlin, \url{https://kotlinlang.org/docs/multiplatform.html}. Accessed 26 Apr. 2023.
@@ -119,6 +131,9 @@ Okediran, O.O., Arulogun, O.T., Ganiyu, R.A., Oyeleye, C.A., \emph{Mobile operat
 
 \bibitem{comparison_perf_looks_flutter_native}
 Olsson, M., \emph{A Comparison of Performance and Looks Between {Flutter} and Native Applications}, Bachelor's thesis, Blekinge Institute of Technology. 2020.
+
+\bibitem{que_comp_hybrid_native}
+Que, P., Guo, X., Zhu, M., \emph{A comprehensive comparison between hybrid and native app paradigms}, 2016 8th International Conference on Computational Intelligence and Communication Networks (CICN). 2016.
 
 \bibitem{comp_study_hybrid}
 Rahman, A., \emph{A comparative study of hybrid mobile application development}, EasyChair Preprint no. 3905. EasyChair, 2020.
@@ -164,6 +179,9 @@ Vilček, T., Jakopec, T., \emph{Comparative analysis of tools for development of
 
 \bibitem{wiki_objective_c}
 Wikipedia, \url{https://en.wikipedia.org/wiki/Objective-C}. Accessed 6 May 2023.
+
+\bibitem{willocx_quantative_perf}
+Willocx, M., Vossaert, J., Naessens, V., \emph{A quantitative assessment of performance in mobile app development tools}, 2015 IEEE International Conference on Mobile Services. 2015.
 
 \bibitem{jetpack_compose_vs_xml}
 Yiğit, M., \emph{Say hello to {Jetpack Compose} and compare with {XML}}, \url{https://blog.kotlin-academy.com/say-hello-to-jetpack-compose-and-compare-with-xml-6bc6053aec13}. Accessed 27 Apr. 2023.

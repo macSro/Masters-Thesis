@@ -3,23 +3,41 @@
 
 \chapter{Related work}
 
-In multiple literature positions, statements can be found about mobile app performance being significantly higher when developing using native approach compared to cross-platform approach. However, even in many rather recent papers this statement is assumed based on <ten papier z 2016?> which was published in 2016. During those 7 years there have been many breaking changes in both native and multi-platform solutions. It is reasonable to assume they may have changed that situation therefore it is worthwhile to review the current state-of-art and draw present-day conclusions.
-
-% \begin{equation}
-% 	\sum_{i=1}^{\infty}a_i
-% 	\label{eq:myEquation}
-% \end{equation}
-
-% % replace {c} with the appropriate language
-% \begin{listing}
-% 	\begin{minted}{c}  
-% int main()
-% {
-%    int a=2*3;
-%    printf("**Ala ma kota\n**");
-%    while(!I2C_CheckEvent(I2C1, I2C_EVENT_MASTER_MODE_SELECT)); /* EV5 */
-%    return 0;
-% }
-% \end{minted}
-% 	\caption{C language} \label{listing:myListing}
-% \end{listing}
+\begin{table}[h]
+	\centering
+    \caption{Related work (Source: Own work)}
+    \label{tab:related_work}
+	\begin{tabular}{ |c|p{.87\textwidth}| }
+		\hline
+        \textbf{Paper}&\textbf{Key takeaways}\\
+        \hline
+        \cite{comparison_perf_looks_flutter_native}&\\
+        \hline
+        \cite{eval_rn_flutter}&\\
+        \hline
+        \cite{cross_platform_development_study_rn_flutter}&\\
+        \hline
+        \cite{comparison_technologies_multiplatform}&\\
+        \hline
+        \cite{denko_comp_hybrid}&\\
+        \hline
+        \cite{comp_analysis_hybrid_frameworks}&\\
+        \hline
+        \cite{bialkowski_eval_flutter}&\\
+        \hline
+        \cite{kocki_comp_hybrid_ios}&\\
+        \hline
+        \cite{approach_to_assess_performance_case_study}&D. Mota and R. Martinho introduce a stable approach to performance assessment of mobile apps developed with cross-platform frameworks. They propose a set of metrics (CPU usage, RAM usage, execution time, FPS), as well as evaluation features and result normalization method. Thereafter, the proposed solution is applied to compare Flutter and React Native. \\
+        \hline
+        \cite{willocx_quantative_perf}&M. Willocx, J. Vossaert and V. Naessens propose an approach to mobile app performance assessment on the example of Xamarin and PhoneGap. Based on the results some guidelines for framework selection are suggested. The performance metrics selected are: launch time, pause and resume time, time to open page, memory consumption, CPU usage and disk space.\\
+        \hline
+        \cite{hort_survey_perf_optimization}&M. Hort, M. Kechagia, F. Sarro and M. Harman describe a variety of mobile application performance optimization techniques inspired by the literature from 2008-2020. The metrics considered are responsiveness, launch time, memory usage and energy consumption.\\
+        \hline
+        \cite{survey_taxonomy_cross_platform}&A. Biørn-Hansen and T-M. Grønli and G. Ghinea provide detailed definitions of different approaches to cross-platform development as well as correct misconceptions found in other literature. For a group of concepts (User Experience, Software Platform Features, Performance and Hardware, Security) the state-of-research is described and suggestions for future work are proposed.\\
+        \hline
+        \cite{rieger_eval_cp}&C. Rieger and T. A. Majchrzak propose a detailed framework consisting of 33 criteria divided into 4 perspectives: Infrastructure, Development, App and Usage. The purpose of such framework is to be used for the complete assessment of a cross-platform solution. In this case completeness means considering both technical and business aspects.\\
+		\hline
+        \cite{cross_platform_ux}&E. Angulo amd X. Ferre perform a case study to determine the capability of cross-platform frameworks to provide a high-level user experience and usability compared to native solutions.\\
+		\hline
+	\end{tabular}
+\end{table}

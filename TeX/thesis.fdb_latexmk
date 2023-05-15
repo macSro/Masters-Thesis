@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex thesis"] 1684089874 "thesis.aux" "thesis.bbl" "thesis" 1684090372 0
-  "./bibliography.bib" 1684085320 18471 cc90aa2bd07231b47a08c77f3ef1c273 ""
+["bibtex thesis"] 1684111587 "thesis.aux" "thesis.bbl" "thesis" 1684111663 0
+  "./bibliography.bib" 1684109438 20332 1928971963aa51b471befb6f33c2478c ""
   "./dyplom.bst" 1683312429 28166 b94d5ff4e0beb504e96ee4ac5c846535 ""
-  "thesis.aux" 1684090372 18723 336a70a58a9c7798cb462d02be1462a6 "pdflatex"
+  "thesis.aux" 1684111663 19756 2fc011a68be80a8936f8b753b7b43e24 "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1684090370 "/Users/maciejsroczek/Desktop/University/MastersThesis/TeX/thesis.tex" "thesis.pdf" "thesis" 1684090372 0
+["pdflatex"] 1684111661 "/Users/maciejsroczek/Desktop/University/MastersThesis/TeX/thesis.tex" "thesis.pdf" "thesis" 1684111663 0
   "/Users/maciejsroczek/Desktop/University/MastersThesis/TeX/thesis.tex" 1684013874 1313 7158515496367cdf8c9578b63fec213a ""
-  "/dev/null" 1684090368 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1684111661 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc" 1529098226 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -219,11 +219,11 @@
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "abstract.tex" 1682619687 2047 b9827482e15c9db8657f797443580ddc ""
   "chapter1.tex" 1684090369 5459 baf615b656fd5d915f9092d873bff75e ""
-  "chapter2.tex" 1684013665 1081 910983b3bc319f851cb8a4cebcb5bc83 ""
+  "chapter2.tex" 1684111585 3033 b0090a89a333b769c25e19744e06c601 ""
   "chapter3.tex" 1684013486 1284 4022da5ac2ffceee63c123f371a7fceb ""
-  "chapter3/cross.tex" 1684089872 15289 f7536fd749f8be9a3d4111c321897ae9 ""
+  "chapter3/cross.tex" 1684111661 15307 438f8862f18227ba6523ada11ae9b873 ""
   "chapter3/native.tex" 1684015705 18599 7fd1f0e59ddcec632eb852aca6ff9d32 ""
-  "chapter4.tex" 1684015583 1256 8cb3f3e53c0b51f775508b931913273a ""
+  "chapter4.tex" 1684111585 1890 502cabdbc57c5f135e4d920a1e3b9015 ""
   "chapter5.tex" 1682024000 322 56a9268e0c27ae948d7a35a7226e696f ""
   "chapter6.tex" 1682024000 127 f165c4ae1588e9fcaa5b4d212cdb42b0 ""
   "chapter7.tex" 1682024000 189 a74fb2924a0e92b3440751752cb74567 ""
@@ -241,13 +241,13 @@
   "img/ios_ver_market_share.png" 1682278372 130751 2a60ffbea0d1396cb24d8de5af28159e ""
   "img/mobile_os_market.png" 1683309070 335129 c7179b03023dd51fe5e2edd3882d2464 ""
   "img/pwa.png" 1683998940 122825 f78ee257056f7f1a501229949f1c51d4 ""
-  "thesis.aux" 1684090372 18723 336a70a58a9c7798cb462d02be1462a6 "pdflatex"
-  "thesis.bbl" 1684089874 11533 fa495659192c80d3e31dd08fd6ca527a "bibtex thesis"
-  "thesis.lof" 1684090372 2057 ad11e548b6797b93c9a8d6733f2ecea2 "pdflatex"
-  "thesis.lot" 1684090372 607 7523356a76621e626810b923064246a0 "pdflatex"
-  "thesis.out" 1684090372 6737 80b6de791357174b1b47117ab2101827 "pdflatex"
+  "thesis.aux" 1684111663 19756 2fc011a68be80a8936f8b753b7b43e24 "pdflatex"
+  "thesis.bbl" 1684111587 12945 097721a831dbc4be29fc1dddcb057f68 "bibtex thesis"
+  "thesis.lof" 1684111663 2057 ad11e548b6797b93c9a8d6733f2ecea2 "pdflatex"
+  "thesis.lot" 1684111663 711 dfa0ca48bfa9408e877a09f198ebf15c "pdflatex"
+  "thesis.out" 1684111663 6737 80b6de791357174b1b47117ab2101827 "pdflatex"
   "thesis.tex" 1684013874 1313 7158515496367cdf8c9578b63fec213a ""
-  "thesis.toc" 1684090372 4443 52b822bf175126b32c91f61d592990dd "pdflatex"
+  "thesis.toc" 1684111663 4443 52b822bf175126b32c91f61d592990dd "pdflatex"
   (generated)
   "thesis.aux"
   "thesis.lof"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.2)  14 MAY 2023 20:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.2)  15 MAY 2023 02:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -957,7 +957,7 @@ Chapter 2.
 ]
 Chapter 3.
 (./chapter3/native.tex
-<img/mobile_os_market.png, id=301, 807.015pt x 443.475pt>
+<img/mobile_os_market.png, id=330, 807.015pt x 443.475pt>
 File: img/mobile_os_market.png Graphic file (type png)
 <use img/mobile_os_market.png>
 Package pdftex.def Info: img/mobile_os_market.png  used on input line 15.
@@ -969,12 +969,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [6
 
 ]
-<img/ios_ver_market_share.png, id=321, 255.792pt x 254.916pt>
+<img/ios_ver_market_share.png, id=346, 255.792pt x 254.916pt>
 File: img/ios_ver_market_share.png Graphic file (type png)
 <use img/ios_ver_market_share.png>
 Package pdftex.def Info: img/ios_ver_market_share.png  used on input line 26.
 (pdftex.def)             Requested size: 200.59245pt x 199.9111pt.
-<img/android_ver_market_share.png, id=323, 254.916pt x 255.792pt>
+<img/android_ver_market_share.png, id=348, 254.916pt x 255.792pt>
 File: img/android_ver_market_share.png Graphic file (type png)
 <use img/android_ver_market_share.png>
 Package pdftex.def Info: img/android_ver_market_share.png  used on input line 32.
@@ -984,7 +984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--33
  []\T1/qtm/m/n/10.95 (+20) Fig. 3.3.[]Android ver-sion mar-ket share 
  []
 
-<img/android_architecture.png, id=330, 252.945pt x 313.17pt>
+<img/android_architecture.png, id=355, 252.945pt x 313.17pt>
 File: img/android_architecture.png Graphic file (type png)
 <use img/android_architecture.png>
 Package pdftex.def Info: img/android_architecture.png  used on input line 44.
@@ -1003,41 +1003,41 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <./img/android_architecture.png>] [10]
-<img/ios_architecture.png, id=394, 251.94125pt x 231.86626pt>
+<img/ios_architecture.png, id=417, 251.94125pt x 231.86626pt>
 File: img/ios_architecture.png Graphic file (type png)
 <use img/ios_architecture.png>
 Package pdftex.def Info: img/ios_architecture.png  used on input line 115.
 (pdftex.def)             Requested size: 183.91557pt x 169.26094pt.
  [11 <./img/ios_architecture.png>] [12]) (./chapter3/cross.tex [13]
-<img/google_trends_cross_platform.png, id=459, 457.71pt x 228.855pt>
+<img/google_trends_cross_platform.png, id=482, 457.71pt x 228.855pt>
 File: img/google_trends_cross_platform.png Graphic file (type png)
 <use img/google_trends_cross_platform.png>
 Package pdftex.def Info: img/google_trends_cross_platform.png  used on input line 17.
 (pdftex.def)             Requested size: 426.79135pt x 213.40215pt.
  [14 <./img/google_trends_cross_platform.png>]
-<img/google_trends_comparison.png, id=472, 457.71pt x 230.826pt>
+<img/google_trends_comparison.png, id=495, 457.71pt x 230.826pt>
 File: img/google_trends_comparison.png Graphic file (type png)
 <use img/google_trends_comparison.png>
 Package pdftex.def Info: img/google_trends_comparison.png  used on input line 26.
 (pdftex.def)             Requested size: 426.79135pt x 215.24005pt.
  [15 <./img/google_trends_comparison.png>]
-<img/hybrid.png, id=491, 1099.10625pt x 545.03625pt>
+<img/hybrid.png, id=513, 1099.10625pt x 545.03625pt>
 File: img/hybrid.png Graphic file (type png)
 <use img/hybrid.png>
 Package pdftex.def Info: img/hybrid.png  used on input line 39.
 (pdftex.def)             Requested size: 256.07741pt x 126.98575pt.
-<img/interpreted.png, id=496, 1099.10625pt x 545.03625pt>
+<img/interpreted.png, id=518, 1099.10625pt x 545.03625pt>
 File: img/interpreted.png Graphic file (type png)
 <use img/interpreted.png>
 Package pdftex.def Info: img/interpreted.png  used on input line 50.
 (pdftex.def)             Requested size: 256.07741pt x 126.98575pt.
  [16 <./img/hybrid.png (PNG copy)> <./img/interpreted.png (PNG copy)>]
-<img/cross_compiled.png, id=511, 821.0675pt x 293.095pt>
+<img/cross_compiled.png, id=532, 821.0675pt x 293.095pt>
 File: img/cross_compiled.png Graphic file (type png)
 <use img/cross_compiled.png>
 Package pdftex.def Info: img/cross_compiled.png  used on input line 61.
 (pdftex.def)             Requested size: 256.07741pt x 91.40858pt.
-<img/pwa.png, id=517, 1080.035pt x 415.5525pt>
+<img/pwa.png, id=538, 1080.035pt x 415.5525pt>
 File: img/pwa.png Graphic file (type png)
 <use img/pwa.png>
 Package pdftex.def Info: img/pwa.png  used on input line 73.
@@ -1112,57 +1112,57 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [26
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Underfull \hbox (badness 1127) in paragraph at lines 55--56
+Underfull \hbox (badness 1127) in paragraph at lines 58--59
 []\T1/qtm/m/n/10.95 (+20) Carney, T., \T1/qtm/m/it/10.95 (+20) What's a XIB and why would i ever use one?\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / medium . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 \T1/cmtt/m/n/10.95 @tjcarney89 / whats-[]a-[]xib-[]and-[]why-[]would-[]i-[]ever-[]use-[]one-[]58d608cd5e9b$[]\T1/qtm/m/n/10.95 (+20) .
  []
 
 
-Overfull \hbox (71.44109pt too wide) in paragraph at lines 70--71
+Overfull \hbox (71.44109pt too wide) in paragraph at lines 76--77
 []\T1/qtm/m/n/10.95 (-20) GeeksForGeeks, []$\T1/cmtt/m/n/10.95 https : / / www . geeksforgeeks . org / difference-[]between-[]swift-[]vs-[]objective-[]c/$[]\T1/qtm/m/n/10.95 (-20) .
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 73--74
+Underfull \hbox (badness 7558) in paragraph at lines 79--80
 []\T1/qtm/m/n/10.95 (+20) Google, \T1/qtm/m/it/10.95 (+20) Micro-moments: Your guide to win-ning the shift to mo-bile\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 \T1/cmtt/m/n/10.95 / / www . thinkwithgoogle . com / marketing-[]strategies / micro-[]moments /
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 76--77
+Underfull \hbox (badness 5504) in paragraph at lines 82--83
 []\T1/qtm/m/n/10.95 (+20) Google Trends, []$\T1/cmtt/m/n/10.95 https : / / trends . google . pl / trends / explore ? date = 2008-[]01-[]01 %
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 79--80
+Underfull \hbox (badness 5504) in paragraph at lines 85--86
 []\T1/qtm/m/n/10.95 (+20) Google Trends, []$\T1/cmtt/m/n/10.95 https : / / trends . google . pl / trends / explore ? date = 2008-[]01-[]01 %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 \T1/cmtt/m/n/10.95 202023-[]03-[]26 & q = ionic ,[] flutter ,[] react % 20native ,[] xamarin ,[] cordova & hl = pl$[]\T1/qtm/m/n/10.95 (+20) .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 []\T1/qtm/m/n/10.95 (+20) Karim, W., \T1/qtm/m/it/10.95 (+20) How is Flut-ter dif-fer-ent from Na-tive, Web-view, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 \T1/qtm/m/it/10.95 (+20) other cross-platform frame-works\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / wajahatkarim . com / 2019 / 11 /
  []
 
 
-Overfull \hbox (69.8285pt too wide) in paragraph at lines 88--89
+Overfull \hbox (69.8285pt too wide) in paragraph at lines 97--98
 \T1/cmtt/m/n/10.95 how-[]is-[]flutter-[]different-[]from-[]native-[]web-[]view-[]and-[]other-[]cross-[]platform-[]frameworks/$[]\T1/qtm/m/n/10.95 (-20) .
  []
 
@@ -1170,85 +1170,85 @@ Overfull \hbox (69.8285pt too wide) in paragraph at lines 88--89
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 []\T1/qtm/m/n/10.95 (+20) Mejia, R., \T1/qtm/m/it/10.95 (+20) Declar-a-tive and im-per-a-tive pro-gram-ming us-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 \T1/qtm/m/it/10.95 (+20) ing Swif-tUI and UIKit\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / medium . com / @rmeji1 /
  []
 
 
-Overfull \hbox (28.21991pt too wide) in paragraph at lines 106--107
+Overfull \hbox (28.21991pt too wide) in paragraph at lines 118--119
 \T1/cmtt/m/n/10.95 declarative-[]and-[]imperative-[]programming-[]using-[]swiftui-[]and-[]uikit-[]c91f1f104252$[]\T1/qtm/m/n/10.95 (-20) .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 []\T1/qtm/m/n/10.95 (+20) Microsoft, \T1/qtm/m/it/10.95 (+20) What is mo-bile ap-pli-ca-tion de-vel-op-ment?\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / azure .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 \T1/cmtt/m/n/10.95 microsoft . com / en-[]us / resources / cloud-[]computing-[]dictionary /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 []\T1/qtm/m/n/10.95 (+20) Naveen, []$\T1/cmtt/m/n/10.95 https : / / intellipaat . com / blog / tutorial / ios-[]tutorial /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-[]$\T1/cmtt/m/n/10.95 https : / / www . androidauthority . com / material-[]design-[]components-[]1177515/$[]\T1/qtm/m/n/10.95 (+20) .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-\T1/cmtt/m/n/10.95 com / os-[]market-[]share / mobile / worldwide / #monthly-[]202303-[]202303-[]bar$[]\T1/qtm/m/n/10.95 (+20) . Ac-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-[]\T1/qtm/m/n/10.95 (+20) Statcounter, \T1/qtm/m/it/10.95 (+20) Mo-bile tablet an-droid ver-sion mar-ket share world-wide\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-\T1/cmtt/m/n/10.95 / / gs . statcounter . com / android-[]version-[]market-[]share / mobile-[]tablet /
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+[]$\T1/cmtt/m/n/10.95 https : / / www . androidauthority . com / material-[]design-[]components-[]1177515/$[]\T1/qtm/m/n/10.95 (+20) .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+\T1/cmtt/m/n/10.95 com / os-[]market-[]share / mobile / worldwide / #monthly-[]202303-[]202303-[]bar$[]\T1/qtm/m/n/10.95 (+20) . Ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+[]\T1/qtm/m/n/10.95 (+20) Statcounter, \T1/qtm/m/it/10.95 (+20) Mo-bile tablet an-droid ver-sion mar-ket share world-wide\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+\T1/cmtt/m/n/10.95 / / gs . statcounter . com / android-[]version-[]market-[]share / mobile-[]tablet /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 []\T1/qtm/m/n/10.95 (+20) Statcounter, \T1/qtm/m/it/10.95 (+20) Mo-bile tablet ios ver-sion mar-ket share world-wide\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / gs .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 \T1/cmtt/m/n/10.95 statcounter . com / ios-[]version-[]market-[]share / mobile-[]tablet / worldwide /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 \T1/cmtt/m/n/10.95 com / statistics / 218984 / number-[]of-[]global-[]mobile-[]users-[]since-[]2010/$[]\T1/qtm/m/n/10.95 (+20) . Ac-
  []
 
 
-Overfull \hbox (147.08395pt too wide) in paragraph at lines 157--158
+Overfull \hbox (147.08395pt too wide) in paragraph at lines 172--173
 []\T1/qtm/m/n/10.95 (-20) Upwork, []$\T1/cmtt/m/n/10.95 https : / / www . upwork . com / resources / swift-[]vs-[]objective-[]c-[]a-[]look-[]at-[]ios-[]programming-[]languages$[]\T1/qtm/m/n/10.95 (-20) .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 []\T1/qtm/m/n/10.95 (+20) Yi§it, M., \T1/qtm/m/it/10.95 (+20) Say hello to Jet-pack Com-pose and com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 \T1/qtm/m/it/10.95 (+20) pare with XML\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / blog . kotlin-[]academy . com /
  []
 
@@ -1269,18 +1269,18 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 80B6DE791357174B1B47117AB2101827;6737.
  ) 
 Here is how much of TeX's memory you used:
- 29484 strings out of 476025
- 554354 string characters out of 5790018
+ 29510 strings out of 476025
+ 554811 string characters out of 5790018
  1866388 words of memory out of 5000000
- 48981 multiletter control sequences out of 15000+600000
- 567216 words of font info for 172 fonts, out of 8000000 for 9000
+ 48988 multiletter control sequences out of 15000+600000
+ 567921 words of font info for 178 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,11n,120p,1418b,654s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,11n,120p,1418b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (35 pages, 1034454 bytes).
+Output written on thesis.pdf (35 pages, 1039891 bytes).
 PDF statistics:
- 751 PDF objects out of 1000 (max. 8388607)
- 680 compressed objects within 7 object streams
- 162 named destinations out of 1000 (max. 500000)
+ 777 PDF objects out of 1000 (max. 8388607)
+ 705 compressed objects within 8 object streams
+ 169 named destinations out of 1000 (max. 500000)
  29628 words of extra memory for PDF output out of 29859 (max. 10000000)
 
