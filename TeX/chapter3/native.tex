@@ -10,7 +10,7 @@ Native mobile applications are closely integrated with the operating system thro
 
 Since almost a decade, the mobile operating system market has been dominated by Android together with iOS, reaching 99,3\% in March 2023, as shown in Figure \ref{fig:mobile_os_market}. For this reason, in the context of this thesis only the above-mentioned operating systems are being taken into consideration.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{img/mobile_os_market}
   \caption{Mobile OS market (Source: Own work based on \cite{statcounter_mobile_os_market})}
@@ -19,9 +19,7 @@ Since almost a decade, the mobile operating system market has been dominated by 
 
 As can be seen in the Figure \ref{fig:ios_versions}, in case of iOS, almost 90\% of devices are running either the most or second-most recent major version of the operating system. Therefore, when targeting the Apple's system, probably a single codebase would be enough to guarantee the appropriate coverage.
 
-However, in case of Android, there is a high level of market fragmentation, as nearly 20\% of smartphones or tablets are running older versions released as far as in 2015 (Figure \ref{fig:android_versions}). Because there are limitations such as deprecation of code commands and API (Application Programming Interfaces) behavior changes between distant versions, multiple codebases may be chosen to be maintained separately per a single mobile application. Another issue is the fact, that device manufacturers are able to apply various modifications to the operating system which can lead to errors occurring only on those devices \cite{comparison_technologies_multiplatform}, causing difficulties for developers. Because Apple is the exclusive manufacturer of devices running iOS, they do not suffer from such a problem. 
-
-\begin{figure}[ht]
+\begin{figure}[H]
   \begin{minipage}{.47\textwidth}
     \includegraphics[width=\textwidth]{img/ios_ver_market_share}
     \caption{iOS version market share (Source: Own work based on \cite{statcounter_ios_version_market})}
@@ -35,13 +33,15 @@ However, in case of Android, there is a high level of market fragmentation, as n
   \end{minipage}
 \end{figure}
 
-\subsection{Android}
+However, in case of Android, there is a high level of market fragmentation, as nearly 20\% of smartphones or tablets are running older versions released as far as in 2015 (Figure \ref{fig:android_versions}). Because there are limitations such as deprecation of code commands and API (Application Programming Interfaces) behavior changes between distant versions, multiple codebases may be chosen to be maintained separately per a single mobile application. Another issue is the fact, that device manufacturers are able to apply various modifications to the operating system which can lead to errors occurring only on those devices \cite{comparison_technologies_multiplatform}, causing difficulties for developers. Because Apple is the exclusive manufacturer of devices running iOS, they do not suffer from such a problem. 
+
+\subsection{Android}\label{chap:android}
 
 Android is an open-source operating system developed by the Open Handset Alliance and Google to run mainly on mobile devices such as smartphones and tablets but also TVs and cars \cite{android_what_is,comparison_technologies_multiplatform}. It is based on the Linux kernel and has a multiple-component structure \cite{android_architecture_and_application}, as can be seen in the Figure \ref{fig:android_architecture}. Each part takes responsibility for different tasks, e.g., Android Runtime provides optimized garbage collection and View System (included in Java API Framework) enables developers to implement the user interface layouts using various elements such as lists and buttons \cite{android_architecture}.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.73]{img/android_architecture}
+    \includegraphics[scale=0.65]{img/android_architecture}
     \caption{Android architecture (Source: Own work based on \cite{android_architecture})}
     \label{fig:android_architecture}
 \end{figure}
@@ -106,13 +106,13 @@ The main difference between the above-mentioned methods is the fact that they re
 
 In order to improve the user experience accross different apps, Material design system was introduced by Google in 2014. First versions were strictly connected to Android only, however since then it has shifted towards being applicable for other platforms, including Web. Material provides detailed guidelines in the aspect of styling, accessibility, overall UX as well as prebuilt reusable UI components aiming to improve the efficiency of developing apps that are intuitive and responsive. The main principles are that every element of an app should be considered as a physical material and they should be combined together in layers while putting emphasis on natural animations and universal clarity. The big advantage of Material being applied in mobile apps is the fact that when a user understands how to use one it is automatically transposed onto others. On the other hand, an issue may be raised that if all the mobile apps available conformed to one design system, they would become overly monothematic and characterless \cite{material_design_get_started,material_design_pros_cons}.
 
-\subsection{iOS}
+\subsection{iOS}\label{chap:ios}
 
 iOS is the Apple's closed-source operating system based on Darwin OS that runs exclusively on Apple's smartphones (iPhones). It also lays beneath other mobile systems: iPadOS, tvOS and watchOS. It includes four layers that together enable the interaction between hardware and applications, as presented in Figure \ref{fig:ios_architecture}. Core OS layer provides necessary low-level services, e.g. Bluetooth, security and 64-bit support. Core Services layer incorporates multiple interfaces called Frameworks which are responsible for functionalities such as data management, cloud transfer and location. Media layer's task is to handle graphics and audio technology. Finally, Cocoa Touch enables user-application interaction, mainly through the implementation of touch gestures \cite{ios_architecture,mobile_os_survey}.
 
 \begin{figure}[h]
   \centering
-  \includegraphics[scale=0.73]{img/ios_architecture}
+  \includegraphics[scale=0.65]{img/ios_architecture}
   \caption{iOS architecture (Source: Own work based on \cite{ios_architecture})}
   \label{fig:ios_architecture}
 \end{figure}

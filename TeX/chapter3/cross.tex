@@ -28,6 +28,8 @@ Despite the existing assumption that cross-platform frameworks might produce app
 	\label{fig:trends_comparison}
 \end{figure}
 
+\subsection{Cross-platform development approaches}
+
 Multiple types of cross-platform solutions can be distinguished. The most commonly present in the scientific literature are the following: hybrid, interpreted, cross-compiled, and Progressive Web Apps (PWAs). Native mobile development may provide better connection with native components and services compared to some of the types mentioned above. This may become the cause of lower performance. 
 
 \subsubsection*{Hybrid approach}
@@ -36,7 +38,7 @@ The term \emph{cross-platform} tends to be used interchangeably with \emph{hybri
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=.6\textwidth]{img/hybrid}
+    \includegraphics[width=.64\textwidth]{img/hybrid}
     \caption{Hybrid app architecture (Source: \cite{karim_flutter_different})}
     \label{fig:hybrid_architecture}
 \end{figure}
@@ -47,7 +49,7 @@ Similarly to the hybrid approach, web technologies are the primary component of 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=.6\textwidth]{img/interpreted}
+    \includegraphics[width=.64\textwidth]{img/interpreted}
     \caption{Interpreted app architecture (Source: \cite{karim_flutter_different})}
     \label{fig:interpreted_architecture}
 \end{figure}
@@ -58,7 +60,7 @@ The cross-compiled approach introduces significant changes compared to the previ
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=.6\textwidth]{img/cross_compiled}
+    \includegraphics[width=.63\textwidth]{img/cross_compiled}
     \caption{Cross-compiled approach workflow (Source: \cite{survey_taxonomy_cross_platform})}
     \label{fig:cross_compiled_workflow}
 \end{figure}
@@ -77,7 +79,79 @@ Progressive Web App (PWA) is a web application that allows the user to install i
 
 \subsection{Flutter}
 
+Flutter is a cross-platform framework belonging to the cross-compiled approach described above. It supports a all of the most common platforms: mobile (Android, iOS), web, desktop (Windows, macOS, Linux) and embedded. Being released by Google in 2017, it is a relatively recent solution. Even though, it has gathered a lot of traction in a short time which resulted in it's broad application across different segments of the market. Popular exemplary applications developed using Flutter are: Google Pay, eBay, Alibaba, BMW, Toyota and PUBG MOBILE \cite{flutter_showcase,flutter_docs_architecture}. 
 
+\subsubsection*{Architecture}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.77\textwidth]{img/flutter_architecture}
+	\caption{Flutter architecture (Source: \cite{flutter_docs_architecture})}
+	\label{fig:flutter_architecture}
+\end{figure}
+
+
+Flutter consists of three primary layers (libraries) that are completely autonomous, as shown in Figure \ref{fig:flutter_architecture}. This makes it highly modular with the possibility to substitute any layer by hand.
+
+The Embedder layer is placed at the very bottom to directly interact with the operating system in order to manage surface rendering, input methods, event loop and native plugins. It is platform-specific therefore is implemented with appropriate programming languages for each platform, e.g. Java, C++, Objective-C or Objective-C++ \cite{flutter_docs_architecture}.
+
+The Engine is the most significant layer which provides the "low-level implementation of Flutter's core API", meaning runtime management, platform channels, text layout, scene composition, rendering, and more. Flutter engine compiles source code to platform-specific byte code therefore there is no need for an external intermediate layer allowing communication with the underlying operating system to access any native features, such as JavaScript bridge in case of hybrid and interpreted frameworks. This provides a big advantage from the perspective of achieveable performance. Moreover, from the point of view of developers, debugging is more complex with JS bridge because in order to fix any runtime errors they must be retraced through the bridge first \cite{flutter_docs_architecture,windmill_flutter_in_action}.
+
+The Engine is also where the graphics aspect is contained. Since the very first release, Flutter has been using Skia as its graphics engine. As stated above, Flutter translates the source code to byte code instead of using a intermediate layer which would use the source code to determine native components, on the contrast to interpreted cross-platform solutions. Therefore, the byte code itself is passed directly to Skia for rendering. Importantly, a Skia copy is included in the Engine layer in order to allow the latest version to be used even on devices with older operating system version. Moreover, this enables the app to look the same even on older devices which would not be otherwise possible. Nonetheless, there have been some performance issues reported especially by iOS-targeting developers. For that reason, Google has beginned working on a new graphics engine for Flutter. Recently (May 2023), it was announced that the new engine, Impeller, became enabled by default for iOS applications and is available for testing for Android. It is supposed to improve performance and eliminate jank problems.
+\cite{flutter_docs_architecture,flutter_impeller,kosinski_flutter_vs_rn_vs_qt}.
+
+The final layer, Framework, is the interface for developers. It contains all the components required for writing applications, such as widgets, animations, Material and Cupertino libraries, etc. \cite{flutter_docs_architecture}. 
+
+\subsection*{Web support}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.77\textwidth]{img/flutter_web_architecture}
+	\caption{Flutter web-adapted architecture (Source: \cite{flutter_docs_architecture})}
+	\label{fig:flutter_web_architecture}
+\end{figure}
+
+In order to support web, for such builds the Flutter's engine is specifically adapted to include the standard browser APIs (see Figure \ref{fig:flutter_web_architecture}). From the rendering perspective, there are two possible methods: HTML+CSS+Canvas+SVG or CanvasKit. The former minimizes the download size while the latter usually offers better performance.
+
+\subsubsection*{Rendering}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{img/flutter_render_pipeline}
+	\caption{Flutter rendering flow (Source: \cite{flutter_docs_architecture})}
+	\label{fig:flutter_render_flow}
+\end{figure}
+
+Figure \ref{fig:flutter_render_flow} shows Flutter's rendering flow. Flutter is a "reactive, pseudo-declarative UI framework" which means the app's state and user interface layout are separate. User input affects the state which then results in UI rebuild. Flutter solution to this methodology is the existence of three interconnected trees: Widget tree, Element tree, and Render tree (see Figure \ref{fig:flutter_trees}). The primary components of the framework are widgets which are combined to create user interfaces. For each widget in the tree the element object is created, and for each element- a render object. The element acts as a connector between widgets and their render objects. Whenever the app's state changes runtime types of widgets and render objects are checked. Only if they are different, a new render object needs to be created. Otherwise, it is simply updated which is "cheap" performance-wise, just as rebuilding widgets thanks to the fact they are immutable \cite{flutter_docs_architecture}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{img/flutter_trees}
+	\caption{Flutter Widget, Element, Render trees (Source: \cite{flutter_docs_architecture})}
+	\label{fig:flutter_trees}
+\end{figure}
+
+% \subsubsection*{Development tools}
+
+% Dart, JIT AOH Hot reload -> good developer experience
+
+\subsubsection*{User interface design}
+
+By default, when creating a new Flutter project, the application depends on the Material library resulting with a appearance mostly found on Android devices, in compliance with the design system described in chapter \ref{chap:android}. Even though it is possible to build such an application for any supported operating system, in most cases a different UI should be preferred for iOS devices to guarantee accordance with Human Interface Guidelines as well as platform styling conventions, as described in chapter \ref{chap:ios}. The components for iOS system are contained in the Cupertuno library. Therefore, it is necessary to decide on a design approach early on. Should it be required for the application to have the exact same looks on all platforms (Material, Cupertino or custom), a single UI codebase is an obvious solution. However, if the appearance should be completely platform-specific, there would need to be a separation created and all the layouts would have to be developed in parallel. The third method assumes the usage of the same primary layout components with some minor OS-specific additions, e.g. popups which does not require the full separation but rather sporadic one. Figures \ref{fig:flutter_material_dialog} and \ref{fig:flutter_cupertino_dialog} show the difference between Material and Cupertino dialogs \cite{flutter_docs_architecture,kosinski_flutter_vs_rn_vs_qt}. 
+
+\begin{figure}[h]
+	\begin{minipage}{.47\textwidth}
+	  \includegraphics[width=\textwidth]{img/flutter_material_dialog}
+	  \caption{Flutter Material dialog (Source: \cite{flutter_campus_dialog})}
+	  \label{fig:flutter_material_dialog}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{.47\textwidth}
+	  \includegraphics[width=\textwidth]{img/flutter_cupertino_dialog}
+	  \caption{Flutter Cupertino dialog (Source: \cite{flutter_campus_dialog})}
+	  \label{fig:flutter_cupertino_dialog}
+	\end{minipage}
+  \end{figure}
 
 \subsection{React Native}
 

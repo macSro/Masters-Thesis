@@ -69,6 +69,18 @@ Denko, B., Pecnik, S., Fister~jr, I., \emph{A comprehensive comparison of hybrid
 \bibitem{cross_platform_development_study_rn_flutter}
 Fentaw, A.E., \emph{Cross platform mobile application development: a comparison study of {React Native} Vs {Flutter}}, Master's thesis, University of Jyväskylä. 2020.
 
+\bibitem{flutter_showcase}
+Flutter, \url{https://flutter.dev/showcase}. Accessed 15 May 2023.
+
+\bibitem{flutter_docs_architecture}
+Flutter, \emph{Flutter architectural overview}, \url{https://docs.flutter.dev/resources/architectural-overview}. Accessed 15 May 2023.
+
+\bibitem{flutter_impeller}
+Flutter, \emph{Impeller rendering engine}, \url{https://docs.flutter.dev/perf/impeller}. Accessed 15 May 2023.
+
+\bibitem{flutter_campus_dialog}
+{Flutter Campus}, \url{https://www.fluttercampus.com/guide/110/how-to-show-material-alert-and-cupertino-dialog-in-flutter/}. Accessed 16 May 2023.
+
 \bibitem{swift_objective_c_new_language}
 García, C.G., Espada, J.P., García-Bustelo, B.P., Lovelle, J.M.C., \emph{Swift vs. objective-c: A new programming language}, International Journal of Artificial Intelligence and Interactive Multimedia. 2015, Volume~3, pages 74--81.
 
@@ -98,6 +110,9 @@ Karim, W., \emph{How is {Flutter} different from {Native}, {Web-view}, and other
 
 \bibitem{kocki_comp_hybrid_ios}
 Kocki, M., Urban, M., Kopniak, P., \emph{Comparison of hybrid and native {iOS} mobile application development technologies}, Journal of Computer Sciences Institute. 2022, Volume~25, pages 280--287.
+
+\bibitem{kosinski_flutter_vs_rn_vs_qt}
+Łukasz Kosiński, \emph{{Flutter vs React Native vs Qt in 2022}}, \url{https://scythe-studio.com/en/blog/flutter-vs-react-native-vs-qt-in-2022}. Accessed 15 May 2023.
 
 \bibitem{kotlin_multiplatform}
 Kotlin, \url{https://kotlinlang.org/docs/multiplatform.html}. Accessed 26 Apr. 2023.
@@ -182,6 +197,9 @@ Wikipedia, \url{https://en.wikipedia.org/wiki/Objective-C}. Accessed 6 May 2023.
 
 \bibitem{willocx_quantative_perf}
 Willocx, M., Vossaert, J., Naessens, V., \emph{A quantitative assessment of performance in mobile app development tools}, 2015 IEEE International Conference on Mobile Services. 2015.
+
+\bibitem{windmill_flutter_in_action}
+Windmill, E., \emph{Flutter in Action} (Manning, 2020).
 
 \bibitem{jetpack_compose_vs_xml}
 Yiğit, M., \emph{Say hello to {Jetpack Compose} and compare with {XML}}, \url{https://blog.kotlin-academy.com/say-hello-to-jetpack-compose-and-compare-with-xml-6bc6053aec13}. Accessed 27 Apr. 2023.
