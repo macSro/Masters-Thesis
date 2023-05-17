@@ -3,11 +3,11 @@
 
 \section{Cross-platform mobile development}
 
-As the term suggests, cross-platform or multi-platform frameworks enable to create applications that can be installed on different platforms, and consequently reach a larger user base. There are many solutions available in the market, which all offer support for a narrow or wide subset of existing platforms. Therefore, applications may be published as, e.g., mobile apps (Android, iOS), web apps, desktop apps (Windows, macOS, Linux) or even embedded apps. The number of operating systems tends to increase under the principle of ``write once, run everywhere'' followed by frameworks' creators \cite{comparison_technologies_multiplatform}. 
+As the term suggests, cross-platform or multi-platform frameworks enable to create applications that can be installed on different platforms, and consequently reach a larger user base. There are many solutions available in the market, which all offer support for a narrow or wide subset of existing platforms. Therefore, applications may be published as, e.g., mobile apps (Android, iOS), web apps, desktop apps (Windows, macOS, Linux) or even embedded apps. The number of operating systems tends to increase under the principle of ``write once, run everywhere'' followed by frameworks' creators \cite{comparison_technologies_multiplatform}.
 
 The main advantage of cross-platform development over native development is in line with its primary goal, which is the ability to create and maintain a single codebase, no matter the number of target platforms. Moreover, as described in the chapter \ref{chap:native}, Android operating system suffers from high level of fragmentation which can be addressed with cross-platform framework as well. Being able to operate on a single codebase results in the development costs decrease. Implementation is more time-efficient without the need to build multiple projects. This remains true for post-release support in the form of updating versions and handling bugs or change requests. Cross-platform approach is also lighter on resources, requiring just a single development team, which additionally removes possible collaboration issues between teams that can occur in native approach. In the past, it would be assumed it is easier to gather an experienced team for native development, however currently the most popular multi-platform frameworks are mature enough to have created active communities with high level of know-how \cite{approach_to_assess_performance_case_study,comparison_perf_looks_flutter_native,comp_analysis_hybrid_frameworks}.
 
-There are differences between available cross-platform frameworks, especially in the context of 
+There are differences between available cross-platform frameworks, especially in the context of
 architecture or rendering and compilation method. They will be described in the following chapters. Essentially, most of them require a middle layer that connects the app with the system and translates the commands to be natively called. This is considered to be a possible root of performance decrease \cite{appdynamics_mobile_app_performance}. And although a single workspace is used during development and testing, in order to publish the final application to different app stores (e.g. Google Play Store, App Store), there must be performed a build for each target platform to acquire separate app bundles that can then be uploaded \cite{comp_study_hybrid}.
 
 As explained in the previous chapter, different operating systems usually have different guidelines provided when it comes to user interface (UI) design. This might become an issue depending on design assumptions. Considering the user's point of view, there are three approaches to UI implementation. Firstly, the app appearance may be identical regardless of the platform it runs on. In this case, the platform-specific conventions may not be fulfilled and only when implemented correctly it will not cause user experience decrease. Secondly, the app may have a completely system-compliant look and feel. In this case, the issue may be raised as to how efficient it is to implement disjointed layouts in the cross-platform solution compared to switching to the native approach. Finally, there is an intermediate approach which assumes that most of the app elements are shared between platforms, but there are some that are platform-specific, e.g., popups, action buttons \cite{cross_platform_ux,baseline_cross_platform}.
@@ -30,17 +30,17 @@ Despite the existing assumption that cross-platform frameworks might produce app
 
 \subsection{Cross-platform development approaches}
 
-Multiple types of cross-platform solutions can be distinguished. The most commonly present in the scientific literature are the following: hybrid, interpreted, cross-compiled, and Progressive Web Apps (PWAs). Native mobile development may provide better connection with native components and services compared to some of the types mentioned above. This may become the cause of lower performance. 
+Multiple types of cross-platform solutions can be distinguished. The most commonly present in the scientific literature are the following: hybrid, interpreted, cross-compiled, and Progressive Web Apps (PWAs). Native mobile development may provide better connection with native components and services compared to some of the types mentioned above. This may become the cause of lower performance.
 
 \subsubsection*{Hybrid approach}
 
 The term \emph{cross-platform} tends to be used interchangeably with \emph{hybrid} which technically is incorrect as these are not necessarily synonyms. The hybrid approach to cross-platform development assumes a merge of native and web applications. Typically, the web app is created with the use of web solutions, e.g. HyperText Markup Language (HTML), Cascading Style Sheets (CSS) and JavaScript (JS) which then runs inside a web view component provided by the native app, allowing to publish the end-product in regular app stores. Usually, there is a bridge enabling the usage of device native features which are out-of-scope for JS API. Figure \ref{fig:hybrid_architecture} shows the overall architecture of a hybrid application. One of the drawbacks is that the access to native components is not possible while building the user interface, which makes it more difficult to mimic the native look and feel for the user. The hybrid approach may provide a lower performance for the bigger projects because the application is executed by the browser engine and the bridge may cause overhead \cite{survey_taxonomy_cross_platform,comparison_technologies_multiplatform,cross_platform_development_study_rn_flutter,eval_rn_flutter,comp_analysis_hybrid_frameworks}.
 
 \begin{figure}[h]
-    \centering
-    \includegraphics[width=.64\textwidth]{img/hybrid}
-    \caption{Hybrid app architecture (Source: \cite{karim_flutter_different})}
-    \label{fig:hybrid_architecture}
+	\centering
+	\includegraphics[width=.64\textwidth]{img/hybrid}
+	\caption{Hybrid app architecture (Source: \cite{karim_flutter_different})}
+	\label{fig:hybrid_architecture}
 \end{figure}
 
 \subsubsection*{Interpreted approach}
@@ -48,10 +48,10 @@ The term \emph{cross-platform} tends to be used interchangeably with \emph{hybri
 Similarly to the hybrid approach, web technologies are the primary component of the interpreted approach. The key difference between them is that interpreted apps do not use the web view. Instead, there is an interpreter involved which translates the web elements into native components that can be rendered directly in the operating system. Figure \ref{fig:interpreted_architecture} shows the overall architecture of an interpreted application. In the context of accessing the native features, there is again a bridge applied. The main advantage over the hybrid approach is the guaranteed native appearance and behavior \cite{survey_taxonomy_cross_platform,eval_rn_flutter}.
 
 \begin{figure}[h]
-    \centering
-    \includegraphics[width=.64\textwidth]{img/interpreted}
-    \caption{Interpreted app architecture (Source: \cite{karim_flutter_different})}
-    \label{fig:interpreted_architecture}
+	\centering
+	\includegraphics[width=.64\textwidth]{img/interpreted}
+	\caption{Interpreted app architecture (Source: \cite{karim_flutter_different})}
+	\label{fig:interpreted_architecture}
 \end{figure}
 
 \subsubsection*{Cross-compiled approach}
@@ -59,10 +59,10 @@ Similarly to the hybrid approach, web technologies are the primary component of 
 The cross-compiled approach introduces significant changes compared to the previously mentioned solutions. There are no additional layers between the app and the underlying operating system. The Software Development Kit enables the usage of native features and components. A cross-compiled framework uses a programming language of choice which is compiled to native byte code specific to the platform it runs on. Out of the three described approaches, this one should provide the best user experience and performance thus gaining a lot of popularity.  \cite{survey_taxonomy_cross_platform,comparison_technologies_multiplatform,cross_platform_development_study_rn_flutter,eval_rn_flutter}.
 
 \begin{figure}[h]
-    \centering
-    \includegraphics[width=.63\textwidth]{img/cross_compiled}
-    \caption{Cross-compiled approach workflow (Source: \cite{survey_taxonomy_cross_platform})}
-    \label{fig:cross_compiled_workflow}
+	\centering
+	\includegraphics[width=.63\textwidth]{img/cross_compiled}
+	\caption{Cross-compiled approach workflow (Source: \cite{survey_taxonomy_cross_platform})}
+	\label{fig:cross_compiled_workflow}
 \end{figure}
 
 \subsubsection*{Progressive Web Apps}
@@ -79,7 +79,7 @@ Progressive Web App (PWA) is a web application that allows the user to install i
 
 \subsection{Flutter}
 
-Flutter is a cross-platform framework belonging to the cross-compiled approach described above. It supports a all of the most common platforms: mobile (Android, iOS), web, desktop (Windows, macOS, Linux) and embedded. Being released by Google in 2017, it is a relatively recent solution. Even though, it has gathered a lot of traction in a short time which resulted in it's broad application across different segments of the market. Popular exemplary applications developed using Flutter are: Google Pay, eBay, Alibaba, BMW, Toyota and PUBG MOBILE \cite{flutter_showcase,flutter_docs_architecture}. 
+Flutter is a cross-platform framework belonging to the cross-compiled approach described above. It supports a all of the most common platforms: mobile (Android, iOS), web, desktop (Windows, macOS, Linux) and embedded. Being released by Google in 2017, it is a relatively recent solution. Even though, it has gathered a lot of traction in a short time which resulted in it's broad application across different segments of the market. Popular exemplary applications developed using Flutter are: Google Pay, eBay, Alibaba, BMW, Toyota and PUBG MOBILE \cite{flutter_showcase,flutter_docs_architecture}.
 
 \subsubsection*{Architecture}
 
@@ -100,9 +100,9 @@ The Engine is the most significant layer which provides the "low-level implement
 The Engine is also where the graphics aspect is contained. Since the very first release, Flutter has been using Skia as its graphics engine. As stated above, Flutter translates the source code to byte code instead of using a intermediate layer which would use the source code to determine native components, on the contrast to interpreted cross-platform solutions. Therefore, the byte code itself is passed directly to Skia for rendering. Importantly, a Skia copy is included in the Engine layer in order to allow the latest version to be used even on devices with older operating system version. Moreover, this enables the app to look the same even on older devices which would not be otherwise possible. Nonetheless, there have been some performance issues reported especially by iOS-targeting developers. For that reason, Google has beginned working on a new graphics engine for Flutter. Recently (May 2023), it was announced that the new engine, Impeller, became enabled by default for iOS applications and is available for testing for Android. It is supposed to improve performance and eliminate jank problems.
 \cite{flutter_docs_architecture,flutter_impeller,kosinski_flutter_vs_rn_vs_qt}.
 
-The final layer, Framework, is the interface for developers. It contains all the components required for writing applications, such as widgets, animations, Material and Cupertino libraries, etc. \cite{flutter_docs_architecture}. 
+The final layer, Framework, is the interface for developers. It contains all the components required for writing applications, such as widgets, animations, Material and Cupertino libraries, etc. \cite{flutter_docs_architecture}.
 
-\subsection*{Web support}
+\subsubsection*{Web support}
 
 \begin{figure}[h]
 	\centering
@@ -137,21 +137,21 @@ Figure \ref{fig:flutter_render_flow} shows Flutter's rendering flow. Flutter is 
 
 \subsubsection*{User interface design}
 
-By default, when creating a new Flutter project, the application depends on the Material library resulting with a appearance mostly found on Android devices, in compliance with the design system described in chapter \ref{chap:android}. Even though it is possible to build such an application for any supported operating system, in most cases a different UI should be preferred for iOS devices to guarantee accordance with Human Interface Guidelines as well as platform styling conventions, as described in chapter \ref{chap:ios}. The components for iOS system are contained in the Cupertuno library. Therefore, it is necessary to decide on a design approach early on. Should it be required for the application to have the exact same looks on all platforms (Material, Cupertino or custom), a single UI codebase is an obvious solution. However, if the appearance should be completely platform-specific, there would need to be a separation created and all the layouts would have to be developed in parallel. The third method assumes the usage of the same primary layout components with some minor OS-specific additions, e.g. popups which does not require the full separation but rather sporadic one. Figures \ref{fig:flutter_material_dialog} and \ref{fig:flutter_cupertino_dialog} show the difference between Material and Cupertino dialogs \cite{flutter_docs_architecture,kosinski_flutter_vs_rn_vs_qt}. 
+By default, when creating a new Flutter project, the application depends on the Material library resulting with a appearance mostly found on Android devices, in compliance with the design system described in chapter \ref{chap:android}. Even though it is possible to build such an application for any supported operating system, in most cases a different UI should be preferred for iOS devices to guarantee accordance with Human Interface Guidelines as well as platform styling conventions, as described in chapter \ref{chap:ios}. The components for iOS system are contained in the Cupertuno library. Therefore, it is necessary to decide on a design approach early on. Should it be required for the application to have the exact same looks on all platforms (Material, Cupertino or custom), a single UI codebase is an obvious solution. However, if the appearance should be completely platform-specific, there would need to be a separation created and all the layouts would have to be developed in parallel. The third method assumes the usage of the same primary layout components with some minor OS-specific additions, e.g. popups which does not require the full separation but rather sporadic one. Figures \ref{fig:flutter_material_dialog} and \ref{fig:flutter_cupertino_dialog} show the difference between Material and Cupertino dialogs \cite{flutter_docs_architecture,kosinski_flutter_vs_rn_vs_qt}.
 
 \begin{figure}[h]
 	\begin{minipage}{.47\textwidth}
-	  \includegraphics[width=\textwidth]{img/flutter_material_dialog}
-	  \caption{Flutter Material dialog (Source: \cite{flutter_campus_dialog})}
-	  \label{fig:flutter_material_dialog}
+		\includegraphics[width=\textwidth]{img/flutter_material_dialog}
+		\caption{Flutter Material dialog (Source: \cite{flutter_campus_dialog})}
+		\label{fig:flutter_material_dialog}
 	\end{minipage}
 	\hfill
 	\begin{minipage}{.47\textwidth}
-	  \includegraphics[width=\textwidth]{img/flutter_cupertino_dialog}
-	  \caption{Flutter Cupertino dialog (Source: \cite{flutter_campus_dialog})}
-	  \label{fig:flutter_cupertino_dialog}
+		\includegraphics[width=\textwidth]{img/flutter_cupertino_dialog}
+		\caption{Flutter Cupertino dialog (Source: \cite{flutter_campus_dialog})}
+		\label{fig:flutter_cupertino_dialog}
 	\end{minipage}
-  \end{figure}
+\end{figure}
 
 \subsection{React Native}
 
@@ -194,19 +194,19 @@ Considering the ongoing changes to the mobile market as well as the saturation o
 
 \begin{table}[h]
 	\centering
-    \caption{Cross-platform frameworks evaluation criteria (Source: Own work based on \cite{rieger_eval_cp})}
-    \label{tab:eval_criteria}
+	\caption{Cross-platform frameworks evaluation criteria (Source: Own work based on \cite{rieger_eval_cp})}
+	\label{tab:eval_criteria}
 	\begin{tabular}{ |l|p{.76\textwidth}| }
 		\hline
-        \textbf{Perspective}&\textbf{Criteria}\\
+		\textbf{Perspective} & \textbf{Criteria}                                                                                                                                                                                                                                           \\
 		\hline
-		Infrastructure&License, Supported target platforms, Supported development platforms, Distribution channels, Monetisation, Internationalisation, Long-term feasibility\\
+		Infrastructure       & License, Supported target platforms, Supported development platforms, Distribution channels, Monetisation, Internationalisation, Long-term feasibility                                                                                                      \\
 		\hline
-		Development&Development environment, Preparation time, Scalability, Development process fit, User interface design, Testing, Continuous delivery, Configuration management, Maintainability, Extensibility, Integrating custom code, Pace of development\\
+		Development          & Development environment, Preparation time, Scalability, Development process fit, User interface design, Testing, Continuous delivery, Configuration management, Maintainability, Extensibility, Integrating custom code, Pace of development                \\
 		\hline
-		App&Access to device-specific hardware, Access to platform-specific functionality, Support for connected devices, Input device heterogeneity, Output device heterogeneity, Application life cycle, System integration, Security, Robustness, Degree of mobility\\
+		App                  & Access to device-specific hardware, Access to platform-specific functionality, Support for connected devices, Input device heterogeneity, Output device heterogeneity, Application life cycle, System integration, Security, Robustness, Degree of mobility \\
 		\hline
-		Usage&Look and feel, Performance, Usage patterms, User authentication\\
+		Usage                & Look and feel, Performance, Usage patterms, User authentication                                                                                                                                                                                             \\
 		\hline
 	\end{tabular}
 \end{table}

@@ -15,7 +15,6 @@
 \contentsline {section}{\numberline {3.2\relax .\enspace }Cross-platform mobile development}{14}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1\relax .\enspace }Cross-platform development approaches}{16}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2\relax .\enspace }Flutter}{19}{subsection.3.2.2}%
-\contentsline {subsection}{Web support}{20}{subsection*.17}%
 \contentsline {subsection}{\numberline {3.2.3\relax .\enspace }React Native}{22}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4\relax .\enspace }Ionic}{22}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5\relax .\enspace }Comparison}{22}{subsection.3.2.5}%
