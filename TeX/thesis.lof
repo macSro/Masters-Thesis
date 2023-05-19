@@ -20,6 +20,11 @@
 \contentsline {figure}{\numberline {3.15.}{\ignorespaces Flutter Widget, Element, Render trees (Source: \cite {flutter_docs_architecture})}}{21}{figure.3.15}%
 \contentsline {figure}{\numberline {3.16.}{\ignorespaces Flutter Material dialog (Source: \cite {flutter_campus_dialog})}}{22}{figure.3.16}%
 \contentsline {figure}{\numberline {3.17.}{\ignorespaces Flutter Cupertino dialog (Source: \cite {flutter_campus_dialog})}}{22}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18.}{\ignorespaces React Native previous achitecture (pre-v0.68) (Source: \cite {matijevic_rn_rearchitecture})}}{23}{figure.3.18}%
+\contentsline {figure}{\numberline {3.19.}{\ignorespaces React Native New Architecture (v0.68+) (Source: \cite {matijevic_rn_rearchitecture})}}{23}{figure.3.19}%
+\contentsline {figure}{\numberline {3.20.}{\ignorespaces React Native rendering flow (Source: \cite {react_native_docs_render})}}{25}{figure.3.20}%
+\contentsline {figure}{\numberline {3.21.}{\ignorespaces React Native React Element, React Shadow, Host View trees (Source: \cite {react_native_docs_render})}}{25}{figure.3.21}%
+\contentsline {figure}{\numberline {3.22.}{\ignorespaces Ionic (right) vs native (left) architecture (Source: \cite {ionic_docs_architecture})}}{26}{figure.3.22}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

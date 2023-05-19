@@ -99,11 +99,17 @@ Google, \emph{Micro-moments: Your guide to winning the shift to mobile}, \url{ht
 \bibitem{mobile_market_size}
 {Grand View Research}, \emph{{Global Mobile Application Market Size, Share, \& Trends Analysis Report by Store Type (Google Store, Apple Store, Others), by Application, by Region, and Segment Forecasts, 2022-2030}}. 2022.
 
+\bibitem{harsh_complete_guide_to_rn_web}
+Harsh, K., \emph{The complete guide to {React Native for Web}}, \url{https://blog.logrocket.com/complete-guide-react-native-web/}. Accessed 18 May 2023.
+
 \bibitem{eval_rn_flutter}
 Hjort, E., \emph{Evaluation of {React Native} and {Flutter} for cross-platform mobile application development}, Master's thesis, Åbo Akademi University. 2020.
 
 \bibitem{hort_survey_perf_optimization}
 Hort, M., Kechagia, M., Sarro, F., Harman, M., \emph{A survey of performance optimization for mobile applications}, IEEE Transactions on Software Engineering. 2022, Volume~48, 8, pages 2879--2904.
+
+\bibitem{ionic_docs_architecture}
+Ionic, \emph{Webview}, \url{https://ionicframework.com/docs/core-concepts/webview}. Accessed 17 May 2023.
 
 \bibitem{karim_flutter_different}
 Karim, W., \emph{How is {Flutter} different from {Native}, {Web-view}, and other cross-platform frameworks}, \url{https://wajahatkarim.com/2019/11/how-is-flutter-different-from-native-web-view-and-other-cross-platform-frameworks/}. Accessed 13 May 2023.
@@ -129,6 +135,9 @@ Lachgar, M., Hanine, M., Benouda, H., Ommane, Y., \emph{{Decision Framework for 
 \bibitem{material_design_get_started}
 {Material Design 3}, \url{https://m3.material.io/get-started}. Accessed 28 Apr. 2023.
 
+\bibitem{matijevic_rn_rearchitecture}
+Matijević, M., \emph{{React Native}'s upcoming re‑architecture}, \url{https://collectivemind.dev/blog/react-native-re-architecture}. Accessed 18 May 2023.
+
 \bibitem{swiftui_uikit}
 Mejia, R., \emph{Declarative and imperative programming using {SwiftUI} and {UIKit}}, \url{https://medium.com/@rmeji1/declarative-and-imperative-programming-using-swiftui-and-uikit-c91f1f104252}. Accessed 6 May 2023.
 
@@ -152,6 +161,36 @@ Que, P., Guo, X., Zhu, M., \emph{A comprehensive comparison between hybrid and n
 
 \bibitem{comp_study_hybrid}
 Rahman, A., \emph{A comparative study of hybrid mobile application development}, EasyChair Preprint no. 3905. EasyChair, 2020.
+
+\bibitem{react_native_showcase}
+{React Native}, \url{https://reactnative.dev/showcase}. Accessed 18 May 2023.
+
+\bibitem{react_native_docs_fabric}
+{React Native}, \url{https://reactnative.dev/architecture/fabric-renderer}. Accessed 18 May 2023.
+
+\bibitem{react_native_docs_turbo_modules}
+{React Native}, \url{https://reactnative.dev/docs/the-new-architecture/pillars-turbomodules}. Accessed 18 May 2023.
+
+\bibitem{react_native_docs_codegen}
+{React Native}, \url{https://reactnative.dev/docs/next/the-new-architecture/pillars-codegen}. Accessed 18 May 2023.
+
+\bibitem{react_native_docs_render}
+{React Native}, \url{https://reactnative.dev/architecture/render-pipeline}. Accessed 18 May 2023.
+
+\bibitem{react_native_docs_view_flattening}
+{React Native}, \url{https://reactnative.dev/architecture/view-flattening}. Accessed 18 May 2023.
+
+\bibitem{react_native_docs_threading}
+{React Native}, \url{https://reactnative.dev/architecture/threading-model}. Accessed 18 May 2023.
+
+\bibitem{react_native_docs_core_concepts}
+{React Native}, \emph{{Core Components and Native Components}}, \url{https://reactnative.dev/docs/intro-react-native-components}. Accessed 18 May 2023.
+
+\bibitem{react_native_docs_why_new_architecture}
+{React Native}, \emph{{Why a New Architecture}}, \url{https://reactnative.dev/docs/the-new-architecture/why}. Accessed 18 May 2023.
+
+\bibitem{react_native_web_docs}
+{React Native for Web}, \url{https://necolas.github.io/react-native-web/docs/}. Accessed 18 May 2023.
 
 \bibitem{rieger_eval_cp}
 Rieger, C., Majchrzak, T.A., \emph{Towards the definitive evaluation framework for cross-platform app development approaches}, Journal of Systems and Software. 2019, Volume 153, C, pages 175--199.
