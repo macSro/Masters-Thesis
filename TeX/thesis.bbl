@@ -54,6 +54,9 @@ Biørn-Hansen, A., Grønli, T.M., Ghinea, G., \emph{A survey and taxonomy of cor
 \bibitem{web_mobile_app}
 {BrainHub}, \emph{Web app vs mobile app - which to develop first?}, \url{https://brainhub.eu/library/app-vs-website-which-to-develop-first}. Accessed 7 May 2023.
 
+\bibitem{capacitor_how_works}
+{Capacitor}, \emph{{How Capacitor Works}}, \url{https://capacitorjs.jp/blog/how-capacitor-works}. Accessed 22 May 2023.
+
 \bibitem{xib_why_use}
 Carney, T., \emph{What's a {XIB} and why would i ever use one?}, \url{https://medium.com/@tjcarney89/whats-a-xib-and-why-would-i-ever-use-one-58d608cd5e9b}. Accessed 6 May 2023.
 
@@ -108,8 +111,29 @@ Hjort, E., \emph{Evaluation of {React Native} and {Flutter} for cross-platform m
 \bibitem{hort_survey_perf_optimization}
 Hort, M., Kechagia, M., Sarro, F., Harman, M., \emph{A survey of performance optimization for mobile applications}, IEEE Transactions on Software Engineering. 2022, Volume~48, 8, pages 2879--2904.
 
+\bibitem{imoh_react_rendering}
+Imoh, I., \emph{{Understand How Rendering Works in React}}, \url{https://www.telerik.com/blogs/understand-how-rendering-works-react}. Accessed 22 May 2023.
+
+\bibitem{ionic_customers}
+Ionic, \url{https://ionic.io/customers}. Accessed 22 May 2023.
+
+\bibitem{ionic_docs_core_concepts}
+Ionic, \emph{{Core Concepts}}, \url{https://ionicframework.com/docs/core-concepts/fundamentals}. Accessed 20 May 2023.
+
+\bibitem{ionic_docs_overview}
+Ionic, \emph{Introduction to ionic}, \url{https://ionicframework.com/docs/}. Accessed 22 May 2023.
+
+\bibitem{ionic_docs_pwa}
+Ionic, \emph{{Progressive Web Apps}}, \url{https://ionicframework.com/docs/core-concepts/what-are-progressive-web-apps}. Accessed 22 May 2023.
+
 \bibitem{ionic_docs_architecture}
 Ionic, \emph{Webview}, \url{https://ionicframework.com/docs/core-concepts/webview}. Accessed 17 May 2023.
+
+\bibitem{ionic_web_native}
+Ionic, \emph{{What is a Web Native App?}}, \url{https://ionic.io/resources/articles/what-is-web-native}. Accessed 22 May 2023.
+
+\bibitem{ionic_blog_capacitor}
+{Ionic Blog}, \emph{{Capacitor: Everything You've Ever Wanted to Know}}, \url{https://ionic.io/blog/capacitor-everything-youve-ever-wanted-to-know}. Accessed 20 May 2023.
 
 \bibitem{karim_flutter_different}
 Karim, W., \emph{How is {Flutter} different from {Native}, {Web-view}, and other cross-platform frameworks}, \url{https://wajahatkarim.com/2019/11/how-is-flutter-different-from-native-web-view-and-other-cross-platform-frameworks/}. Accessed 13 May 2023.

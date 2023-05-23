@@ -1445,6 +1445,7 @@ INPUT ./img/android_ver_market_share.png
 INPUT img/android_ver_market_share.png
 INPUT ./img/android_ver_market_share.png
 INPUT ./img/android_ver_market_share.png
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/tex-gyre/ec-qtmri.tfm
 INPUT ./img/android_architecture.png
 INPUT img/android_architecture.png
 INPUT ./img/android_architecture.png
@@ -1469,7 +1470,6 @@ INPUT ./img/google_trends_comparison.png
 INPUT img/google_trends_comparison.png
 INPUT ./img/google_trends_comparison.png
 INPUT ./img/google_trends_comparison.png
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/tex-gyre/ec-qtmri.tfm
 INPUT ./img/hybrid.png
 INPUT img/hybrid.png
 INPUT ./img/hybrid.png
@@ -1581,6 +1581,10 @@ INPUT ./img/ionic_architecture.jpg
 INPUT img/ionic_architecture.jpg
 INPUT ./img/ionic_architecture.jpg
 INPUT ./img/ionic_architecture.jpg
+INPUT ./img/react_render.jpg
+INPUT img/react_render.jpg
+INPUT ./img/react_render.jpg
+INPUT ./img/react_render.jpg
 INPUT ./chapter4.tex
 INPUT ./chapter4.tex
 INPUT ./chapter4.tex

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.2)  20 MAY 2023 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.2)  23 MAY 2023 21:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -826,24 +826,24 @@ runsystem(rm thesis.aex)...executed.
  (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count386
@@ -897,26 +897,26 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 39.
-Package microtype Info: Applying patch `item' on input line 39.
-Package microtype Info: Applying patch `toc' on input line 39.
-Package microtype Info: Applying patch `eqnum' on input line 39.
-Package microtype Info: Applying patch `footnote' on input line 39.
-Package microtype Info: Applying patch `verbatim' on input line 39.
+LaTeX Info: Redefining \microtypecontext on input line 40.
+Package microtype Info: Applying patch `item' on input line 40.
+Package microtype Info: Applying patch `toc' on input line 40.
+Package microtype Info: Applying patch `eqnum' on input line 40.
+Package microtype Info: Applying patch `footnote' on input line 40.
+Package microtype Info: Applying patch `verbatim' on input line 40.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 39.
+LaTeX Info: Redefining \showhyphens on input line 40.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 39.
+Package hyperref Info: Link coloring OFF on input line 40.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write6
 \openout6 = `thesis.out'.
@@ -926,7 +926,7 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
  (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2023-02-02 L3 Experimental document command parser
 ))
-Package hyperref Info: Option `pageanchor' set `false' on input line 42.
+Package hyperref Info: Option `pageanchor' set `false' on input line 43.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -962,13 +962,13 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 42.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1073,19 +1073,19 @@ File: img/android_architecture.png Graphic file (type png)
 Package pdftex.def Info: img/android_architecture.png  used on input line 44.
 (pdftex.def)             Requested size: 164.4123pt x 203.55807pt.
  [9 <./img/android_architecture.png>] [10] [11]
-<img/ios_architecture.png, id=498, 251.94125pt x 231.86626pt>
+<img/ios_architecture.png, id=499, 251.94125pt x 231.86626pt>
 File: img/ios_architecture.png Graphic file (type png)
 <use img/ios_architecture.png>
 Package pdftex.def Info: img/ios_architecture.png  used on input line 115.
 (pdftex.def)             Requested size: 163.75986pt x 150.71127pt.
  [12 <./img/ios_architecture.png>]) [13] (./chapter3/cross.tex [14]
-<img/google_trends_cross_platform.png, id=562, 457.71pt x 228.855pt>
+<img/google_trends_cross_platform.png, id=563, 457.71pt x 228.855pt>
 File: img/google_trends_cross_platform.png Graphic file (type png)
 <use img/google_trends_cross_platform.png>
 Package pdftex.def Info: img/google_trends_cross_platform.png  used on input line 17.
 (pdftex.def)             Requested size: 426.79135pt x 213.40215pt.
  [15 <./img/google_trends_cross_platform.png>]
-<img/google_trends_comparison.png, id=575, 457.71pt x 230.826pt>
+<img/google_trends_comparison.png, id=576, 457.71pt x 230.826pt>
 File: img/google_trends_comparison.png Graphic file (type png)
 <use img/google_trends_comparison.png>
 Package pdftex.def Info: img/google_trends_comparison.png  used on input line 26.
@@ -1122,40 +1122,40 @@ Package pdftex.def Info: img/flutter_architecture.jpg  used on input line 87.
 <img/flutter_web_architecture.jpg, id=649, 1000.73875pt x 458.71375pt>
 File: img/flutter_web_architecture.jpg Graphic file (type jpg)
 <use img/flutter_web_architecture.jpg>
-Package pdftex.def Info: img/flutter_web_architecture.jpg  used on input line 108.
+Package pdftex.def Info: img/flutter_web_architecture.jpg  used on input line 107.
 (pdftex.def)             Requested size: 328.63115pt x 150.63406pt.
 <img/flutter_render_pipeline.jpg, id=652, 1008.76875pt x 488.82625pt>
 File: img/flutter_render_pipeline.jpg Graphic file (type jpg)
 <use img/flutter_render_pipeline.jpg>
-Package pdftex.def Info: img/flutter_render_pipeline.jpg  used on input line 119.
+Package pdftex.def Info: img/flutter_render_pipeline.jpg  used on input line 118.
 (pdftex.def)             Requested size: 426.79135pt x 206.8123pt.
  [20 <./img/flutter_web_architecture.jpg>]
 <img/flutter_trees.jpg, id=666, 1003.75pt x 349.305pt>
 File: img/flutter_trees.jpg Graphic file (type jpg)
 <use img/flutter_trees.jpg>
-Package pdftex.def Info: img/flutter_trees.jpg  used on input line 128.
+Package pdftex.def Info: img/flutter_trees.jpg  used on input line 127.
 (pdftex.def)             Requested size: 426.79135pt x 148.52461pt.
  [21 <./img/flutter_render_pipeline.jpg> <./img/flutter_trees.jpg>]
 <img/flutter_material_dialog.jpg, id=682, 520.94624pt x 322.20375pt>
 File: img/flutter_material_dialog.jpg Graphic file (type jpg)
 <use img/flutter_material_dialog.jpg>
-Package pdftex.def Info: img/flutter_material_dialog.jpg  used on input line 139.
+Package pdftex.def Info: img/flutter_material_dialog.jpg  used on input line 138.
 (pdftex.def)             Requested size: 192.0548pt x 118.78578pt.
 <img/flutter_cupertino_dialog.jpg, id=684, 499.8675pt x 247.92625pt>
 File: img/flutter_cupertino_dialog.jpg Graphic file (type jpg)
 <use img/flutter_cupertino_dialog.jpg>
-Package pdftex.def Info: img/flutter_cupertino_dialog.jpg  used on input line 145.
+Package pdftex.def Info: img/flutter_cupertino_dialog.jpg  used on input line 144.
 (pdftex.def)             Requested size: 192.0548pt x 95.25706pt.
 <img/rn_old_architecture.jpg, id=688, 1312.905pt x 513.92pt>
 File: img/rn_old_architecture.jpg Graphic file (type jpg)
 <use img/rn_old_architecture.jpg>
-Package pdftex.def Info: img/rn_old_architecture.jpg  used on input line 159.
+Package pdftex.def Info: img/rn_old_architecture.jpg  used on input line 158.
 (pdftex.def)             Requested size: 328.63115pt x 128.6365pt.
  [22 <./img/flutter_material_dialog.jpg> <./img/flutter_cupertino_dialog.jpg>]
 <img/rn_new_architecture.jpg, id=701, 1351.0475pt x 513.92pt>
 File: img/rn_new_architecture.jpg Graphic file (type jpg)
 <use img/rn_new_architecture.jpg>
-Package pdftex.def Info: img/rn_new_architecture.jpg  used on input line 166.
+Package pdftex.def Info: img/rn_new_architecture.jpg  used on input line 165.
 (pdftex.def)             Requested size: 328.63115pt x 125.00577pt.
  [23 <./img/rn_old_architecture.jpg> <./img/rn_new_architecture.jpg>]
 \openout5 = `thesis.pyg'.
@@ -1204,45 +1204,58 @@ LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
 <img/rn_render.jpg, id=742, 896.34875pt x 878.28125pt>
 File: img/rn_render.jpg Graphic file (type jpg)
 <use img/rn_render.jpg>
-Package pdftex.def Info: img/rn_render.jpg  used on input line 216.
+Package pdftex.def Info: img/rn_render.jpg  used on input line 215.
 (pdftex.def)             Requested size: 234.73654pt x 229.99612pt.
 <img/rn_trees.jpg, id=744, 824.07875pt x 247.92625pt>
 File: img/rn_trees.jpg Graphic file (type jpg)
 <use img/rn_trees.jpg>
-Package pdftex.def Info: img/rn_trees.jpg  used on input line 223.
+Package pdftex.def Info: img/rn_trees.jpg  used on input line 222.
 (pdftex.def)             Requested size: 426.79135pt x 128.40033pt.
  [25 <./img/rn_render.jpg> <./img/rn_trees.jpg>]
-<img/ionic_architecture.jpg, id=757, 1503.6175pt x 977.6525pt>
+<img/ionic_architecture.jpg, id=759, 1503.6175pt x 977.6525pt>
 File: img/ionic_architecture.jpg Graphic file (type jpg)
 <use img/ionic_architecture.jpg>
-Package pdftex.def Info: img/ionic_architecture.jpg  used on input line 240.
+Package pdftex.def Info: img/ionic_architecture.jpg  used on input line 241.
 (pdftex.def)             Requested size: 426.79135pt x 277.5001pt.
+ [26 <./img/ionic_architecture.jpg>]
+<img/react_render.jpg, id=776, 909.3975pt x 368.37625pt>
+File: img/react_render.jpg Graphic file (type jpg)
+<use img/react_render.jpg>
+Package pdftex.def Info: img/react_render.jpg  used on input line 259.
+(pdftex.def)             Requested size: 426.79135pt x 172.88391pt.
+ [27 <./img/react_render.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+[]\T1/qtm/m/n/12 (+20) Windows (with
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26 <./img/ionic_architecture.jpg>] [27])) (./chapter4.tex [28]
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+[]\T1/qtm/m/n/12 (+20) macOS (with
+ []
+
+[28])) (./chapter4.tex [29] [30]
 Chapter 4.
-) (./chapter5.tex [29
+) (./chapter5.tex [31
 
 ]
 Chapter 5.
-) (./chapter6.tex [30
+) (./chapter6.tex [32
 
 ]
 Chapter 6.
-) (./chapter7.tex [31
+) (./chapter7.tex [33
 
 ]
 Chapter 7.
-) (./chapter8.tex [32
+) (./chapter8.tex [34
 
 ]
 Chapter 8.
-) (./chapter9.tex [33
+) (./chapter9.tex [35
 
 ]
 Chapter 9.
-) (./thesis.bbl [34
+) (./thesis.bbl [36
 
 ]
 Underfull \hbox (badness 2495) in paragraph at lines 22--23
@@ -1257,173 +1270,186 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35
+ [37
 
 ]
-Underfull \hbox (badness 1365) in paragraph at lines 58--59
+Underfull \hbox (badness 1137) in paragraph at lines 58--59
+[]\T1/qtm/m/n/10.95 (+20) Capacitor, \T1/qtm/m/it/10.95 (+20) How Ca-pac-i-tor Works\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / capacitorjs\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 jp / blog / how -[] capacitor -[]
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 61--62
 []\T1/qtm/m/n/10.95 (+20) Carney, T., \T1/qtm/m/it/10.95 (+20) What's a XIB and why would i ever use one?\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / medium\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 \T1/cmtt/m/n/10.95 @tjcarney89 / whats -[] a -[] xib -[] and -[] why -[] would -[] i -[] ever -[] use -[] one -[] 58d608cd5e9b$[]\T1/qtm/m/n/10.95 (+20) .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 []\T1/qtm/m/n/10.95 (+20) Flutter, \T1/qtm/m/it/10.95 (+20) Flut-ter ar-chi-tec-tural overview\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / docs\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 flutter\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 dev / resources /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 []\T1/qtm/m/n/10.95 (+20) Flutter Cam-pus, []$\T1/cmtt/m/n/10.95 https : / / www\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 fluttercampus\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / guide / 110 / how -[] to -[] show -[]
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 91--92
+Underfull \hbox (badness 3942) in paragraph at lines 94--95
 []\T1/qtm/m/n/10.95 (+20) Google, \T1/qtm/m/it/10.95 (+20) Micro-moments: Your guide to win-ning the shift to mo-bile\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 \T1/cmtt/m/n/10.95 www\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 thinkwithgoogle\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / marketing -[] strategies / micro -[] moments / micromoments -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 []\T1/qtm/m/n/10.95 (+20) Google Trends, []$\T1/cmtt/m/n/10.95 https : / / trends\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 google\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 pl / trends / explore?date = 2008 -[] 01 -[] 01 %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 \T1/cmtt/m/n/10.95 202023 -[] 03 -[] 26&q = cross % 20platform % 20app % 20development&hl = pl$[]\T1/qtm/m/n/10.95 (+20) . Ac-cessed 26
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 []\T1/qtm/m/n/10.95 (+20) Google Trends, []$\T1/cmtt/m/n/10.95 https : / / trends\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 google\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 pl / trends / explore?date = 2008 -[] 01 -[] 01 %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 \T1/cmtt/m/n/10.95 202023 -[] 03 -[] 26&q = ionic\OML/cmm/m/it/10.95 ;[] \T1/cmtt/m/n/10.95 flutter\OML/cmm/m/it/10.95 ;[] \T1/cmtt/m/n/10.95 react % 20native\OML/cmm/m/it/10.95 ;[] \T1/cmtt/m/n/10.95 xamarin\OML/cmm/m/it/10.95 ;[] \T1/cmtt/m/n/10.95 cordova&hl = pl$[]\T1/qtm/m/n/10.95 (+20) . Ac-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+ [38]
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+[]\T1/qtm/m/n/10.95 (+20) Ionic, \T1/qtm/m/it/10.95 (+20) Core Con-cepts\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / ionicframework\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / docs / core -[] concepts /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 \T1/qtm/m/it/10.95 (+20) frame-works\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / wajahatkarim\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / 2019 / 11 / how -[] is -[] flutter -[] different -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 \T1/cmtt/m/n/10.95 from -[] native -[] web -[] view -[] and -[] other -[] cross -[] platform -[] frameworks/$[]\T1/qtm/m/n/10.95 (+20) . Ac-cessed 13
  []
 
 
-Underfull \hbox (badness 7777) in paragraph at lines 142--143
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \hbox (badness 7777) in paragraph at lines 166--167
 []\T1/qtm/m/n/10.95 (+20) Mejia, R., \T1/qtm/m/it/10.95 (+20) Declar-a-tive and im-per-a-tive pro-gram-ming us-ing Swif-tUI and UIKit\T1/qtm/m/n/10.95 (+20) ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 []$\T1/cmtt/m/n/10.95 https : / / medium\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / @rmeji1 / declarative -[] and -[] imperative -[] programming -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 \T1/cmtt/m/n/10.95 en -[] us / resources / cloud -[] computing -[] dictionary / what -[] is -[] mobile -[] app -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 []\T1/qtm/m/n/10.95 (+20) Naveen, []$\T1/cmtt/m/n/10.95 https : / / intellipaat\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / blog / tutorial / ios -[] tutorial / ios -[]
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 []\T1/qtm/m/n/10.95 (+20) React Na-tive, []$\T1/cmtt/m/n/10.95 https : / / reactnative\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 dev / docs / the -[] new -[] architecture / pillars -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 []\T1/qtm/m/n/10.95 (+20) React Na-tive, []$\T1/cmtt/m/n/10.95 https : / / reactnative\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 dev / docs / next / the -[] new -[] architecture /
- []
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 190--191
-[]\T1/qtm/m/n/10.95 (+20) React Na-tive, \T1/qtm/m/it/10.95 (+20) Why a New Ar-chi-tec-ture\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / reactnative\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 dev / docs / the -[] new -[]
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+ [40]
+Underfull \hbox (badness 1137) in paragraph at lines 214--215
+[]\T1/qtm/m/n/10.95 (+20) React Na-tive, \T1/qtm/m/it/10.95 (+20) Why a New Ar-chi-tec-ture\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / / reactnative\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 dev / docs / the -[] new -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 []\T1/qtm/m/n/10.95 (+20) Statcounter, \T1/qtm/m/it/10.95 (+20) Mo-bile op-er-at-ing sys-tem mar-ket share world-wide\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 \T1/cmtt/m/n/10.95 gs\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 statcounter\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / os -[] market -[] share / mobile / worldwide / #monthly -[] 202303 -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 []\T1/qtm/m/n/10.95 (+20) Statcounter, \T1/qtm/m/it/10.95 (+20) Mo-bile tablet an-droid ver-sion mar-ket share world-wide\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 \T1/cmtt/m/n/10.95 / / gs\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 statcounter\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / android -[] version -[] market -[] share / mobile -[] tablet /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 []\T1/qtm/m/n/10.95 (+20) Statcounter, \T1/qtm/m/it/10.95 (+20) Mo-bile tablet ios ver-sion mar-ket share world-wide\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 \T1/cmtt/m/n/10.95 gs\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 statcounter\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / ios -[] version -[] market -[] share / mobile -[] tablet / worldwide /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 []\T1/qtm/m/n/10.95 (+20) Statista, \T1/qtm/m/it/10.95 (+20) Fore-cast num-ber of mo-bile users world-wide 2020-2025\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 \T1/cmtt/m/n/10.95 / / www\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 statista\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / statistics / 218984 / number -[] of -[] global -[] mobile -[] users -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 []\T1/qtm/m/n/10.95 (+20) Yi§it, M., \T1/qtm/m/it/10.95 (+20) Say hello to Jet-pack Com-pose and com-pare with XML\T1/qtm/m/n/10.95 (+20) , []$\T1/cmtt/m/n/10.95 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 \T1/cmtt/m/n/10.95 / / blog\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 kotlin -[] academy\OML/cmm/m/it/10.95 :\T1/cmtt/m/n/10.95 com / say -[] hello -[] to -[] jetpack -[] compose -[] and -[] compare -[]
  []
 
-) [39] (./thesis.lof)
+) [42] (./thesis.lof)
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
- [40
+ [43
 
 ] (./thesis.lot)
 \tf@lot=\write9
 \openout9 = `thesis.lot'.
 
- [41
+ [44
 
 ] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
@@ -1432,18 +1458,18 @@ runsystem(rm thesis.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 32085 strings out of 476025
- 623984 string characters out of 5790018
+ 32148 strings out of 476025
+ 625038 string characters out of 5790018
  1877388 words of memory out of 5000000
- 51464 multiletter control sequences out of 15000+600000
- 570222 words of font info for 188 fonts, out of 8000000 for 9000
+ 51487 multiletter control sequences out of 15000+600000
+ 571899 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,11n,120p,1541b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,11n,120p,1543b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (45 pages, 2765748 bytes).
+Output written on thesis.pdf (48 pages, 2857016 bytes).
 PDF statistics:
- 1075 PDF objects out of 1200 (max. 8388607)
- 908 compressed objects within 10 object streams
- 223 named destinations out of 1000 (max. 500000)
- 29691 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1130 PDF objects out of 1200 (max. 8388607)
+ 959 compressed objects within 10 object streams
+ 236 named destinations out of 1000 (max. 500000)
+ 29696 words of extra memory for PDF output out of 29859 (max. 10000000)
 
