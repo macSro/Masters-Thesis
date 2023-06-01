@@ -1,14 +1,44 @@
 % !TEX encoding = UTF-8 Unicode 
 % !TEX root = praca.tex
 
-\chapter{App performance measurement}
+\chapter{App performance measurement}\label{chap:app_performance}
+
+Application performance can be analyzed differently depending on the defined context. It is usually performed during the implementation, testing and maintainance phases present in the general software development cycle. In this chapter, the importance of app performance measurement is ephasized and exemplary metrics are explained separately for mobile and web developement.
 
 \section{Mobile development}
 
-The possibility to install and uninstall mobile apps within seconds directly affects the commercial mobile app market. In order to compete, publishers need to make sure they provide their services at the highest quality acquirable so that users don't turn to the competitor's solution. Almost 30\% of consumers instantly switch to other available products if their needs are not satisfied. App performance is considered to be one of the more important aspects in this context as 70\% of users perform an immediate switch solely based on loading time being too long. For that reason, no matter how big or successful, each mobile app publisher must not underestimate the importance of performance offered by their product \cite{micro_moments_guide}. 
+The possibility to install and uninstall mobile apps within seconds directly affects the commercial mobile app market. In order to compete, publishers need to make sure they provide their services at the highest quality acquirable so that users don't turn to the competitor's solution. Almost 30\% of consumers instantly switch to other available products if their needs are not satisfied. App performance is considered to be one of the more important aspects in this context, as 70\% of users perform an immediate switch solely based on loading time being too long. For that reason, no matter how big or successful, each mobile app publisher must not underestimate the importance of performance offered by their product \cite{micro_moments_guide}. 
 
-Mobile app performance is a broad term and can be understood differently and described with higher or lower level of detail. It can be seen as only dependent on consumers' impressions. The main aspects of app performance as perceived by users are responsiveness, loading times, device resource usage, smoothness, crash occurrence, <different metrics>?
+Mobile app performance is a broad term and can be understood differently and described with higher or lower level of detail. It can be seen as only dependent on consumers' impressions. The main aspects of app performance as perceived by users are device resource usage, smoothness, loading times, app size etc. On the other hand, considering app performance from the publisher's perspective includes additional metrics, e.g., user return rate and crash occurrence frequency.
 
-In multiple literature positions, statements can be found about mobile app performance being significantly higher when developing using native approach compared to cross-platform approach. However, even in many rather recent papers this statement is assumed based on the work of P. Que, X. Guo and M. Zhu (\cite{que_comp_hybrid_native}) which was published in 2016. Across the past 7 years there have been many breaking changes in both native and multi-platform solutions. It is reasonable to assume they may have changed that situation therefore it is worthwhile to review the current state-of-art and draw present-day conclusions.
+\begin{longtblr}[
+    caption = {Selected app performance metrics from the perspective of user experience (Source: Own work based on \cite{appdynamics_mobile_app_performance,saborido_app_performance_optimization,willocx_quantative_perf})},
+    label = {tab:performance_ux},
+]{ colspec = { |l|X| }, hlines} 
+    \textbf{Metric}&\textbf{Description}\\
+    CPU usage&Measures the percentage of CPU capacity utilized by the running application. Suboptimal source code and heavy computations may cause high CPU usage which negatively affects user experience.\\
+    Memory consumption&Measures the amount of RAM consumed by the running application. It is especially significant when considering low-end devices with very little memory available. High memory usage results with fewer apps being able to run at the same time on a device. This metric is used to find and fix potential memory leaks.\\
+    Power consumption&Measures the amount of energy consumed by the running application. It is usually directly related to other metrics, especially CPU usage, because heavy load on CPU is one of the biggest causes for battery drain.\\
+    Smoothness&Measures the frame rate in FPS (Frames Per Second). The higher the frame rate, the higher the perceived smoothness of the app. 60 FPS is considered to be an indicator of a frame rate providing very good user experience. Furthermore, the frame rate should remain as stable as possible during the app use.\\
+    Loading times&There are numerous types of loading times measurement. First and foremost, the app's launch time can be considered but also the times of navigation, page load, computation, etc. These are the metrics highly impacting the user's perception of app performance.\\
+    App size&Consists of two measures: the storage space used by the installed application, as well as the size of the installer itself. It is especially important for low-end devices.\\
+\end{longtblr}
+
+\begin{longtblr}[
+    caption = {Selected app performance metrics from the perspective of publisher (Source: Own work based on \cite{appsamurai_app_performance,khandelwal_load_testing,smartlook_performance_kpis})},
+    label = {tab:performance_publisher},
+]{ colspec = { |l|X| }, hlines} 
+    \textbf{Metric}&\textbf{Description}\\
+    Load handling&Load testing is an important part of the performance measurement. The goal is to simulate a very high user count at once. The outcome helps to find potential performance issues and bottlenecks in critical scenarios and thus, optimize the app scalability. Load testing is usually performed with specialized tools automating the process.\\
+    Total and new users count&These metrics represent the popularity of the app. User count should be monitored in relation to issue occurrence in order to make sure the app is scalable.\\
+    Crash-free users percentage&Measures the frequency of crash occurrence among the user base. Should be considered of high priority and monitored regularly, especially after new app features introduction.\\
+    User return rate&Valuable metric used to detect existence of issues leading to user dissatisfaction resulting in abandoning the app. Calculated as the number of user sessions during a time period.\\
+    Revenue&Measures the sales connected to the app. It is important in relation to Return Of Investment. It is helpful with analyzing effectiveness of marketing strategies applied.\\
+    User satisfaction&Metric based on ratings and surveys. Should be monitored in order to discover existence of functional and performance issues.\\
+\end{longtblr}
+
+Table \ref{tab:performance_ux} contains an overview of the major application performance metrics understood to be related to user experience. Per contra, Table \ref{tab:performance_publisher} provides descriptions for some of the metrics considered important from the perspective of the app publisher. As can be observed, app performance can be viewed in different ways depending on the context, e.g. business or technical.
 
 \section{Web development}
+
+% TODO: WEB?

@@ -42,6 +42,9 @@ Angulo, E., Ferre, X., \emph{A case study on cross-platform development framewor
 \bibitem{hig_overview}
 {Apple Developer}, \emph{{Human Interface Guidelines}}, \url{https://developer.apple.com/design/human-interface-guidelines}. Accessed 7 May 2023.
 
+\bibitem{appsamurai_app_performance}
+AppSamurai, \emph{Mobile app performance metrics for crash-free apps}, \url{https://appsamurai.com/blog/mobile-app-performance-metrics-for-crash-free-apps/}. Accessed 28 May 2023.
+
 \bibitem{bialkowski_eval_flutter}
 Białkowski, D., Smołka, J., \emph{Evaluation of flutter framework time efficiency in context of user interface tasks}, Journal of Computer Sciences Institute. 2022, Volume~25, pages 309--314.
 
@@ -138,6 +141,9 @@ Ionic, \emph{{What is a Web Native App?}}, \url{https://ionic.io/resources/artic
 \bibitem{karim_flutter_different}
 Karim, W., \emph{How is {Flutter} different from {Native}, {Web-view}, and other cross-platform frameworks}, \url{https://wajahatkarim.com/2019/11/how-is-flutter-different-from-native-web-view-and-other-cross-platform-frameworks/}. Accessed 13 May 2023.
 
+\bibitem{khandelwal_load_testing}
+Khandelwal, A., \emph{{12 Best Load Testing tools for mobile Applications | What is Load testing}}, \url{https://testinggenez.com/load-testing-tools-for-mobile-applications/}. Accessed 23 May 2023.
+
 \bibitem{kocki_comp_hybrid_ios}
 Kocki, M., Urban, M., Kopniak, P., \emph{Comparison of hybrid and native {iOS} mobile application development technologies}, Journal of Computer Sciences Institute. 2022, Volume~25, pages 280--287.
 
@@ -164,6 +170,12 @@ Matijević, M., \emph{{React Native}'s upcoming re‑architecture}, \url{https:/
 
 \bibitem{swiftui_uikit}
 Mejia, R., \emph{Declarative and imperative programming using {SwiftUI} and {UIKit}}, \url{https://medium.com/@rmeji1/declarative-and-imperative-programming-using-swiftui-and-uikit-c91f1f104252}. Accessed 6 May 2023.
+
+\bibitem{mgsm_sony_xperia_z1}
+MGSM, \url{https://www.mgsm.pl/pl/katalog/sony/xperiaz1c6903/}. Accessed 1 June 2023.
+
+\bibitem{mgsm_xiaomi_9t_pro}
+MGSM, \url{https://www.mgsm.pl/pl/katalog/xiaomi/mi9tpro/}. Accessed 31 May 2023.
 
 \bibitem{microsoft_mobile_development}
 Microsoft, \emph{What is mobile application development?}, \url{https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-mobile-app-development/#definition}. Accessed 22 Apr. 2023.
@@ -219,6 +231,9 @@ Rahman, A., \emph{A comparative study of hybrid mobile application development},
 \bibitem{rieger_eval_cp}
 Rieger, C., Majchrzak, T.A., \emph{Towards the definitive evaluation framework for cross-platform app development approaches}, Journal of Systems and Software. 2019, Volume 153, C, pages 175--199.
 
+\bibitem{saborido_app_performance_optimization}
+Saborido~Infantes, R., Khomh, F., Hindle, A., Alba, E., \emph{{An App Performance Optimization Advisor for Mobile Device App Marketplaces}}, Sustainable Computing: Informatics and Systems. 2018, Volume~19.
+
 \bibitem{android_architecture_and_application}
 Shaheen, J.A., Asghar, M.A., Hussain, A., \emph{Android os with its architecture and android application with dalvik virtual machine review}, International Journal of Multimedia and Ubiquitous Engineering. 2017, Volume~12, 7.
 
@@ -230,6 +245,9 @@ Singh, M., Shobha, G., \emph{Comparative analysis of hybrid mobile app developme
 
 \bibitem{material_design_pros_cons}
 Sinicki, A., \emph{Implementing {Material Design} components and guidelines - {Googlify} your app!}, \url{https://www.androidauthority.com/material-design-components-1177515/}. Accessed 28 Apr. 2023.
+
+\bibitem{smartlook_performance_kpis}
+Smartlook, \emph{The top 16 most important mobile app {KPIs} to measure performance [updated]}, \url{https://www.smartlook.com/blog/top-15-most-important-mobile-app-kpis-to-measure-the-performance/}. Accessed 29 May 2023.
 
 \bibitem{statcounter_mobile_os_market}
 Statcounter, \emph{Mobile operating system market share worldwide}, \url{https://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-202303-202303-bar}. Accessed 23 Apr. 2023.

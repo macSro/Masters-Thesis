@@ -1592,6 +1592,12 @@ INPUT chapter4.tex
 INPUT ./chapter4.tex
 INPUT ./chapter4.tex
 INPUT chapter4.tex
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT ./chapter5.tex
 INPUT ./chapter5.tex
 INPUT ./chapter5.tex
@@ -1599,6 +1605,9 @@ INPUT chapter5.tex
 INPUT ./chapter5.tex
 INPUT ./chapter5.tex
 INPUT chapter5.tex
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT ./chapter6.tex
 INPUT ./chapter6.tex
 INPUT ./chapter6.tex

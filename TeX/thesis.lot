@@ -4,12 +4,15 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{Related work (Source: Own work)}}{5}{table.2.1}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1.}{\ignorespaces Java and Kotlin comparison (Source: Own work based on \cite {android_kotlin_first})}}{10}{table.3.1}%
-\contentsline {table}{\numberline {3.2.}{\ignorespaces React Native architecture improvements (Source: Own work based on \cite {react_native_docs_why_new_architecture})}}{24}{table.3.2}%
-\contentsline {table}{\numberline {3.3.}{\ignorespaces Cross-platform framework comparison (Source: Own work)}}{28}{table.3.3}%
-\contentsline {table}{\numberline {3.4.}{\ignorespaces Cross-platform framework evaluation criteria (Source: Own work based on \cite {rieger_eval_cp})}}{29}{table.3.4}%
+\contentsline {table}{\numberline {3.1.}{\ignorespaces Java and Kotlin comparison (Source: Own work based on \cite {android_kotlin_first})}}{11}{table.3.1}%
+\contentsline {table}{\numberline {3.2.}{\ignorespaces React Native architecture improvements (Source: Own work based on \cite {react_native_docs_why_new_architecture})}}{25}{table.3.2}%
+\contentsline {table}{\numberline {3.3.}{\ignorespaces Cross-platform framework comparison (Source: Own work)}}{29}{table.3.3}%
+\contentsline {table}{\numberline {3.4.}{\ignorespaces Cross-platform framework evaluation criteria (Source: Own work based on \cite {rieger_eval_cp})}}{30}{table.3.4}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{Selected app performance metrics from the perspective of user experience (Source: Own work based on \cite {appdynamics_mobile_app_performance,saborido_app_performance_optimization,willocx_quantative_perf})}}{32}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{Selected app performance metrics from the perspective of publisher (Source: Own work based on \cite {appsamurai_app_performance,khandelwal_load_testing,smartlook_performance_kpis})}}{33}{table.4.2}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{Testing devices (Source: Own work based on \cite {mgsm_sony_xperia_z1,mgsm_xiaomi_9t_pro})}}{37}{table.5.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
