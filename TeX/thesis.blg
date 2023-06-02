@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: dyplom.bst
 Database file #1: bibliography.bib
-You've used 95 entries,
+You've used 97 entries,
             2662 wiz_defined-function locations,
-            948 strings with 19127 characters,
-and the built_in function-call counts, 28231 in all, are:
-= -- 2053
-> -- 845
+            952 strings with 19278 characters,
+and the built_in function-call counts, 28729 in all, are:
+= -- 2089
+> -- 859
 < -- 26
-+ -- 369
-- -- 262
-* -- 1386
-:= -- 3741
-add.period$ -- 189
-call.type$ -- 95
-change.case$ -- 452
++ -- 375
+- -- 266
+* -- 1404
+:= -- 3807
+add.period$ -- 193
+call.type$ -- 97
+change.case$ -- 460
 chr.to.int$ -- 0
-cite$ -- 95
-duplicate$ -- 2572
-empty$ -- 2686
-format.name$ -- 281
-if$ -- 5915
+cite$ -- 97
+duplicate$ -- 2616
+empty$ -- 2736
+format.name$ -- 285
+if$ -- 6019
 int.to.chr$ -- 0
-int.to.str$ -- 95
-missing$ -- 558
-newline$ -- 288
-num.names$ -- 190
-pop$ -- 1379
+int.to.str$ -- 97
+missing$ -- 568
+newline$ -- 294
+num.names$ -- 194
+pop$ -- 1413
 preamble$ -- 1
-purify$ -- 321
+purify$ -- 327
 quote$ -- 0
-skip$ -- 770
+skip$ -- 784
 stack$ -- 0
-substring$ -- 909
-swap$ -- 1289
+substring$ -- 923
+swap$ -- 1307
 text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 378
+type$ -- 386
 warning$ -- 0
-while$ -- 214
-width$ -- 97
-write$ -- 749
+while$ -- 218
+width$ -- 99
+write$ -- 763
