@@ -56,7 +56,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Content() {
     val filterState = remember { mutableStateOf(false) }
-    
+
     Scaffold(
         topBar = {
             TopAppBar(
@@ -71,7 +71,6 @@ fun Content() {
             }
         }
     }
-
 }
 
 @Composable
