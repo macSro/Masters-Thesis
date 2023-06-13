@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations/growing_logo.dart';
+import 'package:flutter_animations/my_scaffold.dart';
 import 'package:flutter_animations/rotating_logo.dart';
 
 void main() {
@@ -29,11 +30,9 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(title),
-      ),
-      body: ListView(
+    return MyScaffold(
+      title: title,
+      child: ListView(
         children: const [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -150,14 +149,17 @@ class MyHomePage extends StatelessWidget {
                 GrowingLogo(
                   size: 180,
                   duration: Duration(milliseconds: 250),
+                  reverse: true,
                 ),
                 GrowingLogo(
                   size: 60,
                   duration: Duration(milliseconds: 550),
+                  reverse: true,
                 ),
                 GrowingLogo(
                   size: 100,
                   duration: Duration(milliseconds: 850),
+                  reverse: true,
                 ),
               ],
             ),
