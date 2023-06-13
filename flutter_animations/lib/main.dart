@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Research scenario 2'),
+      home: const MyHomePage(title: 'Research scenario #2'),
     );
   }
 }
@@ -31,7 +31,6 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(title),
       ),
       body: ListView(
@@ -69,10 +68,10 @@ class MyHomePage extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              RotatingLogo(duration: Duration(milliseconds: 500)),
-              RotatingLogo(duration: Duration(milliseconds: 500)),
-              RotatingLogo(duration: Duration(milliseconds: 500)),
-              RotatingLogo(duration: Duration(milliseconds: 500)),
+              RotatingLogo(duration: Duration(milliseconds: 300)),
+              RotatingLogo(duration: Duration(milliseconds: 600)),
+              RotatingLogo(duration: Duration(milliseconds: 900)),
+              RotatingLogo(duration: Duration(milliseconds: 1200)),
             ],
           ),
           Row(
@@ -81,18 +80,22 @@ class MyHomePage extends StatelessWidget {
               RotatingLogo(
                 duration: Duration(milliseconds: 500),
                 inverse: true,
+                reverse: true,
               ),
               RotatingLogo(
                 duration: Duration(milliseconds: 500),
                 inverse: true,
+                reverse: true,
               ),
               RotatingLogo(
                 duration: Duration(milliseconds: 500),
                 inverse: true,
+                reverse: true,
               ),
               RotatingLogo(
                 duration: Duration(milliseconds: 500),
                 inverse: true,
+                reverse: true,
               ),
             ],
           ),
@@ -117,39 +120,47 @@ class MyHomePage extends StatelessWidget {
               ),
             ],
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              GrowingLogo(
-                size: 150,
-                duration: Duration(milliseconds: 1000),
-              ),
-              GrowingLogo(
-                size: 90,
-                duration: Duration(milliseconds: 700),
-              ),
-              GrowingLogo(
-                size: 130,
-                duration: Duration(milliseconds: 400),
-              ),
-            ],
+          SizedBox(
+            height: 160,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                GrowingLogo(
+                  size: 150,
+                  duration: Duration(milliseconds: 1000),
+                ),
+                GrowingLogo(
+                  size: 90,
+                  duration: Duration(milliseconds: 700),
+                ),
+                GrowingLogo(
+                  size: 130,
+                  duration: Duration(milliseconds: 400),
+                ),
+              ],
+            ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              GrowingLogo(
-                size: 180,
-                duration: Duration(milliseconds: 250),
-              ),
-              GrowingLogo(
-                size: 100,
-                duration: Duration(milliseconds: 550),
-              ),
-              GrowingLogo(
-                size: 60,
-                duration: Duration(milliseconds: 850),
-              ),
-            ],
+          SizedBox(
+            height: 190,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                GrowingLogo(
+                  size: 180,
+                  duration: Duration(milliseconds: 250),
+                ),
+                GrowingLogo(
+                  size: 60,
+                  duration: Duration(milliseconds: 550),
+                ),
+                GrowingLogo(
+                  size: 100,
+                  duration: Duration(milliseconds: 850),
+                ),
+              ],
+            ),
           ),
         ],
       ),
