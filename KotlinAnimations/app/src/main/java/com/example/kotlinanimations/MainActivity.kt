@@ -88,16 +88,16 @@ fun Content() {
                     RotatingComponent(200, inverse = true)
                 }
                 Row (horizontalArrangement = Arrangement.SpaceEvenly) {
-                    RotatingComponent(500)
-                    RotatingComponent(500)
-                    RotatingComponent(500)
-                    RotatingComponent(500)
+                    RotatingComponent(300)
+                    RotatingComponent(600)
+                    RotatingComponent(900)
+                    RotatingComponent(1200)
                 }
                 Row (horizontalArrangement = Arrangement.SpaceEvenly) {
-                    RotatingComponent(500, inverse = true)
-                    RotatingComponent(500, inverse = true)
-                    RotatingComponent(500, inverse = true)
-                    RotatingComponent(500, inverse = true)
+                    RotatingComponent(500, inverse = true, reverse = true)
+                    RotatingComponent(500, inverse = true, reverse = true)
+                    RotatingComponent(500, inverse = true, reverse = true)
+                    RotatingComponent(500, inverse = true, reverse = true)
                 }
                 Row (
                     horizontalArrangement = Arrangement.SpaceEvenly,
@@ -109,7 +109,7 @@ fun Content() {
                     RotatingComponent(750, reverse = true)
                 }
                 Row (
-                    modifier = Modifier.height(200.dp),
+                    modifier = Modifier.height(180.dp),
                     horizontalArrangement = Arrangement.SpaceEvenly,
                     verticalAlignment = Alignment.CenterVertically
                 ){
@@ -118,7 +118,7 @@ fun Content() {
                     GrowingComponent(duration = 400, maxSize = 130F)
                 }
                 Row (
-                    modifier = Modifier.height(180.dp),
+                    modifier = Modifier.height(160.dp),
                     horizontalArrangement = Arrangement.SpaceEvenly,
                     verticalAlignment = Alignment.CenterVertically
                 ) {
