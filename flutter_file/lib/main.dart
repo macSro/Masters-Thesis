@@ -2,6 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_file/my_button.dart';
+import 'package:flutter_file/my_scaffold.dart';
 import 'package:flutter_file/text.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
@@ -13,20 +15,21 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Flutter Demo',
-      home: MyHomePage(title: 'Research scenario 3'),
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: const MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
+  const MyHomePage({super.key});
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -39,66 +42,67 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return CupertinoPageScaffold(
-      navigationBar: CupertinoNavigationBar(
-        middle: Text(widget.title),
-      ),
-      child: SafeArea(
-        child: Center(
-          child: Column(
-            children: [
-              CupertinoButton(
-                child: const Text('Save a 20MB text file'),
-                onPressed: () => _saveFile(context),
-              ),
-              CupertinoButton(
-                child: const Text('Pick images from the library'),
-                onPressed: () => _pickImages(),
-              ),
-              const SizedBox(height: 16),
-              Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: GridView.builder(
-                    itemCount: _pickedImages.length,
-                    gridDelegate:
-                        const SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 2,
-                    ),
-                    itemBuilder: (BuildContext context, int index) => Padding(
-                      padding: const EdgeInsets.all(4.0),
-                      child: Image.file(
-                        File(_pickedImages[index].path),
-                        fit: BoxFit.cover,
-                      ),
-                    ),
+    return MyScaffold(
+      title: 'Research scenario #3',
+      child: Column(
+        children: [
+          MyButton(
+            label: 'Save a 20MB text file',
+            onPressed: () => _saveFile(context),
+          ),
+          MyButton(
+            label: 'Pick images from the library',
+            onPressed: () => _pickImages(),
+          ),
+          const SizedBox(height: 8),
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: GridView.builder(
+                itemCount: _pickedImages.length,
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                ),
+                itemBuilder: (BuildContext context, int index) => Padding(
+                  padding: const EdgeInsets.all(4.0),
+                  child: Image.file(
+                    File(_pickedImages[index].path),
+                    fit: BoxFit.cover,
                   ),
                 ),
               ),
-            ],
+            ),
           ),
-        ),
+        ],
       ),
     );
   }
 
   void _saveFile(context) async {
-    Stopwatch stopwatch = Stopwatch()..start();
     final path = (await getApplicationDocumentsDirectory()).path;
     final file = File('$path/savedFile.txt');
     await file.writeAsString(longText);
-    print('File saved in ${stopwatch.elapsed.inMilliseconds}ms');
     showCupertinoDialog(
       context: context,
-      builder: (context) => CupertinoAlertDialog(
-        title: const Text('File saved.'),
-        actions: [
-          CupertinoDialogAction(
-            child: const Text('Close'),
-            onPressed: () => Navigator.of(context).pop(),
-          )
-        ],
-      ),
+      builder: (context) => Platform.isIOS
+          ? CupertinoAlertDialog(
+              title: const Text('File saved.'),
+              actions: [
+                CupertinoDialogAction(
+                  child: const Text('Close'),
+                  onPressed: () => Navigator.of(context).pop(),
+                )
+              ],
+            )
+          : AlertDialog(
+              title: const Text('File saved.'),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.of(context).pop(),
+                  child: const Text('Close'),
+                )
+              ],
+            ),
     );
   }
 
