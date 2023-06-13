@@ -97,13 +97,9 @@ fun FilteredList(state: MutableState<Boolean>){
     
     LazyColumn(modifier = Modifier.fillMaxWidth()){
         items(filteredList){item ->
-            Card(
-                modifier = Modifier.padding(16.dp)
-            ) {
-                ListItem(
-                    headlineText = { Text(text = "List item #$item") }
-                )
-            }
+            ListItem(
+                headlineText = { Text(text = "List item #$item") }
+            )
         }
     }
 }
