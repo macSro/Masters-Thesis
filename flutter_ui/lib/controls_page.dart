@@ -1,5 +1,12 @@
+import 'dart:io';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/external_page.dart';
+import 'package:flutter_ui/my_button.dart';
+import 'package:flutter_ui/my_checkbox.dart';
+import 'package:flutter_ui/my_slider.dart';
+import 'package:flutter_ui/my_switch.dart';
 
 class ControlsPage extends StatefulWidget {
   const ControlsPage({super.key});
@@ -11,10 +18,10 @@ class ControlsPage extends StatefulWidget {
 class _ControlsPageState extends State<ControlsPage> {
   bool _switch1Value = false;
   bool _switch2Value = false;
-  bool? _checkbox1Value;
-  bool? _checkbox2Value;
-  bool? _checkbox3Value;
-  bool? _checkbox4Value;
+  bool _checkbox1Value = false;
+  bool _checkbox2Value = false;
+  bool _checkbox3Value = false;
+  bool _checkbox4Value = false;
   int _segmentedButtonValue = 0;
   double _sliderValue = 0;
 
@@ -23,12 +30,15 @@ class _ControlsPageState extends State<ControlsPage> {
     return Scaffold(
       body: Column(
         children: [
-          FilledButton(
-            child: const Text('Navigate to a different page'),
+          MyButton(
+            label: 'Navigate to a different page',
             onPressed: () => Navigator.of(context).push(
-              MaterialPageRoute(
-                builder: (context) => const ExternalPage(),
-              ),
+              Platform.isIOS
+                  ? CupertinoPageRoute(
+                      builder: (context) => const ExternalPage())
+                  : MaterialPageRoute(
+                      builder: (context) => const ExternalPage(),
+                    ),
             ),
           ),
           const SizedBox(height: 16),
@@ -36,14 +46,14 @@ class _ControlsPageState extends State<ControlsPage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Switch(
+              MySwitch(
                 value: _switch1Value,
                 onChanged: (value) => setState(() {
                   _switch1Value = value;
                 }),
               ),
               const SizedBox(width: 16),
-              Switch(
+              MySwitch(
                 value: _switch2Value,
                 onChanged: (value) => setState(() {
                   _switch2Value = value;
@@ -56,32 +66,28 @@ class _ControlsPageState extends State<ControlsPage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Checkbox(
-                tristate: true,
+              MyCheckbox(
                 value: _checkbox1Value,
                 onChanged: (value) => setState(() {
-                  _checkbox1Value = value;
+                  _checkbox1Value = value ?? false;
                 }),
               ),
-              Checkbox(
-                tristate: true,
+              MyCheckbox(
                 value: _checkbox2Value,
                 onChanged: (value) => setState(() {
-                  _checkbox2Value = value;
+                  _checkbox2Value = value ?? false;
                 }),
               ),
-              Checkbox(
-                tristate: true,
+              MyCheckbox(
                 value: _checkbox3Value,
                 onChanged: (value) => setState(() {
-                  _checkbox3Value = value;
+                  _checkbox3Value = value ?? false;
                 }),
               ),
-              Checkbox(
-                tristate: true,
+              MyCheckbox(
                 value: _checkbox4Value,
                 onChanged: (value) => setState(() {
-                  _checkbox4Value = value;
+                  _checkbox4Value = value ?? false;
                 }),
               ),
             ],
@@ -89,24 +95,41 @@ class _ControlsPageState extends State<ControlsPage> {
           const SizedBox(height: 16),
           const Text('Segmented button'),
           const SizedBox(height: 8),
-          SegmentedButton(
-            segments: const [
-              ButtonSegment(value: 0, label: Text('Option 1')),
-              ButtonSegment(value: 1, label: Text('Option 2')),
-            ],
-            showSelectedIcon: true,
-            selected: {_segmentedButtonValue},
-            onSelectionChanged: (selection) => setState(() {
-              _segmentedButtonValue = selection.first;
-            }),
-          ),
+          Platform.isIOS
+              ? CupertinoSegmentedControl<int>(
+                  children: const {
+                    0: Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 8),
+                      child: Text('Option 1'),
+                    ),
+                    1: Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 8),
+                      child: Text('Option 2'),
+                    ),
+                  },
+                  onValueChanged: (index) {},
+                )
+              : SegmentedButton(
+                  segments: const [
+                    ButtonSegment(value: 0, label: Text('Option 1')),
+                    ButtonSegment(value: 1, label: Text('Option 2')),
+                  ],
+                  showSelectedIcon: true,
+                  selected: {_segmentedButtonValue},
+                  onSelectionChanged: (selection) => setState(() {
+                    _segmentedButtonValue = selection.first;
+                  }),
+                ),
           const SizedBox(height: 16),
           const Text('Slider'),
-          Slider(
-            value: _sliderValue,
-            onChanged: (value) => setState(() {
-              _sliderValue = value;
-            }),
+          SizedBox(
+            width: double.infinity,
+            child: MySlider(
+              value: _sliderValue,
+              onChanged: (value) => setState(() {
+                _sliderValue = value;
+              }),
+            ),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,

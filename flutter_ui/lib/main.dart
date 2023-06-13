@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/my_scaffold.dart';
 
 import 'controls_page.dart';
 import 'form_page.dart';
@@ -17,16 +19,17 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+        cupertinoOverrideTheme: const CupertinoThemeData(
+          primaryColor: CupertinoColors.systemBlue,
+        ),
       ),
-      home: const MyHomePage(title: 'Research scenario 4'),
+      home: const MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
+  const MyHomePage({super.key});
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -42,33 +45,28 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
-      ),
-      body: Padding(
+    return MyTabScaffold(
+      title: 'Research scenario #4',
+      pageBuilder: (index) => Padding(
         padding: const EdgeInsets.all(16),
         child: Center(
-          child: _pages.elementAt(_pageIndex),
+          child: _pages.elementAt(index),
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _pageIndex,
-        onTap: (value) => setState(() {
-          _pageIndex = value;
-        }),
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.check_circle_outline),
-            label: 'Controls',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.text_format),
-            label: 'Form',
-          )
-        ],
-      ),
+      navItems: const [
+        BottomNavigationBarItem(
+          icon: Icon(Icons.check_circle_outline),
+          label: 'Controls',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.text_format),
+          label: 'Form',
+        ),
+      ],
+      currentPageIndex: _pageIndex,
+      onNavItemTap: (index) => setState(() {
+        _pageIndex = index;
+      }),
     );
   }
 }
