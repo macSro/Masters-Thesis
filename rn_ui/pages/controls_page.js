@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { View, Text, Switch, Button, SafeAreaView, StyleSheet } from 'react-native';
+import { View, Text, Switch, Button, SafeAreaView, StyleSheet, Platform } from 'react-native';
 import CheckBox from 'expo-checkbox';
 import SegmentedControl from '@react-native-segmented-control/segmented-control';
 import Slider from '@react-native-community/slider';
+import { StatusBar } from 'expo-status-bar';
 
 const ControlsPage = ({ navigation }) => {
     const [segmentedButtonValue, setSegmentedButtonValue] = useState(0);
@@ -10,8 +11,9 @@ const ControlsPage = ({ navigation }) => {
 
     return (
         <SafeAreaView style={{ flex: 1, margin: 16 }}>
+            <StatusBar hidden={true}></StatusBar>
             <View style={{ alignItems: 'center' }}>
-                <Text style={{ fontSize: 32, fontWeight: 'bold', marginBottom: 16 }}>Research scenario #4</Text>
+                <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 16 }}>Research scenario #4</Text>
 
                 <Button
                     title="Navigate to a different page"

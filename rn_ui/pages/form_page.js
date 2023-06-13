@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { SafeAreaView, View, Text } from "react-native";
 import { TextInput } from '@react-native-material/core';
 import DropDownPicker from "react-native-dropdown-picker";
+import { StatusBar } from "expo-status-bar";
 
 const FormPage = () => {
     const [open, setOpen] = useState(false);
@@ -14,9 +15,10 @@ const FormPage = () => {
     ]);
 
     return (
-        <SafeAreaView>
+        <SafeAreaView style={{ margin: 16 }}>
+            <StatusBar hidden={true}></StatusBar>
             <View style={{ alignItems: 'center' }}>
-                <Text style={{ fontSize: 32, fontWeight: 'bold', marginBottom: 16 }}>Research scenario #4</Text>
+                <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 16 }}>Research scenario #4</Text>
             </View>
 
             <TextField label='Text field 1 (Regular)' />
