@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { View, Text, Switch, FlatList, StyleSheet, SafeAreaView } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 
 const MyApp = () => {
   const [filter, setFilter] = useState(false);
@@ -8,6 +9,7 @@ const MyApp = () => {
 
   return (
     <SafeAreaView style={styles.container}>
+      <StatusBar></StatusBar>
       <Text style={styles.title}>Research scenario #1</Text>
       <View style={styles.switchContainer}>
         <Switch value={filter} onValueChange={setFilter} />
@@ -32,7 +34,6 @@ const MyHomePage = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
   },
   title: {
     fontSize: 18,
