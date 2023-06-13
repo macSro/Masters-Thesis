@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_list/my_list_tile.dart';
+import 'package:flutter_list/my_scaffold.dart';
+import 'package:flutter_list/my_switch.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,15 +18,13 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Research scenario #1'),
+      home: const MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
+  const MyHomePage({super.key});
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -40,22 +41,22 @@ class _MyHomePageState extends State<MyHomePage> {
         ? listGen.where((element) => element % 6 == 0).toList()
         : listGen;
 
-    return Scaffold(
-      appBar: AppBar(title: Text(widget.title)),
-      body: Center(
+    return MyScaffold(
+      title: 'Research scenario #1',
+      child: Center(
         child: Column(
           children: [
-            Switch(
+            MySwitch(
               value: _filter,
-              onChanged: (bool value) => setState(() {
+              onChanged: (value) => setState(() {
                 _filter = value;
               }),
             ),
             Expanded(
               child: ListView.builder(
                 itemCount: list.length,
-                itemBuilder: (context, index) => ListTile(
-                  title: Text('List item #${list[index]}'),
+                itemBuilder: (context, index) => MyListTile(
+                  title: 'List item #${list[index]}',
                   onTap: () {},
                 ),
               ),
