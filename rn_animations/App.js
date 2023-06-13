@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, SafeAreaView, Animated, Easing, ScrollView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { StatusBar } from 'expo-status-bar';
+
 
 const RotatingLogo = ({ duration, inverse, reverse }) => {
   const [animation] = useState(new Animated.Value(0));
@@ -106,8 +108,9 @@ const GrowingLogo = ({ size, duration, reverse }) => {
 const MyHomePage = () => {
   return (
     <SafeAreaView style={styles.container}>
+      <StatusBar hidden={true}></StatusBar>
       <ScrollView contentContainerStyle={styles.scrollViewContent}>
-        <Text style={styles.title}>Research scenario 2</Text>
+        <Text style={styles.title}>Research scenario #2</Text>
 
         <View style={styles.row}>
           <RotatingLogo duration={1000} />
@@ -124,17 +127,17 @@ const MyHomePage = () => {
         </View>
 
         <View style={styles.row}>
-          <RotatingLogo duration={500} />
-          <RotatingLogo duration={500} />
-          <RotatingLogo duration={500} />
-          <RotatingLogo duration={500} />
+          <RotatingLogo duration={300} />
+          <RotatingLogo duration={600} />
+          <RotatingLogo duration={900} />
+          <RotatingLogo duration={1200} />
         </View>
 
         <View style={styles.row}>
-          <RotatingLogo duration={500} inverse={true} />
-          <RotatingLogo duration={500} inverse={true} />
-          <RotatingLogo duration={500} inverse={true} />
-          <RotatingLogo duration={500} inverse={true} />
+          <RotatingLogo duration={500} inverse={true} reverse={true} />
+          <RotatingLogo duration={500} inverse={true} reverse={true} />
+          <RotatingLogo duration={500} inverse={true} reverse={true} />
+          <RotatingLogo duration={500} inverse={true} reverse={true} />
         </View>
 
         <View style={styles.row}>
@@ -144,16 +147,16 @@ const MyHomePage = () => {
           <RotatingLogo duration={750} reverse={true} />
         </View>
 
-        <View style={styles.row}>
+        <View style={[styles.row, { height: 130 }]}>
           <GrowingLogo size={150} duration={1000} />
           <GrowingLogo size={90} duration={700} />
           <GrowingLogo size={130} duration={400} />
         </View>
 
-        <View style={styles.row}>
-          <GrowingLogo size={180} duration={250} />
-          <GrowingLogo size={100} duration={550} />
-          <GrowingLogo size={60} duration={850} />
+        <View style={[styles.row, { height: 160 }]}>
+          <GrowingLogo size={180} duration={250} reverse={true} />
+          <GrowingLogo size={60} duration={550} reverse={true} />
+          <GrowingLogo size={100} duration={850} reverse={true} />
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -163,17 +166,16 @@ const MyHomePage = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
+    flex: 1
   },
   logoContainer: {
     alignItems: 'center',
   },
   title: {
-    fontSize: 18,
+    fontSize: 24,
     fontWeight: 'bold',
     textAlign: 'center',
-    marginVertical: 10,
+    marginVertical: 16,
   },
   row: {
     flexDirection: 'row',
