@@ -12,6 +12,7 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -21,9 +22,12 @@ import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.material3.Button
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -56,7 +60,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@OptIn(ExperimentalCoilApi::class)
+@OptIn(ExperimentalCoilApi::class, ExperimentalMaterial3Api::class)
 @Composable
 fun AppContent(context: Context) {
     var selectImages by remember { mutableStateOf(listOf<Uri>()) }
@@ -66,45 +70,53 @@ fun AppContent(context: Context) {
             selectImages = selectImages + it
         }
 
-    Column(
-        Modifier.fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally
+    Scaffold(
+        topBar = { TopAppBar(title = {Text("Research scenario #3")}) }
     ) {
-        Button(
-            onClick = {
-                writeTextData()
-                // displaying a toast message
-                Toast.makeText(context, "File saved.", Toast.LENGTH_SHORT).show()
-            },
-            modifier = Modifier
-                .wrapContentSize()
-                .padding(10.dp)
-        ) {
-            Text(text = "Save a 20MB text file")
-        }
-
-        Button(
-            onClick = { galleryLauncher.launch("image/*") },
-            modifier = Modifier
-                .wrapContentSize()
-                .padding(10.dp)
-        ) {
-            Text(text = "Pick images from the library")
-        }
-
-        LazyVerticalGrid(columns = GridCells.Fixed(2)) {
-            items(selectImages) { uri ->
-                Image(
-                    painter = rememberImagePainter(uri),
-                    contentScale = ContentScale.Fit,
-                    contentDescription = null,
+        Box (modifier = Modifier
+            .fillMaxSize()
+            .padding(it)){
+            Column(
+                Modifier.fillMaxSize(),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Button(
+                    onClick = {
+                        writeTextData()
+                        // displaying a toast message
+                        Toast.makeText(context, "File saved.", Toast.LENGTH_SHORT).show()
+                    },
                     modifier = Modifier
-                        .padding(8.dp)
-                        .size(100.dp)
-                )
+                        .wrapContentSize()
+                        .padding(10.dp)
+                ) {
+                    Text(text = "Save a 20MB text file")
+                }
+
+                Button(
+                    onClick = { galleryLauncher.launch("image/*") },
+                    modifier = Modifier
+                        .wrapContentSize()
+                        .padding(10.dp)
+                ) {
+                    Text(text = "Pick images from the library")
+                }
+
+                LazyVerticalGrid(columns = GridCells.Fixed(2)) {
+                    items(selectImages) { uri ->
+                        Image(
+                            painter = rememberImagePainter(uri),
+                            contentScale = ContentScale.Fit,
+                            contentDescription = null,
+                            modifier = Modifier
+                                .padding(8.dp)
+                                .size(100.dp)
+                        )
+                    }
+                }
+
             }
         }
-
     }
 
 }
