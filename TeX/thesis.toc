@@ -19,40 +19,22 @@
 \contentsline {subsection}{\numberline {3.2.4\relax .\enspace }Ionic}{27}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5\relax .\enspace }Comparison}{29}{subsection.3.2.5}%
 \contentsline {subsection}{\numberline {3.2.6\relax .\enspace }Evaluation of cross-platform frameworks}{29}{subsection.3.2.6}%
-\contentsline {chapter}{\numberline {4\relax .\enspace }App performance measurement}{32}{chapter.4}%
-\contentsline {section}{\numberline {4.1\relax .\enspace }Mobile development}{32}{section.4.1}%
-\contentsline {section}{\numberline {4.2\relax .\enspace }Web development}{34}{section.4.2}%
+\contentsline {chapter}{\numberline {4\relax .\enspace }Mobile application performance measurement}{32}{chapter.4}%
 \contentsline {chapter}{\numberline {5\relax .\enspace }Research method}{35}{chapter.5}%
 \contentsline {section}{\numberline {5.1\relax .\enspace }Performance metrics}{35}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1\relax .\enspace }Mobile environment}{35}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2\relax .\enspace }Web environment}{36}{subsection.5.1.2}%
 \contentsline {section}{\numberline {5.2\relax .\enspace }Research scenarios}{36}{section.5.2}%
 \contentsline {section}{\numberline {5.3\relax .\enspace }Testing tools}{37}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1\relax .\enspace }Mobile environment}{37}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2\relax .\enspace }Web environment}{37}{subsection.5.3.2}%
 \contentsline {section}{\numberline {5.4\relax .\enspace }Testing devices}{37}{section.5.4}%
 \contentsline {chapter}{\numberline {6\relax .\enspace }Implementation of sample applications}{38}{chapter.6}%
-\contentsline {section}{\numberline {6.1\relax .\enspace }Mobile environment}{38}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{38}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2\relax .\enspace }Research scenario 2: Animations}{38}{subsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3\relax .\enspace }Research scenario 3: File I/O}{38}{subsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.1.4\relax .\enspace }Research scenario 4: Common UI elements}{38}{subsection.6.1.4}%
-\contentsline {section}{\numberline {6.2\relax .\enspace }Web environment}{38}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{38}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2\relax .\enspace }Research scenario 2: Animations}{38}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3\relax .\enspace }Research scenario 3: File I/O}{38}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4\relax .\enspace }Research scenario 4: Common UI elements}{38}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{38}{section.6.1}%
+\contentsline {section}{\numberline {6.2\relax .\enspace }Research scenario 2: Animations}{38}{section.6.2}%
+\contentsline {section}{\numberline {6.3\relax .\enspace }Research scenario 3: File I/O}{38}{section.6.3}%
+\contentsline {section}{\numberline {6.4\relax .\enspace }Research scenario 4: Common UI elements}{38}{section.6.4}%
 \contentsline {chapter}{\numberline {7\relax .\enspace }Research results}{39}{chapter.7}%
-\contentsline {section}{\numberline {7.1\relax .\enspace }Mobile environment}{39}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{39}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2\relax .\enspace }Research scenario 2: Animations}{39}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3\relax .\enspace }Research scenario 3: File I/O}{39}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4\relax .\enspace }Research scenario 4: Common UI elements}{39}{subsection.7.1.4}%
-\contentsline {section}{\numberline {7.2\relax .\enspace }Web environment}{39}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{39}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2\relax .\enspace }Research scenario 2: Animations}{39}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3\relax .\enspace }Research scenario 3: File I/O}{39}{subsection.7.2.3}%
-\contentsline {subsection}{\numberline {7.2.4\relax .\enspace }Research scenario 4: Common UI elements}{39}{subsection.7.2.4}%
+\contentsline {section}{\numberline {7.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{39}{section.7.1}%
+\contentsline {section}{\numberline {7.2\relax .\enspace }Research scenario 2: Animations}{39}{section.7.2}%
+\contentsline {section}{\numberline {7.3\relax .\enspace }Research scenario 3: File I/O}{39}{section.7.3}%
+\contentsline {section}{\numberline {7.4\relax .\enspace }Research scenario 4: Common UI elements}{39}{section.7.4}%
 \contentsline {chapter}{\numberline {8\relax .\enspace }Discussion}{40}{chapter.8}%
 \contentsline {section}{\numberline {8.1\relax .\enspace }Mobile environment}{40}{section.8.1}%
 \contentsline {section}{\numberline {8.2\relax .\enspace }Web environment}{40}{section.8.2}%
