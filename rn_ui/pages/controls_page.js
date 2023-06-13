@@ -54,7 +54,7 @@ const MySwitch = () => {
     const [toggled, setToggled] = useState(false);
 
     return (
-        <Switch style={styles.item} value={toggled} onValueChange={setToggled} />
+        <Switch style={{ margin: -8 }} value={toggled} onValueChange={setToggled} />
     );
 }
 
