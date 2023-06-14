@@ -54,7 +54,7 @@ const MySwitch = () => {
     const [toggled, setToggled] = useState(false);
 
     return (
-        <Switch style={{ margin: -8 }} value={toggled} onValueChange={setToggled} />
+        <Switch style={{ margin: Platform.OS === 'android' ? -8 : 8 }} value={toggled} onValueChange={setToggled} />
     );
 }
 

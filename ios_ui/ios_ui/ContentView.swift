@@ -14,14 +14,15 @@ struct ContentView: View {
             TabView {
                 ControlsPage()
                     .tabItem{
-                        Label("Controls", systemImage: "person")
+                        Label("Controls", systemImage: "checkmark.circle")
                     }
                 
                 FormPage()
                     .tabItem{
-                        Label("Form", systemImage: "heart.fill")
+                        Label("Form", systemImage: "textformat")
                     }
             }
+            .navigationBarTitle("Research scenario #4")
         }
     }
 }
@@ -135,7 +136,9 @@ struct FormPage: View {
 
 struct ExternalPage: View {
     var body: some View {
-        Text("EEE")
+        Text("External Page")
+            .fontWeight(.bold)
+            .font(.system(size: 24))
     }
 }
 
@@ -145,7 +148,7 @@ struct iOSCheckboxToggleStyle: ToggleStyle {
             configuration.isOn.toggle()
         }, label: {
             HStack {
-                Image(systemName: configuration.isOn ? "checkmark.square" : "square")
+                Image(systemName: configuration.isOn ? "checkmark.square.fill" : "square")
                     .imageScale(.large)
                 configuration.label
             }

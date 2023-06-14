@@ -26,7 +26,7 @@ struct ContentView: View {
                     }
                     .listStyle(PlainListStyle())
                 }
-            .navigationBarTitle(Text("Research scenario #1"))
+            .navigationBarTitle("Research scenario #1")
         }
         }
     

@@ -30,18 +30,18 @@
 \contentsline {section}{\numberline {6.2\relax .\enspace }Research scenario 2: Animations}{38}{section.6.2}%
 \contentsline {section}{\numberline {6.3\relax .\enspace }Research scenario 3: File I/O}{38}{section.6.3}%
 \contentsline {section}{\numberline {6.4\relax .\enspace }Research scenario 4: Common UI elements}{38}{section.6.4}%
-\contentsline {chapter}{\numberline {7\relax .\enspace }Research results}{39}{chapter.7}%
-\contentsline {section}{\numberline {7.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{39}{section.7.1}%
-\contentsline {section}{\numberline {7.2\relax .\enspace }Research scenario 2: Animations}{39}{section.7.2}%
-\contentsline {section}{\numberline {7.3\relax .\enspace }Research scenario 3: File I/O}{39}{section.7.3}%
-\contentsline {section}{\numberline {7.4\relax .\enspace }Research scenario 4: Common UI elements}{39}{section.7.4}%
-\contentsline {chapter}{\numberline {8\relax .\enspace }Discussion}{40}{chapter.8}%
-\contentsline {section}{\numberline {8.1\relax .\enspace }Mobile environment}{40}{section.8.1}%
-\contentsline {section}{\numberline {8.2\relax .\enspace }Web environment}{40}{section.8.2}%
-\contentsline {chapter}{\numberline {9\relax .\enspace }Summary}{41}{chapter.9}%
-\contentsline {section}{\numberline {9.1\relax .\enspace }Contribution}{41}{section.9.1}%
-\contentsline {section}{\numberline {9.2\relax .\enspace }Limitations}{41}{section.9.2}%
-\contentsline {section}{\numberline {9.3\relax .\enspace }Suggestions for future work}{41}{section.9.3}%
-\contentsline {chapter}{Bibliography}{42}{chapter*.28}%
-\contentsline {chapter}{List of Figures}{48}{chapter*.29}%
-\contentsline {chapter}{List of Tables}{49}{chapter*.30}%
+\contentsline {chapter}{\numberline {7\relax .\enspace }Research results}{40}{chapter.7}%
+\contentsline {section}{\numberline {7.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{40}{section.7.1}%
+\contentsline {section}{\numberline {7.2\relax .\enspace }Research scenario 2: Animations}{40}{section.7.2}%
+\contentsline {section}{\numberline {7.3\relax .\enspace }Research scenario 3: File I/O}{40}{section.7.3}%
+\contentsline {section}{\numberline {7.4\relax .\enspace }Research scenario 4: Common UI elements}{40}{section.7.4}%
+\contentsline {chapter}{\numberline {8\relax .\enspace }Discussion}{41}{chapter.8}%
+\contentsline {section}{\numberline {8.1\relax .\enspace }Mobile environment}{41}{section.8.1}%
+\contentsline {section}{\numberline {8.2\relax .\enspace }Web environment}{41}{section.8.2}%
+\contentsline {chapter}{\numberline {9\relax .\enspace }Summary}{42}{chapter.9}%
+\contentsline {section}{\numberline {9.1\relax .\enspace }Contribution}{42}{section.9.1}%
+\contentsline {section}{\numberline {9.2\relax .\enspace }Limitations}{42}{section.9.2}%
+\contentsline {section}{\numberline {9.3\relax .\enspace }Suggestions for future work}{42}{section.9.3}%
+\contentsline {chapter}{Bibliography}{43}{chapter*.28}%
+\contentsline {chapter}{List of Figures}{49}{chapter*.29}%
+\contentsline {chapter}{List of Tables}{50}{chapter*.30}%
