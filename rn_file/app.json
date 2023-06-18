@@ -16,7 +16,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.rn_file",
+      "bundleIdentifier": "com.maciej242450.rn-file",
       "buildNumber": "1.0.0"
     },
     "android": {
@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.rn_file",
+      "package": "com.maciej242450.rn_file",
       "versionCode": 1
     },
     "web": {

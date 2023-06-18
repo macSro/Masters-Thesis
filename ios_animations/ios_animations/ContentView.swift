@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationStack{
+        NavigationView{
             ScrollView {
                 VStack {
                     RowWithRotatingLogos(duration: 1, inverse: false, reverse: false)
@@ -82,7 +82,7 @@ struct RotatingLogo: View {
     var body: some View {
         let rotationAngle = inverse ? 360.0 : -360.0
 
-        return Image(systemName: "apple.logo")
+        return Image(systemName: "heart.fill")
             .resizable()
             .aspectRatio(contentMode: .fit)
             .frame(width: 50, height: 50)
@@ -96,6 +96,7 @@ struct RotatingLogo: View {
             .onAppear {
                 rotation = rotationAngle
             }
+            .background()
     }
 }
 
@@ -106,7 +107,7 @@ struct GrowingLogo: View {
     @State private var scale: CGFloat = 0.0
 
     var body: some View {
-        return Image(systemName: "apple.logo")
+        return Image(systemName: "heart.fill")
             .resizable()
             .aspectRatio(contentMode: .fit)
             .frame(width: size * scale, height: size * scale)

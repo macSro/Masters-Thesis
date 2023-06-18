@@ -104,7 +104,7 @@ struct FormPage: View {
                     .textFieldStyle(.roundedBorder)
                     .padding(8)
                 
-                TextField("Text field 2 (Multiline)", text: $tf2Text, axis: .vertical)
+                TextField("Text field 2 (Multiline)", text: $tf2Text)
                     .textFieldStyle(.roundedBorder)
                     .lineLimit(5)
                     .padding(8)

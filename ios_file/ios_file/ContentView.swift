@@ -16,7 +16,7 @@ struct ContentView: View{
     var columns = Array(repeating: GridItem(.fixed(180), spacing: 8), count: 2)
     
     var body: some View{
-        NavigationStack {
+        NavigationView {
             VStack{
                 Button(action: {
                     saveFile()

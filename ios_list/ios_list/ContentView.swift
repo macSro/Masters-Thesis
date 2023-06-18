@@ -15,7 +15,7 @@ struct ContentView: View {
         
         let list = filter ? listGen.filter{ $0 % 6 == 0} : listGen
         
-        NavigationStack {
+        NavigationView {
             VStack {
                     Toggle("Filter", isOn: $filter)
                         .padding()

@@ -113,9 +113,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.rn_file'
+    namespace 'com.maciej242450.rn_file'
     defaultConfig {
-        applicationId 'com.anonymous.rn_file'
+        applicationId 'com.maciej242450.rn_file'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
