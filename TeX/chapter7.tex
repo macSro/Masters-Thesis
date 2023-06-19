@@ -16,6 +16,7 @@
     \textbf{RAM (Max)}&82 MB&96 MB\\
     \textbf{Power}&4,25 mAh&2,69 mAh\\
     \textbf{FPS (Average)}&54&55\\
+    \textbf{FPS (Min)}&10&38\\
     \textbf{FPS Stability}&93\%&98\%\\
 \end{longtblr}
 
@@ -24,13 +25,14 @@
     label = {tab:app1_results_swift},
 ]{ colspec = { |l|c|c| }, hlines}
     \textbf{Device}&iPhone 7&iPhone 13 mini\\
-    \textbf{CPU (Average)}&32,66\%&\%\\
-    \textbf{CPU (Max)}&89,60\%&\%\\
-    \textbf{RAM (Average)}&13 MB& MB\\
-    \textbf{RAM (Max)}&18 MB& MB\\
-    \textbf{Power}&42 mAh& mAh\\
-    \textbf{FPS (Average)}&55&\\
-    \textbf{FPS Stability}&90\%&\%\\
+    \textbf{CPU (Average)}&32,66\%&31,79\%\\
+    \textbf{CPU (Max)}&89,60\%&56,39\%\\
+    \textbf{RAM (Average)}&13 MB&19 MB\\
+    \textbf{RAM (Max)}&18 MB&23 MB\\
+    \textbf{Power}&42 mAh&24 mAh\\
+    \textbf{FPS (Average)}&55&55\\
+    \textbf{FPS (Min)}&15&42\\
+    \textbf{FPS Stability}&90\%&97\%\\
 \end{longtblr}
 
 \begin{longtblr}[
@@ -38,13 +40,14 @@
     label = {tab:app1_results_flutter},
 ]{ colspec = { |l|c|c|c|c| }, hlines}
     \textbf{Device}&Sony Xperia Z1&Xiaomi Mi 9T Pro&iPhone 7&iPhone 13 mini\\
-    \textbf{CPU (Average)}&6,40\%&2,94\%&41,92\%&\%\\
-    \textbf{CPU (Max)}&11,72\%&6,52\%&51,20\%&\%\\
-    \textbf{RAM (Average)}&69 MB&88 MB&61 MB& MB\\
-    \textbf{RAM (Max)}&74 MB&147 MB&76 MB& MB\\
-    \textbf{Power}&3,76 mAh&2,93 mAh&40,80 mAh& mAh\\
-    \textbf{FPS (Average)}&58&56&59&\\
-    \textbf{FPS Stability}&98\%&98\%&90\%&\%\\
+    \textbf{CPU (Average)}&6,40\%&2,94\%&41,92\%&41,68\%\\
+    \textbf{CPU (Max)}&11,72\%&6,52\%&51,20\%&46,52\%\\
+    \textbf{RAM (Average)}&69 MB&88 MB&61 MB&95 MB\\
+    \textbf{RAM (Max)}&74 MB&147 MB&76 MB&111 MB\\
+    \textbf{Power}&3,76 mAh&2,93 mAh&40,80 mAh&38 mAh\\
+    \textbf{FPS (Average)}&58&56&59&58\\
+    \textbf{FPS (Min)}&35&17&5&46\\
+    \textbf{FPS Stability}&98\%&98\%&90\%&98\%\\
 \end{longtblr}
 
 \begin{longtblr}[
@@ -52,17 +55,174 @@
     label = {tab:app1_results_rn},
 ]{ colspec = { |l|c|c|c|c| }, hlines}
     \textbf{Device}&Sony Xperia Z1&Xiaomi Mi 9T Pro&iPhone 7&iPhone 13 mini\\
-    \textbf{CPU (Average)}&26,06\%&12,04\%&91,18\%&\%\\
-    \textbf{CPU (Max)}&81,69\%&26,49\%&150,56\%&\%\\
-    \textbf{RAM (Average)}&140 MB&153 MB&107 MB& MB\\
-    \textbf{RAM (Max)}&151 MB&181 MB&125 MB& MB\\
-    \textbf{Power}&7,26 mAh&3,64 mAh&47,20 mAh& mAh\\
-    \textbf{FPS (Average)}&55&56&54&\\    
-    \textbf{FPS Stability}&78\%&95\%&78\%&\%\\
+    \textbf{CPU (Average)}&26,06\%&12,04\%&91,18\%&48,64\%\\
+    \textbf{CPU (Max)}&81,69\%&26,49\%&150,56\%&141,89\%\\
+    \textbf{RAM (Average)}&140 MB&153 MB&107 MB&58 MB\\
+    \textbf{RAM (Max)}&151 MB&181 MB&125 MB&68 MB\\
+    \textbf{Power}&7,26 mAh&3,64 mAh&47,20 mAh&37 mAh\\
+    \textbf{FPS (Average)}&55&56&54&52\\
+    \textbf{FPS (Min)}&15&35&7&33\\
+    \textbf{FPS Stability}&78\%&95\%&78\%&96\%\\
 \end{longtblr}
 
 \section{Research scenario 2: Animations}
 
+\begin{longtblr}[
+    caption = {Research scenario 2 results: Kotlin (Source: Own work)},
+    label = {tab:app2_results_kotlin},
+]{ colspec = { |l|c|c| }, hlines}
+    \textbf{Device}&Sony Xperia Z1&Xiaomi Mi 9T Pro\\
+    \textbf{CPU (Average)}&13,56\%&11,96\%\\
+    \textbf{CPU (Max)}&36,79\%&14,18\%\\
+    \textbf{RAM (Average)}&85 MB&140 MB\\
+    \textbf{RAM (Max)}&92 MB&183 MB\\
+    \textbf{Power}&5,88 mAh&3,17 mAh\\
+    \textbf{FPS (Average)}&11&58\\
+    \textbf{FPS (Min)}&10&50\\
+    \textbf{FPS Stability}&97\%&100\%\\
+\end{longtblr}
+
+\begin{longtblr}[
+    caption = {Research scenario 2 results: Swift (Source: Own work)},
+    label = {tab:app2_results_swift},
+]{ colspec = { |l|c|c| }, hlines}
+\textbf{Device}&iPhone 7&iPhone 13 mini\\
+\textbf{CPU (Average)}&26,11\%&33,62\%\\
+\textbf{CPU (Max)}&36,62\%&40,96\%\\
+\textbf{RAM (Average)}&6 MB&9 MB\\
+\textbf{RAM (Max)}&7 MB&10 MB\\
+\textbf{Power}&41 mAh&15,6 mAh\\
+\textbf{FPS (Average)}&59&59\\
+\textbf{FPS (Min)}&50&59\\
+\textbf{FPS Stability}&98\%&100\%\\
+\end{longtblr}
+
+\begin{longtblr}[
+    caption = {Research scenario 2 results: Flutter (Source: Own work)},
+    label = {tab:app2_results_flutter},
+]{ colspec = { |l|c|c|c|c| }, hlines}
+    \textbf{Device}&Sony Xperia Z1&Xiaomi Mi 9T Pro&iPhone 7&iPhone 13 mini\\
+    \textbf{CPU (Average)}&13,29\%&4,10\%&49,78\%&41,65\%\\
+    \textbf{CPU (Max)}&19,67\%&5,17\%&56,48\%&46,99\%\\
+    \textbf{RAM (Average)}&71 MB&84 MB&58 MB&90 MB\\
+    \textbf{RAM (Max)}&86 MB&86 MB&68 MB&106 MB\\
+    \textbf{Power}&4,08 mAh&2,97 mAh&43 mAh&35,6 mAh\\
+    \textbf{FPS (Average)}&55&60&59&60\\
+    \textbf{FPS (Min)}&36&60&49&59\\
+    \textbf{FPS Stability}&97\%&100\%&98\%&100\%\\
+\end{longtblr}
+
+\begin{longtblr}[
+    caption = {Research scenario 2 results: React Native (Source: Own work)},
+    label = {tab:app2_results_rn},
+]{ colspec = { |l|c|c|c|c| }, hlines}
+    \textbf{Device}&Sony Xperia Z1&Xiaomi Mi 9T Pro&iPhone 7&iPhone 13 mini\\
+    \textbf{CPU (Average)}&20,04\%&4,38\%&42,42\%&23,30\%\\
+    \textbf{CPU (Max)}&34,32\%&6,10\%&90,36\%&27,75\%\\
+    \textbf{RAM (Average)}&105 MB&193 MB&90 MB&34 MB\\
+    \textbf{RAM (Max)}&116 MB&221 MB&98 MB&37 MB\\
+    \textbf{Power}&7,50 mAh&2,45 mAh&41 mAh&29,60 mAh\\
+    \textbf{FPS (Average)}&59&60&59&60\\
+    \textbf{FPS (Min)}&28&60&58&58\\
+    \textbf{FPS Stability}&99\%&100\%&93\%&100\%\\
+\end{longtblr}
+
 \section{Research scenario 3: File I/O}
 
+\begin{longtblr}[
+    caption = {Research scenario 3 results: Kotlin (Source: Own work)},
+    label = {tab:app3_results_kotlin},
+]{ colspec = { |l|c|c| }, hlines}
+    \textbf{Device}&Sony Xperia Z1&Xiaomi Mi 9T Pro\\
+    \textbf{CPU (Average)}&2,26\%&1,55\%\\
+    \textbf{CPU (Max)}&16,47\%&7,11\%\\
+    \textbf{RAM (Average)}&68 MB&86 MB\\
+    \textbf{RAM (Max)}&89 MB&123 MB\\
+    \textbf{Power}&1,01 mAh&0,89 mAh\\
+\end{longtblr}
+
+\begin{longtblr}[
+    caption = {Research scenario 3 results: Swift (Source: Own work)},
+    label = {tab:app3_results_swift},
+]{ colspec = { |l|c|c| }, hlines}
+    \textbf{Device}&iPhone 7&iPhone 13 mini\\
+    \textbf{CPU (Average)}&7,29\%&6,97\%\\
+    \textbf{CPU (Max)}&22,27\%&38,84\%\\
+    \textbf{RAM (Average)}&12 MB&95 MB\\
+    \textbf{RAM (Max)}&35 MB&264 MB\\
+    \textbf{Power}&14,2 mAh&11,8 mAh\\
+\end{longtblr}
+
+\begin{longtblr}[
+    caption = {Research scenario 3 results: Flutter (Source: Own work)},
+    label = {tab:app3_results_flutter},
+]{ colspec = { |l|c|c|c|c| }, hlines}
+    \textbf{Device}&Sony Xperia Z1&Xiaomi Mi 9T Pro&iPhone 7&iPhone 13 mini\\
+    \textbf{CPU (Average)}&5,71\%&2,97\%&25,20\%&45,54\%\\
+    \textbf{CPU (Max)}&27,71\%&13,59\%&59,82\%&194,04\%\\
+    \textbf{RAM (Average)}&135 MB&287 MB&109 MB&188 MB\\
+    \textbf{RAM (Max)}&238 MB&525 MB&156 MB&486 MB\\
+    \textbf{Power}&1,8 mAh&1,51 mAh&19 mAh&13 mAh\\
+\end{longtblr}
+
+\begin{longtblr}[
+    caption = {Research scenario 3 results: React Native (Source: Own work)},
+    label = {tab:app3_results_rn},
+]{ colspec = { |l|c|c|c|c| }, hlines}
+    \textbf{Device}&Sony Xperia Z1&Xiaomi Mi 9T Pro&iPhone 7&iPhone 13 mini\\
+    \textbf{CPU (Average)}&11,97\%&3,64\%&16,78\%&18,32\%\\
+    \textbf{CPU (Max)}&30,04\%&12,57\%&98,25\%&92,74\%\\
+    \textbf{RAM (Average)}&177 MB&295 MB&157 MB&162 MB\\
+    \textbf{RAM (Max)}&331 MB&440 MB&396 MB&364 MB\\
+    \textbf{Power}&3,06 mAh&1,01 mAh&13,8 mAh&11,8 mAh\\
+\end{longtblr}
+
 \section{Research scenario 4: Common UI elements}
+
+\begin{longtblr}[
+    caption = {Research scenario 4 results: Kotlin (Source: Own work)},
+    label = {tab:app4_results_kotlin},
+]{ colspec = { |l|c|c| }, hlines}
+    \textbf{Device}&Sony Xperia Z1&Xiaomi Mi 9T Pro\\
+    \textbf{CPU (Average)}&8,22\%&2,23\%\\
+    \textbf{CPU (Max)}&25,78\%&4,55\%\\
+    \textbf{RAM (Average)}&78 MB&127 MB\\
+    \textbf{RAM (Max)}&86 MB&150 MB\\
+    \textbf{Power}&2,44 mAh&1,32 mAh\\
+\end{longtblr}
+
+\begin{longtblr}[
+    caption = {Research scenario 4 results: Swift (Source: Own work)},
+    label = {tab:app4_results_swift},
+]{ colspec = { |l|c|c| }, hlines}
+    \textbf{Device}&iPhone 7&iPhone 13 mini\\
+    \textbf{CPU (Average)}&13,38\%&12,81\%\\
+    \textbf{CPU (Max)}&29,14\%&29,80\%\\
+    \textbf{RAM (Average)}&11 MB&12 MB\\
+    \textbf{RAM (Max)}&14 MB&22 MB\\
+    \textbf{Power}&14,6 mAh&16,8 mAh\\
+\end{longtblr}
+
+\begin{longtblr}[
+    caption = {Research scenario 4 results: Flutter (Source: Own work)},
+    label = {tab:app4_results_flutter},
+]{ colspec = { |l|c|c|c|c| }, hlines}
+    \textbf{Device}&Sony Xperia Z1&Xiaomi Mi 9T Pro&iPhone 7&iPhone 13 mini\\
+    \textbf{CPU (Average)}&4,42\%&1,95\%&45,42\%&34,88\%\\
+    \textbf{CPU (Max)}&19,68\%&4,22\%&69,37\%&50,00\%\\
+    \textbf{RAM (Average)}&76 MB&168 MB&80 MB&116 MB\\
+    \textbf{RAM (Max)}&88 MB&202 MB&105 MB&144 MB\\
+    \textbf{Power}&1,93 mAh&1,33 mAh&24,6 mAh&20,4 mAh\\
+\end{longtblr}
+
+\begin{longtblr}[
+    caption = {Research scenario 4 results: React Native (Source: Own work)},
+    label = {tab:app4_results_rn},
+]{ colspec = { |l|c|c|c|c| }, hlines}
+    \textbf{Device}&Sony Xperia Z1&Xiaomi Mi 9T Pro&iPhone 7&iPhone 13 mini\\
+    \textbf{CPU (Average)}&8,65\%&2,75\%&28,84\%&19,53\%\\
+    \textbf{CPU (Max)}&39,40\%&9,77\%&93,35\%&39,57\%\\
+    \textbf{RAM (Average)}&131 MB&151 MB&111 MB&36 MB\\
+    \textbf{RAM (Max)}&145 MB&176 MB&125 MB&42 MB\\
+    \textbf{Power}&3,2 mAh&1,61 mAh&16,8 mAh&19,8 mAh\\
+\end{longtblr}

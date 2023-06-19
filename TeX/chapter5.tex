@@ -18,8 +18,6 @@ The following metrics are proposed for the research on mobile application perfor
     \item Memory consumption
     \item Power consumption
     \item Frame rate (FPS)
-    \item App size
-    \item Installer size
 \end{itemize}
 
 The variety of those metrics should allow for diversified experiments with valuable outcomes regarding multiple mobile application performance aspects.
@@ -57,15 +55,15 @@ The following research scenarios are proposed in relation to the selected functi
 
 \end{itemize}
 
-\section{Testing tools}
+\section{Testing tool}
 
+IDEs such as Android Studio and Xcode offer built-in profilers that can be utilized for performance testing during mobile application development. However, in case of analyzing more than one platform, multiple profilers would have to be used as those IDEs support only a single operation system each. Therefore, in order to produce the most comparable results, \emph{GameBench Studio PRO}, a standalone testing tool, has been selected for the purpose of this thesis.
 
-<<DO SKONCZENIA>>
-% TODO
+\emph{GameBench Studio PRO} is a performance monitoring tool which can be used for both Android and iOS applications. It is mostly dedicated to mobile game profiling but nevertheless it can be successfully used with virtually any mobile app. Some of the key features offered by the tool are: a Web dashboard for session management and a wide range of supported metrics (CPU, GPU, RAM, Battery and Network usage, Frame rendering, Data download and upload).
 
 \section{Testing devices}
 
-This section applies to mobile testing only. Table \ref{tab:testing_devices} contains technical specification of the devices used as the environment for experiments.
+Table \ref{tab:testing_devices} contains technical specification of the devices used as the environment for experiments.
 
 \begin{longtblr}[
     caption = {Testing devices (Source: Own work based on \cite{mgsm_apple_iphone_7,mgsm_apple_iphone_13_mini,mgsm_sony_xperia_z1,mgsm_xiaomi_9t_pro})},
@@ -73,7 +71,7 @@ This section applies to mobile testing only. Table \ref{tab:testing_devices} con
 ]{ colspec = { |l|X|X|X|X| }, hlines}
     \textbf{Device}&Sony Xperia Z1&Xiaomi Mi 9T Pro&iPhone 7&iPhone 13 mini\\
     \textbf{Released}&Q3 2013&Q3 2019&Q3 2016&Q3 2021\\
-    \textbf{OS}&Android 5.1.1&Android 11&iOS 15.7.3&iOS ???\\
+    \textbf{OS}&Android 5.1.1&Android 11&iOS 15.7.3&iOS 16.5\\
     \textbf{CPU}&Qualcomm Snapdragon 800 (2.20GHz, 4-core)&Qualcomm Snapdragon 855 (2.84GHz, 8-core)&Apple A10 Fusion (2.37GHz, 4-core)&Apple A15 Bionic (3.22GHz, 6-core)\\
     \textbf{RAM}&2GB&6GB&2GB&4GB\\
     \textbf{Display}&TFT 1080x1920px (5.00") 441ppi&AMOLED 1080x2340px (6.39") 403ppi&IPS TFT 750x1334px (4.70") 326ppi&OLED 1080x2340px (5.40") 477ppi\\
