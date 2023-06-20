@@ -16,31 +16,30 @@
 \contentsline {subsection}{\numberline {3.2.1\relax .\enspace }Cross-platform development approaches}{17}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2\relax .\enspace }Flutter}{20}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3\relax .\enspace }React Native}{23}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4\relax .\enspace }Ionic}{27}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5\relax .\enspace }Comparison}{29}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6\relax .\enspace }Evaluation of cross-platform frameworks}{29}{subsection.3.2.6}%
-\contentsline {chapter}{\numberline {4\relax .\enspace }Mobile application performance measurement}{32}{chapter.4}%
-\contentsline {chapter}{\numberline {5\relax .\enspace }Research method}{35}{chapter.5}%
-\contentsline {section}{\numberline {5.1\relax .\enspace }Performance metrics}{35}{section.5.1}%
-\contentsline {section}{\numberline {5.2\relax .\enspace }Research scenarios}{35}{section.5.2}%
-\contentsline {section}{\numberline {5.3\relax .\enspace }Testing tool}{37}{section.5.3}%
-\contentsline {section}{\numberline {5.4\relax .\enspace }Testing devices}{37}{section.5.4}%
-\contentsline {chapter}{\numberline {6\relax .\enspace }Implementation of sample applications}{38}{chapter.6}%
-\contentsline {section}{\numberline {6.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{38}{section.6.1}%
-\contentsline {section}{\numberline {6.2\relax .\enspace }Research scenario 2: Animations}{39}{section.6.2}%
-\contentsline {section}{\numberline {6.3\relax .\enspace }Research scenario 3: File I/O}{40}{section.6.3}%
-\contentsline {section}{\numberline {6.4\relax .\enspace }Research scenario 4: Common UI elements}{41}{section.6.4}%
-\contentsline {section}{\numberline {6.5\relax .\enspace }Key takeaways obtained during the implementation process}{43}{section.6.5}%
-\contentsline {chapter}{\numberline {7\relax .\enspace }Research results}{45}{chapter.7}%
-\contentsline {section}{\numberline {7.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{45}{section.7.1}%
-\contentsline {section}{\numberline {7.2\relax .\enspace }Research scenario 2: Animations}{46}{section.7.2}%
-\contentsline {section}{\numberline {7.3\relax .\enspace }Research scenario 3: File I/O}{48}{section.7.3}%
-\contentsline {section}{\numberline {7.4\relax .\enspace }Research scenario 4: Common UI elements}{49}{section.7.4}%
-\contentsline {chapter}{\numberline {8\relax .\enspace }Discussion}{52}{chapter.8}%
-\contentsline {chapter}{\numberline {9\relax .\enspace }Summary}{53}{chapter.9}%
-\contentsline {section}{\numberline {9.1\relax .\enspace }Contribution}{53}{section.9.1}%
-\contentsline {section}{\numberline {9.2\relax .\enspace }Limitations}{53}{section.9.2}%
-\contentsline {section}{\numberline {9.3\relax .\enspace }Suggestions for future work}{53}{section.9.3}%
-\contentsline {chapter}{Bibliography}{54}{chapter*.28}%
-\contentsline {chapter}{List of Figures}{60}{chapter*.29}%
-\contentsline {chapter}{List of Tables}{62}{chapter*.30}%
+\contentsline {subsection}{\numberline {3.2.4\relax .\enspace }Comparison}{27}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5\relax .\enspace }Evaluation of cross-platform frameworks}{27}{subsection.3.2.5}%
+\contentsline {chapter}{\numberline {4\relax .\enspace }Mobile application performance measurement}{29}{chapter.4}%
+\contentsline {chapter}{\numberline {5\relax .\enspace }Research method}{32}{chapter.5}%
+\contentsline {section}{\numberline {5.1\relax .\enspace }Performance metrics}{32}{section.5.1}%
+\contentsline {section}{\numberline {5.2\relax .\enspace }Research scenarios}{32}{section.5.2}%
+\contentsline {section}{\numberline {5.3\relax .\enspace }Testing tool}{34}{section.5.3}%
+\contentsline {section}{\numberline {5.4\relax .\enspace }Testing devices}{34}{section.5.4}%
+\contentsline {chapter}{\numberline {6\relax .\enspace }Implementation of sample applications}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{35}{section.6.1}%
+\contentsline {section}{\numberline {6.2\relax .\enspace }Research scenario 2: Animations}{36}{section.6.2}%
+\contentsline {section}{\numberline {6.3\relax .\enspace }Research scenario 3: File I/O}{37}{section.6.3}%
+\contentsline {section}{\numberline {6.4\relax .\enspace }Research scenario 4: Common UI elements}{38}{section.6.4}%
+\contentsline {section}{\numberline {6.5\relax .\enspace }Key takeaways obtained during the implementation process}{40}{section.6.5}%
+\contentsline {chapter}{\numberline {7\relax .\enspace }Research results}{41}{chapter.7}%
+\contentsline {section}{\numberline {7.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{41}{section.7.1}%
+\contentsline {section}{\numberline {7.2\relax .\enspace }Research scenario 2: Animations}{42}{section.7.2}%
+\contentsline {section}{\numberline {7.3\relax .\enspace }Research scenario 3: File I/O}{44}{section.7.3}%
+\contentsline {section}{\numberline {7.4\relax .\enspace }Research scenario 4: Common UI elements}{45}{section.7.4}%
+\contentsline {chapter}{\numberline {8\relax .\enspace }Discussion}{48}{chapter.8}%
+\contentsline {chapter}{\numberline {9\relax .\enspace }Summary}{49}{chapter.9}%
+\contentsline {section}{\numberline {9.1\relax .\enspace }Contribution}{49}{section.9.1}%
+\contentsline {section}{\numberline {9.2\relax .\enspace }Limitations}{49}{section.9.2}%
+\contentsline {section}{\numberline {9.3\relax .\enspace }Suggestions for future work}{49}{section.9.3}%
+\contentsline {chapter}{Bibliography}{50}{chapter*.24}%
+\contentsline {chapter}{List of Figures}{56}{chapter*.25}%
+\contentsline {chapter}{List of Tables}{58}{chapter*.26}%

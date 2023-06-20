@@ -7,8 +7,7 @@ As the term suggests, cross-platform or multi-platform frameworks enable to crea
 
 The main advantage of cross-platform development over native development is in line with its primary goal, which is the ability to create and maintain a single codebase, no matter the number of target platforms. Moreover, as described in the chapter \ref{chap:native}, Android operating system suffers from high level of fragmentation which can be addressed with cross-platform framework as well. Being able to operate on a single codebase results in the development costs decrease. Implementation is more time-efficient without the need to build multiple projects. This remains true for post-release support in the form of updating versions and handling bugs or change requests. Cross-platform approach is also lighter on resources, requiring just a single development team, which additionally removes possible collaboration issues between teams that can occur in native approach. In the past, it would be assumed it is easier to gather an experienced team for native development, however currently the most popular multi-platform frameworks are mature enough to have created active communities with high level of know-how \cite{approach_to_assess_performance_case_study,comparison_perf_looks_flutter_native,comp_analysis_hybrid_frameworks}.
 
-There are differences between available cross-platform frameworks, especially in the context of
-architecture or rendering and compilation method. They will be described in the following chapters. Essentially, most of them require a middle layer that connects the app with the system and translates the commands to be natively called. This is considered to be a possible root of performance decrease \cite{appdynamics_mobile_app_performance}. And although a single workspace is used during development and testing, in order to publish the final application to different app stores (e.g. Google Play Store, App Store), there must be performed a build for each target platform to acquire separate app bundles that can then be uploaded \cite{comp_study_hybrid}.
+There are differences between available cross-platform frameworks, especially in the context of architecture or rendering and compilation method. They will be described in the following chapters. Essentially, most of them require a middle layer that connects the app with the system and translates the commands to be natively called. This is considered to be a possible root of performance decrease \cite{appdynamics_mobile_app_performance}. And although a single workspace is used during development and testing, in order to publish the final application to different app stores (e.g. Google Play Store, App Store), there must be performed a build for each target platform to acquire separate app bundles that can then be uploaded \cite{comp_study_hybrid}.
 
 As explained in the previous chapter, different operating systems usually have different guidelines provided when it comes to user interface (UI) design. This might become an issue depending on design assumptions. Considering the user's point of view, there are three approaches to UI implementation. Firstly, the app appearance may be identical regardless of the platform it runs on. In this case, the platform-specific conventions may not be fulfilled and only when implemented correctly it will not cause user experience decrease. Secondly, the app may have a completely system-compliant look and feel. In this case, the issue may be raised as to how efficient it is to implement disjointed layouts in the cross-platform solution compared to switching to the native approach. Finally, there is an intermediate approach which assumes that most of the app elements are shared between platforms, but there are some that are platform-specific, e.g., popups, action buttons \cite{cross_platform_ux,baseline_cross_platform}.
 
@@ -19,7 +18,7 @@ As explained in the previous chapter, different operating systems usually have d
     \label{fig:trends_cross_platform}
 \end{figure}
 
-Despite the existing assumption that cross-platform frameworks might produce applications suffering from performance decrease, their popularity significantly grew during the past couple of years. The Figure \ref{fig:trends_cross_platform} shows the Google search popularity for the phrase ``cross platform app development''. The upward trend is clearly visible, which depicts the big interest in the topic amongst online users. Apache Cordova and Xamarin are examples of multi-platform frameworks which were the most popular in the beginning, however more recent solutions have already surpassed them. In Figure \ref{fig:trends_comparison} the rapid rise of Flutter and React Native can be observed as well as the ongoing importance of Ionic. These three frameworks are different from each other but still share the fact that they gather big user groups. For that reason, they have been selected to undergo a review and performance analysis inline with the goal of this thesis.
+Despite the existing assumption that cross-platform frameworks might produce applications suffering from performance decrease, their popularity significantly grew during the past couple of years. The Figure \ref{fig:trends_cross_platform} shows the Google search popularity for the phrase ``cross platform app development''. The upward trend is clearly visible, which depicts the big interest in the topic amongst online users. Apache Cordova and Xamarin are examples of multi-platform frameworks which were the most popular in the beginning, however more recent solutions have already surpassed them. In Figure \ref{fig:trends_comparison} the rapid rise of Flutter and React Native can be observed. These three frameworks are different from each other but still share the fact that they gather big user groups. For that reason, they have been selected to undergo a review and performance analysis inline with the goal of this thesis.
 
 \begin{figure}[h]
     \centering
@@ -230,60 +229,23 @@ The complete rendering process takes place across three threads: \emph{UI}, \emp
 
 As explained in the Rendering section, React Native's user interface components end up being converted into platform native components. Therefore, in the context of UI design and user experience level, it is on par with the native development itself. This remains true even when extending the application to support web, although in this case some limitations may arise as not all the React Native components have their web component equivalent, e.g. when needing to access mobile platform native features \cite{harsh_complete_guide_to_rn_web}.
 
-\subsection{Ionic}
-
-Ionic is a cross-platform mobile framework belonging to the hybrid approach explained above. It enables building Android and iOS apps as well as Progressive Web Apps. It is the oldest out of the three solutions described in this chapter, with its initial release being in 2013. Ionic is platform-agnostic, therefore the app itself can be implemented with a variety of web technologies, e.g. HTML+CSS+JS, React, Angular or Vue. Some of the more popular apps built with Ionic are Sanvello, Sworkit, National Health Service and Instant Pot \cite{ionic_customers,ionic_docs_overview}.
-
-\subsubsection*{Architecture}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{img/ionic_architecture}
-    \caption{Ionic (right) vs native (left) architecture (Source: \cite{ionic_docs_architecture})}
-    \label{fig:ionic_architecture}
-\end{figure}
-
-The high-level model of an Ionic app architecture is presented in Figure \ref{fig:ionic_architecture} with a side-to-side comparison to a truly native app architecture. As can be expected in the case of a hybrid cross-platform framework, the additional components are: \emph{Web View} and \emph{Bridge}. The development results in a web app which runs inside a \emph{Web View}. Communication between the app and the target platform is facilitated by messaging across the \emph{Native Bridge} and \emph{Native Runtime}. Ionic is simply a UI toolkit for cross-platform app creation, meaning it provides tools for user interface development. On the other hand, \emph{Capacitor} is the primary solution combined with Ionic to provide the possibility of multi-target deployment through providing the above-mentioned \emph{Native Bridge} and \emph{Native Runtime}.
-The former utilizes a \emph{runtime JS API} and is responsible for providing an interface for plugins and native methods, as well as passing the messages. The latter handles plugin initialization and executes requested native methods in an asynchronous manner \cite{capacitor_how_works,ionic_docs_architecture,ionic_web_native}.
-
-\subsubsection*{Web support}
-
-Ionic allows to deploy the application as a Progressive Web App and native apps in parallel based on the single codebase. No architectural changes are required for such a use-case, as it is enabled by \emph{Capacitor} itself \cite{ionic_docs_pwa}.
-
-\subsubsection*{Rendering}
-
-Ionic utilizes web technologies, therefore the rendering process is dependent on the choice of such technology. For the sake of this thesis only Ionic with React will be considered, thus the Ionic's rendering process will be simply the React's rendering process.
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{img/react_render}
-    \caption{React rendering flow (Source: \cite{imoh_react_rendering})}
-    \label{fig:react_render}
-\end{figure}
-
-React rendering pipeline consists of two phases: \emph{Render} and \emph{Commit} (see Figure \ref{fig:react_render}). The former constitues of \emph{JSX} code being used to create the \emph{React Element Tree} which is a \emph{JS} representation of HTML Document Object Model (DOM). In the case of view updating, the elements which have been affected by changes are marked. DOM manipulation is a costly operation, therefore React creates a virtual DOM and only rebuilds parts of the real DOM which need to be updated. The algorithm used to claculate the most efficient re-render is the \emph{Diffing Algorithm}. In the \emph{Commit} phase, the actual DOM is updated based on the previous phase outcomes \cite{imoh_react_rendering}.
-
-\subsubsection*{User interface design}
-
-Being a hybrid framework, Ionic does not use native layout components when rendering the user interface. Instead, Ionic offers configurable components which are visually similar to their native equivalents. Furthermore, they are adaptive to the platform. For Android and web, Material Design is imitated and for iOS, the native controls are mimicked as well. The potential issue to consider is the fact that Ionic only supports Material Design 2, while Material Design 3, or Material You, has been released in 2021 and many tools have already adapted to it. When combining Ionic with Capacitor, it becomes possible to build layouts using native components, however they will still be inside the web view, rather than embedded into the view hierarchy \cite{ionic_docs_core_concepts,ionic_blog_capacitor}.
-
 \subsection{Comparison}
 
-The following Table \ref{tab:framework_comparison} includes the summarized comparison between Flutter, React Native and Ionic.
+The following Table \ref{tab:framework_comparison} includes the summarized comparison between Flutter and React Native.
 
 \begin{table}[ht]
     \centering
     \caption{Cross-platform framework comparison (Source: Own work)}
     \label{tab:framework_comparison}
-    \begin{tabular}{ |l| >{\centering}p{35mm}| >{\centering}p{35mm}| >{\centering\arraybackslash}p{35mm}| }
+    \begin{tabular}{ |l| >{\centering}p{47mm} | >{\centering\arraybackslash}p{47mm} | }
         \hline
-        \multicolumn{1}{|c|}{\textbf{Characteristic}}&\textbf{Flutter}&\textbf{React Native}&\textbf{Ionic}\\
+        \multicolumn{1}{|c|}{\textbf{Characteristic}}&\textbf{Flutter}&\textbf{React Native}\\
         \hline
-        Type&Cross-compiled&Interpreted&Hybrid\\
+        Type&Cross-compiled&Interpreted\\
         \hline
-        Initial release&2017&2015&2013\\
+        Initial release&2017&2015\\
         \hline
-        Current version&3.10&0.71&7.0\\
+        Current version&3.10&0.71\\
         \hline
         Platforms&
         \begin{itemize}[nosep]
@@ -293,25 +255,20 @@ The following Table \ref{tab:framework_comparison} includes the summarized compa
             \item Windows
             \item macOS
             \item Linux
-        \end{itemize}&
+        \end{itemize}
+        &
         \begin{itemize}[nosep]
             \item Android
             \item iOS
             \item Web (requires a plugin)
-        \end{itemize}&
-        \begin{itemize}[nosep]
-            \item Android
-            \item iOS
-            \item Web
-            \item Windows (with Electron)
-            \item macOS (with Electron)
-        \end{itemize}\\
+        \end{itemize}
+        \\
         \hline
-        Technology&Dart&React&Any web technology\\
+        Technology&Dart&React\\
         \hline
-        Rendering&Canvas drawing&Native components&Web View wrapper\\
+        Rendering&Canvas drawing&Native components\\
         \hline
-        Native APIs&Direct access&Direct access&Indirect access\\
+        Native APIs&Direct access&Direct access\\
         \hline
     \end{tabular}
 \end{table}
