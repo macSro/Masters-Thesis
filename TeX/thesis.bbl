@@ -84,6 +84,18 @@ Flutter, \emph{Impeller rendering engine}, \url{https://docs.flutter.dev/perf/im
 \bibitem{flutter_campus_dialog}
 {Flutter Campus}, \url{https://www.fluttercampus.com/guide/110/how-to-show-material-alert-and-cupertino-dialog-in-flutter/}. Accessed 16 May 2023.
 
+\bibitem{gamebench_docs_cpu}
+GameBench, \url{https://docs.gamebench.net/web-dashboard/the-cpu-pane/}. Accessed 21 June 2023.
+
+\bibitem{gamebench_docs_ram}
+GameBench, \url{https://docs.gamebench.net/web-dashboard/the-memory-pane/}. Accessed 21 June 2023.
+
+\bibitem{gamebench_docs_battery}
+GameBench, \url{https://docs.gamebench.net/web-dashboard/the-battery-pane/}. Accessed 21 June 2023.
+
+\bibitem{gamebench_docs_fps}
+GameBench, \url{https://docs.gamebench.net/web-dashboard/the-performance-pane/}. Accessed 21 June 2023.
+
 \bibitem{swift_objective_c_new_language}
 García, C.G., Espada, J.P., García-Bustelo, B.P., Lovelle, J.M.C., \emph{Swift vs. objective-c: A new programming language}, International Journal of Artificial Intelligence and Interactive Multimedia. 2015, Volume~3, pages 74--81.
 

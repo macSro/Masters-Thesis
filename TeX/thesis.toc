@@ -30,16 +30,16 @@
 \contentsline {section}{\numberline {6.3\relax .\enspace }Research scenario 3: File I/O}{37}{section.6.3}%
 \contentsline {section}{\numberline {6.4\relax .\enspace }Research scenario 4: Common UI elements}{38}{section.6.4}%
 \contentsline {section}{\numberline {6.5\relax .\enspace }Key takeaways obtained during the implementation process}{40}{section.6.5}%
-\contentsline {chapter}{\numberline {7\relax .\enspace }Research results}{41}{chapter.7}%
-\contentsline {section}{\numberline {7.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{41}{section.7.1}%
-\contentsline {section}{\numberline {7.2\relax .\enspace }Research scenario 2: Animations}{42}{section.7.2}%
-\contentsline {section}{\numberline {7.3\relax .\enspace }Research scenario 3: File I/O}{44}{section.7.3}%
-\contentsline {section}{\numberline {7.4\relax .\enspace }Research scenario 4: Common UI elements}{45}{section.7.4}%
-\contentsline {chapter}{\numberline {8\relax .\enspace }Discussion}{48}{chapter.8}%
-\contentsline {chapter}{\numberline {9\relax .\enspace }Summary}{49}{chapter.9}%
-\contentsline {section}{\numberline {9.1\relax .\enspace }Contribution}{49}{section.9.1}%
-\contentsline {section}{\numberline {9.2\relax .\enspace }Limitations}{49}{section.9.2}%
-\contentsline {section}{\numberline {9.3\relax .\enspace }Suggestions for future work}{49}{section.9.3}%
-\contentsline {chapter}{Bibliography}{50}{chapter*.24}%
-\contentsline {chapter}{List of Figures}{56}{chapter*.25}%
-\contentsline {chapter}{List of Tables}{58}{chapter*.26}%
+\contentsline {chapter}{\numberline {7\relax .\enspace }Experiment results}{41}{chapter.7}%
+\contentsline {section}{\numberline {7.1\relax .\enspace }Research scenario 1: List scrolling and filtering}{42}{section.7.1}%
+\contentsline {section}{\numberline {7.2\relax .\enspace }Research scenario 2: Animations}{44}{section.7.2}%
+\contentsline {section}{\numberline {7.3\relax .\enspace }Research scenario 3: File I/O}{46}{section.7.3}%
+\contentsline {section}{\numberline {7.4\relax .\enspace }Research scenario 4: Common UI elements}{47}{section.7.4}%
+\contentsline {chapter}{\numberline {8\relax .\enspace }Research discussion}{49}{chapter.8}%
+\contentsline {chapter}{\numberline {9\relax .\enspace }Summary}{50}{chapter.9}%
+\contentsline {section}{\numberline {9.1\relax .\enspace }Contribution}{50}{section.9.1}%
+\contentsline {section}{\numberline {9.2\relax .\enspace }Limitations}{50}{section.9.2}%
+\contentsline {section}{\numberline {9.3\relax .\enspace }Suggestions for future work}{50}{section.9.3}%
+\contentsline {chapter}{Bibliography}{52}{chapter*.24}%
+\contentsline {chapter}{List of Figures}{58}{chapter*.25}%
+\contentsline {chapter}{List of Tables}{60}{chapter*.26}%

@@ -9,6 +9,26 @@ use-cases? (consider which metrics are important in which cases, e.g. cpu for ol
 
 \section{Contribution}
 
+
+
 \section{Limitations}
 
+There are two main limitations concerning this thesis that may affect the acquired results to some extent: the iOS testing method and the device limit.
+
+The former is caused by the lack of access to \emph{Apple Developer Program} which is a paid membership (\$99) enabling complete iOS app testing and deployment. It is not possible to create an App Store bundle (\emph{.ipa} file) without being subscribed to the membership. Therefore, for the purpose of this thesis, sample apps have been installed on the device directly from Xcode in profile mode. Arguably, this may have some influence on the results of testing; however, it cannot be confirmed without access to the program.
+
+The other limitation is the device limit. The experiments have been performed using four smartphones, two per operating system. Although they have been selected in a way to provide diversified results by choosing old and new devices with different operating system versions, in order to achieve the most reliable results, even more devices could be used. This would not only cover a wider range of operating system versions and hardware specifications, but could also cover the missing mobile device type: tablets.
+
 \section{Suggestions for future work}
+
+The research conducted for the purpose of this master's thesis could definitely be extended. There are different improvement directions that could be taken.
+
+First and foremost, the limitations described in the previous chapter could be eliminated. The experiments concerning iOS applications could be repeated with access to \emph{Apple Developer Program}. The number of devices could be increased to cover more operating systems and device types.
+
+Furthermore, some other cross-platform frameworks could be included in the analysis, e.g., \emph{Ionic} or \emph{Kotlin Multiplatform}. Especially the second one should yield worthwhile results considering it is still a novelty accessible only in Beta version.
+
+Another aspect of the research that could be enhanced is the choice of sample applications. For the most valuable outcome, ``complete (production-level)'' apps would have to be implemented, thus providing a true real-life comparison.
+
+Moreover, the scope of this thesis is limited to the mobile platform. However, many cross-platform frameworks cover more platforms. The experiment environment could be extended by considering the web and/or desktop apps (Windows, macOS, or Linux). Of course, such a task carries a large volume of additional implementation work because each platform requires the development of a native equivalent to the cross-platform solution.
+
+Finally, even without performing any modifications to the scope of the research proposed in this thesis, the experiments could be conducted again after further breaking changes to the included technologies, which will surely occur considering the continuous growth of cross-platform development.

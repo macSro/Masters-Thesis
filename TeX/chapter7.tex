@@ -1,13 +1,62 @@
 % !TEX encoding = UTF-8 Unicode 
 % !TEX root = praca.tex
 
-\chapter{Research results}
+\chapter{Experiment results}
 
-5 runs each test
+This chapter contains a complete summary of results obtained through the testing process carried out with \emph{GameBench Studio PRO}. Each research scenario yielded four mobile applications, one for each of the considered native and cross-platform technologies. In order to acquire the most reliable results, each app has been tested five times consecutively for a period of one minute. Between each application run, app data was cleared from the device. Afterward, averages and maxima were calculated, and the obtained data is presented in the tables below.
 
-Describe metrics
+\bigskip
+
+The general choice of performance metrics is described in Chapter \ref{chap:performance_metrics}. The specific measurements collected for further analysis, corresponding to the table rows, are:
+
+\begin{itemize}
+    \item \textbf{CPU (Average)}
+    
+    This metric measures the percentage of CPU capacity used by the app. It is calculated differently for Android and iOS. It directly affects power usage. In the case of Android, the normalized value in the range 0-100\% is obtained based on CPU load, the number of available cores, and the frequency. For quad-core CPUs, the consistent value of 25\% is considered to be an issue, as this means one of the cores is being totally occupied by the app. In the case of iOS, CPU load is measured per core; therefore, the maximum value can be 400\% for a quad-core CPU, etc. Consistently high values should be analyzed \cite{gamebench_docs_cpu}. In each table, the average value of five recorded sessions is reported.
+
+    \bigskip
+
+    \item \textbf{CPU (Max)}
+    
+    This is the same metric as above. Average CPU usage is not enough to discover potential spikes. In each table, the maximum value of five recorded sessions is reported.
+
+    \bigskip
+
+    \item \textbf{RAM (Average)}
+    
+    This metric measures the amount of memory consumed by the app. This is especially important for low-end devices that offer a smaller amount of memory. Also, unreasonably high values could indicate the existence of memory leaks and cause crashes \cite{gamebench_docs_ram}. In each table, the average value of five recorded sessions is reported.
+
+    \bigskip
+
+    \item \textbf{RAM (Max)}
+    
+    This is the same metric as above. Average memory consumption is not enough to discover potential spikes. In each table, the maximum value of five recorded sessions is reported.
+
+    \bigskip
+
+    \item \textbf{Power}
+    
+    This metric measures the amount of power consumed by the app. It is acquired directly in the case of Qualcomm Snapdragon and Samsung Exynos CPUs and calculated in the case of iOS devices. Thanks to that, the measurement data is more precise than the value reported by the operating system \cite{gamebench_docs_battery}. In each table, the average value of five recorded sessions is reported.
+
+    \bigskip
+
+    \item \textbf{FPS (Average)}
+    
+    This metric measures the frame rate (the number of frames rendered each second), which is directly related to the observed smoothness. The goal should be to achieve 60 FPS, which is the frame rate of the operating system \cite{gamebench_docs_fps}. In each table, the average value of five recorded sessions is reported.
+
+    \bigskip
+
+    \item \textbf{FPS Stability}
+    
+    This metric measures the percentage of the app run with the frame rate being at most 20\% higher or lower than the average. The result of 80\%+ is considered to be ``good'' and stable \cite{gamebench_docs_fps}. In each table, the average of five recorded sessions is reported.
+
+    \bigskip
+
+\end{itemize}
 
 \section{Research scenario 1: List scrolling and filtering}
+
+Tables \ref{tab:app1_results_kotlin}--\ref{tab:app1_results_rn} contain the values obtained from the sessions performed in the first sample app corresponding to the Research scenario 1. The test was performed manually. The list was scrolled down and up while getting filtered multiple times along the way. 
 
 \begin{longtblr}[
     caption = {Research scenario 1 results: Kotlin (Source: Own work)},
@@ -71,6 +120,8 @@ Describe metrics
 
 \section{Research scenario 2: Animations}
 
+Tables \ref{tab:app2_results_kotlin}--\ref{tab:app2_results_rn} contain the values obtained from the sessions performed in the second sample app corresponding to the Research scenario 2. The test was performed automatically. The app was opened and left running as the animations were repeated in the loop. 
+
 \begin{longtblr}[
     caption = {Research scenario 2 results: Kotlin (Source: Own work)},
     label = {tab:app2_results_kotlin},
@@ -131,7 +182,11 @@ Describe metrics
     \textbf{FPS Stability}&99\%&100\%&93\%&100\%\\
 \end{longtblr}
 
+\clearpage
+
 \section{Research scenario 3: File I/O}
+
+Tables \ref{tab:app3_results_kotlin}--\ref{tab:app3_results_rn} contain the values obtained from the sessions performed in the third sample app corresponding to the Research scenario 3. The test was performed manually. Firstly, the text file was saved on the device three times by clicking on the relevant button. Secondly, twelve images were loaded from the device through an image picker and displayed. The frame rate metrics were excluded in this scenario because FPS were registered as being equal to 0 while waiting for the file to be saved or images to be uploaded without any screen movement as no new frames would be rendered. Therefore, the results did not provide much value.
 
 \begin{longtblr}[
     caption = {Research scenario 3 results: Kotlin (Source: Own work)},
@@ -183,6 +238,8 @@ Describe metrics
 
 \section{Research scenario 4: Common UI elements}
 
+Tables \ref{tab:app4_results_kotlin}--\ref{tab:app4_results_rn} contain the values obtained from the sessions performed in the fourth sample app corresponding to the Research scenario 4. The test was performed manually. Firstly, navigation to the External Page was invoked three times consecutively via the relevant button. After that, all the controls were used multiple times, e.g., the switches were toggled and the slider was adjusted. Finally, navigation to the Form Page was invoked via the bottom tab bar, and different types of text fields were filled out sequentially. The frame rate metrics were excluded in this scenario because FPS was registered as being equal to 0 in each second without activity. Therefore, the results did not provide much value.
+
 \begin{longtblr}[
     caption = {Research scenario 4 results: Kotlin (Source: Own work)},
     label = {tab:app4_results_kotlin},
@@ -230,3 +287,7 @@ Describe metrics
     \textbf{RAM (Max)}&145 MB&176 MB&125 MB&42 MB\\
     \textbf{Power}&3,2 mAh&1,61 mAh&16,8 mAh&19,8 mAh\\
 \end{longtblr}
+
+This chapter should be viewed as a container for the data acquired from the experiments. Actual analysis and comparisons are realized in the following chapter.
+
+\clearpage
