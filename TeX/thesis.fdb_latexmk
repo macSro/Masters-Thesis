@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex thesis"] 1687308197 "thesis.aux" "thesis.bbl" "thesis" 1687308212 0
+["bibtex thesis"] 1687310384 "thesis.aux" "thesis.bbl" "thesis" 1687310636 0
   "./bibliography.bib" 1687300258 26759 8b84008f93506bd37b42fa605eae79a3 ""
   "./dyplom.bst" 1683312429 28166 b94d5ff4e0beb504e96ee4ac5c846535 ""
-  "thesis.aux" 1687308211 45703 5a8e2fe330a580c41f850ea60fd2ec35 "pdflatex"
+  "thesis.aux" 1687310635 45703 acd94d981483f8f72778e504ded77b65 "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1687308197 "/Users/maciejsroczek/Desktop/University/MastersThesis/TeX/thesis.tex" "thesis.pdf" "thesis" 1687308212 0
+["pdflatex"] 1687310621 "/Users/maciejsroczek/Desktop/University/MastersThesis/TeX/thesis.tex" "thesis.pdf" "thesis" 1687310636 0
   "/Users/maciejsroczek/Desktop/University/MastersThesis/TeX/thesis.tex" 1687306371 1457 b75db72cbc3b23d3ab0b78ae130fc289 ""
-  "/dev/null" 1687308209 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1687310635 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc" 1529098226 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -227,7 +227,7 @@
   "_minted-thesis/B589A8AB802B4FC030372A410B39AE1F792D8CF8BBD8A22EA6C2BD5F98763BB7.pygtex" 1687264987 81 dd87ff6de5a7cc594fa52e252e7a852d ""
   "_minted-thesis/default.pygstyle" 1684421314 6365 683ea4fd81022f120108d52c508c17f9 ""
   "abstract.tex" 1687267857 2034 a193fdc0e34223147f736f9ed122e48b ""
-  "chapter1.tex" 1687267857 5452 fa2b46f38772c2be7a88cd6434ad9022 ""
+  "chapter1.tex" 1687309652 5489 ee948f5f6b53940a5dde5564644feb06 ""
   "chapter2.tex" 1685462157 5882 b95d5a2943203c6c64c4f6db2c397560 ""
   "chapter3.tex" 1687267938 1296 d0a73373fb4f5c8f43b5908705e636c1 ""
   "chapter3/cross.tex" 1687267552 32642 3fd1ca947f6a2d58baa294c17315b68c ""
@@ -235,9 +235,9 @@
   "chapter4.tex" 1687268000 5750 c93707ce9c1ed9d7b57bcb765cede80c ""
   "chapter5.tex" 1687289194 6935 4754930d5087d60155a4171a07c7f2a9 ""
   "chapter6.tex" 1687290120 12044 0403220984bd2b2ee4acf84e226ce0ae ""
-  "chapter7.tex" 1687308182 14769 8310400536ac28cf0cf093ce5e6f744b ""
-  "chapter8.tex" 1687289882 722 c93b1ffff946721f00a912a47eebafd2 ""
-  "chapter9.tex" 1687288118 3253 f133bbfda34d9e6e44c64b3855cea6fc ""
+  "chapter7.tex" 1687308422 14769 8310400536ac28cf0cf093ce5e6f744b ""
+  "chapter8.tex" 1687310621 938 b5c3ab19bd0ca7fc18b9ac87f80ebac0 ""
+  "chapter9.tex" 1687310621 3934 ae3a76638be2865ed1252ae911fd470c ""
   "dyplom.cls" 1684013928 8102 982a732d4b5c526329d992922d9815e2 ""
   "img/android_architecture.png" 1682378987 17426 d439f533e06e7ec1ac89550078864376 ""
   "img/android_ver_market_share.png" 1682278327 145749 fa98e20e9f2e442b6aaa92ae5657e2ad ""
@@ -296,13 +296,13 @@
   "img/rn_old_architecture.jpg" 1684421834 84172 0eb5492869fee972730bee3340f6833c ""
   "img/rn_render.jpg" 1684524047 186672 642ebc1389360258746870e9e60a067a ""
   "img/rn_trees.jpg" 1684524726 43384 051cab624f2c0d147575bb7256802735 ""
-  "thesis.aux" 1687308211 45703 5a8e2fe330a580c41f850ea60fd2ec35 "pdflatex"
-  "thesis.bbl" 1687308197 17661 12106771a8e3981a8892b8e56b841f9f "bibtex thesis"
-  "thesis.lof" 1687308211 7869 c95c9713173b1ebd0199116e106f8c1b "pdflatex"
-  "thesis.lot" 1687308211 3554 9fcaed9a1d72e641a8e366c14f87bccd "pdflatex"
-  "thesis.out" 1687308211 7674 77081086590d0da06949b947e4990a53 "pdflatex"
+  "thesis.aux" 1687310635 45703 acd94d981483f8f72778e504ded77b65 "pdflatex"
+  "thesis.bbl" 1687310384 17661 12106771a8e3981a8892b8e56b841f9f "bibtex thesis"
+  "thesis.lof" 1687310636 7869 c95c9713173b1ebd0199116e106f8c1b "pdflatex"
+  "thesis.lot" 1687310636 3554 9fcaed9a1d72e641a8e366c14f87bccd "pdflatex"
+  "thesis.out" 1687310636 7674 77081086590d0da06949b947e4990a53 "pdflatex"
   "thesis.tex" 1687306371 1457 b75db72cbc3b23d3ab0b78ae130fc289 ""
-  "thesis.toc" 1687308211 4292 79bbea677d3cbc89a5c6027655a88677 "pdflatex"
+  "thesis.toc" 1687310636 4292 f2e14602521849ec18de7988fdbf81b2 "pdflatex"
   (generated)
   "thesis.aux"
   "thesis.lof"
