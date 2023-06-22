@@ -3,8 +3,62 @@
 
 \chapter{Research discussion}
 
-In multiple literature positions, statements can be found about mobile app performance being significantly higher when developing using native approach compared to cross-platform approach. However, even in many rather recent papers this statement is assumed based on the work of P. Que, X. Guo and M. Zhu (\cite{que_comp_hybrid_native}) which was published in 2016. Across the past 7 years there have been many breaking changes in both native and multi-platform solutions. It is reasonable to assume they may have changed that situation therefore it is worthwhile to review the current state-of-art and draw present-day conclusions.
+In this chapter, the results from the performed experiments are aggregated, presented in a visual form, and analyzed in accordance with the purpose and scope of this thesis. The analysis outcome became a base for forming final conclusions.
 
-how to improve performance issues? (chrome -> performance -> smartlook, uruit, mobileappperf, surveyperf)
+\section{Experiment results analysis}
 
-use-cases? (consider which metrics are important in which cases, e.g. cpu for old phones based on saborido)
+In the following sections, firstly the average metric values are calculated to perform the overall comparison between the technologies. Afterward, each research scenario is considered separately.
+
+\input{chapter8/general}
+
+\input{chapter8/scenario1}
+
+\input{chapter8/scenario2}
+
+\input{chapter8/scenario3}
+
+\input{chapter8/scenario4}
+
+\section{Conclusions}
+
+According to the literature review combined with the conducted experiments, cross- -platform development is a strong alternative to the native approach. The ability to utilize a single code base and deploy the application on more than one platform seems very efficient from the perspective of resource management, in both financial and timescale aspects. The concerns connected to cross-platform technologies come from their assumed inferiority to their native equivalents in the context of app performance and, thus, user experience, which is currently a top priority in mobile development. Nevertheless, the results from the experiments carried out in this thesis seem to at least partly invalidate those concerns. For example, even though native apps usually demonstrate lower memory usage on average, in many cases, cross-platform apps (especially those implemented with Flutter) achieve better results in the context of CPU usage and power consumption. When it comes to the frame rate, directly corresponding to the perceived smoothness, both native and cross-platform solutions performed similarly, except for Kotlin apps suffering from FPS drops on low-end devices.
+
+Table \ref{best_framework} contains an overview of the best-performing development technologies grouped by research scenarios, performance metrics, target platforms, and device types. Each technology is represented by its abbreviation: Kotlin -- K, Swift -- S, Flutter -- F, and React Native -- RN. According to the information this table provides, the process of selecting a development method should become easier. One should consider the functionalities that must be implemented and compare them with the research scenarios considered in this thesis. Research scenario 1 related to one of the most common mobile application elements, which is the scrollable and filterable list. Research scenario 2 related to animations, which are responsible for a big part of user perception of a mobile application. Research scenario 3 related to file input and output, which is a very common feature found in many mobile applications. Research scenario 4 related to the functionality of user-controlled elements, e.g., switches and text fields, as well as the navigation between mobile application pages.
+
+\clearpage
+
+\begin{longtblr}[
+    caption = {Best performing development solutions (Source: Own work)},
+    label = {best_framework},
+]{ colspec = { |c|c|c|c|c|c|c| }, hlines }
+    \SetCell[c=3]{c}{\textbf{Variable}}&&&\textbf{Scenario 1}&\textbf{Scenario 2}& \textbf{Scenario 3}&\textbf{Scenario 4}\\
+    
+    \SetCell[r=4]{c}{CPU}&\SetCell[r=2]{c}{Android}&Low-end&F&K, F&K&F\\
+    &&High-end&F, K&F, RN&K&K, F\\
+    &\SetCell[r=2]{c}{iOS}&Low-end&S, F&S&S&S\\
+    &&High-end&S, F&RN&S&S\\
+
+    \SetCell[r=4]{c}{RAM}&\SetCell[r=2]{c}{Android}&Low-end&F&F&K&K, F\\
+    &&High-end&K&F&K&RN\\
+    &\SetCell[r=2]{c}{iOS}&Low-end&S&S&S&S\\
+    &&High-end&S&S&S&S\\
+
+    \SetCell[r=4]{c}{FPS}&\SetCell[r=2]{c}{Android}&Low-end&F&F, RN&--&--\\
+    &&High-end&F&F, RN&--&--\\
+    &\SetCell[r=2]{c}{iOS}&Low-end&F&S&--&--\\
+    &&High-end&F&S, F, RN&--&--\\
+\end{longtblr}
+
+The research carried out for the purpose of this master's thesis leads to the following conclusions:
+
+\begin{itemize}
+    \item On average, Flutter provides the best performance out of all the technologies considered.
+    \item Kotlin and Flutter apps require similar CPU usage, mutually outperforming each other in different scenarios.
+    \item In most cases, Kotlin utilizes the least device memory in Android apps.
+    \item Flutter seems to offer the best frame rate results with a high degree of stability, which may be caused by the usage of a new rendering engine \emph{Impeller}.
+    \item Flutter applications exhibit the highest memory consumption, which may be an issue when considering low-end devices.
+    \item In the considered scenarios, React Native offers the lowest overall performance.
+    \item Swift offers great performance in every aspect; therefore, if a mobile application does not have to be multi-platform, it is a great choice, especially considering the excellent memory consumption levels.
+\end{itemize}
+
+\clearpage

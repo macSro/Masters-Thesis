@@ -3,11 +3,19 @@
 
 \chapter{Summary}
 
+In multiple literature positions, statements can be found about mobile app performance being significantly higher when developed using a native approach compared to a cross-platform approach. However, even in many rather recent papers, this statement is assumed based on the work of P. Que, X. Guo and M. Zhu (\cite{que_comp_hybrid_native}) which was published in 2016. Over the past 7 years, there have been many breaking changes to both native and multi-platform solutions. It is reasonable to assume these changes may have affected those findings. Therefore, it seemed worthwhile to review the current state of the art and draw present-day conclusions.
+
 The purpose of this master's thesis was to carry out research on the performance of mobile applications implemented with cross-platform solutions in the form of Flutter and React Native as compared to native approaches in the form of Jetpack Compose and SwiftUI. These goals have been successfully fulfilled by conducting multiple experiments and drawing relevant conclusions based on their outcomes. The experiments have been prepared according to an exhaustive literature review and covered a diverse set of devices in order to yield valuable results. Based on the obtained knowledge, the technologies have been compared in the context of their optimal scenarios of use and overall advantages and disadvantages. The described findings can be applied in real life in the process of choosing the development approach for mobile application building.
 
-\section{Contribution}
+\section{Contributions}
 
-podsumowac wyniki z rozdzialu wyzej w punktach
+The successful completion of this master's thesis brought a number of contributions in the context of mobile application development.
+
+Various aspects of the leading mobile technologies were described in order to update the state of the art. For example, the new rendering engine \emph{Impeller} had just been released during the period of research for this thesis, and therefore the performance described in the previous literature potentially became out-dated.
+
+The experiment results provided support for the decision-making problem of choosing an optimal development method for a specific mobile application. Considered technologies were compared in the context of app performance; however, some information from the perspective of a developer was acquired and described during the sample apps' implementation process, which can be used as a secondary input when selecting the development solution.
+
+According to the findings acquired within this thesis, the assumption that applications implemented with cross-platform solutions experience performance issues compared to their native equivalents is no longer correct.
 
 \section{Limitations}
 
@@ -30,3 +38,5 @@ Another aspect of the research that could be enhanced is the choice of sample ap
 Moreover, the scope of this thesis is limited to the mobile platform. However, many cross-platform frameworks cover more platforms. The experiment environment could be extended by considering the web and/or desktop apps (Windows, macOS, or Linux). Of course, such a task carries a large volume of additional implementation work because each platform requires the development of a native equivalent to the cross-platform solution.
 
 Finally, even without performing any modifications to the scope of the research proposed in this thesis, the experiments could be conducted again after further breaking changes to the included technologies, which will surely occur considering the continuous growth of cross-platform development.
+
+\clearpage
