@@ -51,14 +51,18 @@ Table \ref{best_framework} contains an overview of the best-performing developme
 
 The research carried out for the purpose of this master's thesis leads to the following conclusions:
 
-\begin{itemize}
+\begin{itemize}[nosep]
     \item On average, Flutter provides the best performance out of all the technologies considered.
     \item Kotlin and Flutter apps require similar CPU usage, mutually outperforming each other in different scenarios.
     \item In most cases, Kotlin utilizes the least device memory in Android apps.
-    \item Flutter seems to offer the best frame rate results with a high degree of stability, which may be caused by the usage of a new rendering engine \emph{Impeller}.
+    \item Flutter seems to offer the best frame rate results with a high degree of stability, which may be caused by the usage of a new rendering engine, \emph{Impeller}.
     \item Flutter applications exhibit the highest memory consumption, which may be an issue when considering low-end devices.
     \item In the considered scenarios, React Native offers the lowest overall performance.
-    \item Swift offers great performance in every aspect; therefore, if a mobile application does not have to be multi-platform, it is a great choice, especially considering the excellent memory consumption levels.
+    \item Swift offers great performance in every aspect; therefore, if a mobile app does not have to be multi-platform, it is a great choice, especially considering excellent the memory consumption levels.
+    \item For the applications including many scrollable lists, Flutter outperforms Kotlin on Android devices and is on par with Swift on iOS devices.
+    \item In the case of animation-heavy applications, Flutter provides the best performance.
+    \item Native methods, both Kotlin and Swift, produce better performance for applications strongly relying on file download and upload.
+    \item Considering navigation and common UI elements, e.g., text field forms, Flutter matches Kotlin in performance on Android; however, it falls short compared to Swift on iOS.
 \end{itemize}
 
 \clearpage

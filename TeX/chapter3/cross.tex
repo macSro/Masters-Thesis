@@ -81,14 +81,14 @@ Flutter is a cross-platform framework belonging to the cross-compiled approach d
 
 \subsubsection*{Architecture}
 
+Flutter consists of three primary layers (libraries) that are completely autonomous, as shown in Figure \ref{fig:flutter_architecture}. This makes it highly modular, with the possibility to substitute any layer by hand.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=.77\textwidth]{img/flutter_architecture}
     \caption{Flutter architecture (Source: \cite{flutter_docs_architecture})}
     \label{fig:flutter_architecture}
 \end{figure}
-
-Flutter consists of three primary layers (libraries) that are completely autonomous, as shown in Figure \ref{fig:flutter_architecture}. This makes it highly modular, with the possibility to substitute any layer by hand.
 
 \emph{Embedder} layer is placed at the very bottom to directly interact with the operating system in order to manage surface rendering, input methods, event loop and native plugins. It is platform-specific therefore is implemented with appropriate programming languages for each platform, e.g. Java, C++, Objective-C or Objective-C++ \cite{flutter_docs_architecture}.
 
@@ -101,6 +101,8 @@ The final layer, \emph{Framework}, is the interface for developers. It contains 
 
 \subsubsection*{Web support}
 
+In order to support web, for such builds the Flutter's engine is specifically adapted to include the standard browser APIs (see Figure \ref{fig:flutter_web_architecture}). From the rendering perspective, there are two possible methods: HTML+CSS+Canvas+SVG or CanvasKit. The former minimizes the download size, while the latter usually offers better performance.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=.77\textwidth]{img/flutter_web_architecture}
@@ -108,9 +110,9 @@ The final layer, \emph{Framework}, is the interface for developers. It contains 
     \label{fig:flutter_web_architecture}
 \end{figure}
 
-In order to support web, for such builds the Flutter's engine is specifically adapted to include the standard browser APIs (see Figure \ref{fig:flutter_web_architecture}). From the rendering perspective, there are two possible methods: HTML+CSS+Canvas+SVG or CanvasKit. The former minimizes the download size, while the latter usually offers better performance.
-
 \subsubsection*{Rendering}
+
+Figure \ref{fig:flutter_render_flow} shows Flutter's rendering flow. Flutter is a "reactive, pseudo-declarative UI framework" which means the app's state and user interface layout are separate. User input affects the state, which then results in UI rebuild. 
 
 \begin{figure}[h]
     \centering
@@ -119,7 +121,7 @@ In order to support web, for such builds the Flutter's engine is specifically ad
     \label{fig:flutter_render_flow}
 \end{figure}
 
-Figure \ref{fig:flutter_render_flow} shows Flutter's rendering flow. Flutter is a "reactive, pseudo-declarative UI framework" which means the app's state and user interface layout are separate. User input affects the state, which then results in UI rebuild. Flutter solution to this methodology is the existence of three interconnected trees: \emph{Widget Tree}, \emph{Element Tree}, and \emph{Render Tree} (see Figure \ref{fig:flutter_trees}). The primary components of the framework are widgets which are combined to create user interfaces. For each widget in the tree, the element object is created, and for each element- a render object. The element acts as a connector between widgets and their render objects. Whenever the app's state changes, runtime types of widgets and render objects are checked. Only if they are different, a new render object needs to be created. Otherwise, it is simply updated which is "cheap" performance-wise, just as rebuilding widgets thanks to the fact they are immutable \cite{flutter_docs_architecture}.
+Flutter solution to this methodology is the existence of three interconnected trees: \emph{Widget Tree}, \emph{Element Tree}, and \emph{Render Tree} (see Figure \ref{fig:flutter_trees}). The primary components of the framework are widgets which are combined to create user interfaces. For each widget in the tree, the element object is created, and for each element- a render object. The element acts as a connector between widgets and their render objects. Whenever the app's state changes, runtime types of widgets and render objects are checked. Only if they are different, a new render object needs to be created. Otherwise, it is simply updated which is "cheap" performance-wise, just as rebuilding widgets thanks to the fact they are immutable \cite{flutter_docs_architecture}.
 
 \begin{figure}[h]
     \centering
@@ -152,6 +154,8 @@ React Native is a cross-platform framework released in 2015 belonging to the int
 
 \subsubsection*{Architecture}
 
+Up until React Native version 0.68 (30 Mar. 2022) the framework's architecture (shown in Figure \ref{fig:rn_old_architecture}) was analogous to the general interpreted cross-platform solution architecture presented in Chapter \ref{chap:cross_platform_approaches}. Because of the drawbacks caused by the \emph{Bridge}, the \emph{New Architecture} (shown in Figure \ref{fig:rn_new_architecture}) has been developed and applied with the release of version 0.68. Table \ref{tab:rn_architecture_improvements} explains the major improvements achieved.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=.77\textwidth]{img/rn_old_architecture}
@@ -165,8 +169,6 @@ React Native is a cross-platform framework released in 2015 belonging to the int
     \caption{React Native New Architecture (v0.68+) (Source: \cite{matijevic_rn_rearchitecture})}
     \label{fig:rn_new_architecture}
 \end{figure}
-
-Up until React Native version 0.68 (30 Mar. 2022) the framework's architecture (shown in Figure \ref{fig:rn_old_architecture}) was analogous to the general interpreted cross-platform solution architecture presented in Chapter \ref{chap:cross_platform_approaches}. Because of the drawbacks caused by the \emph{Bridge}, the \emph{New Architecture} (shown in Figure \ref{fig:rn_new_architecture}) has been developed and applied with the release of version 0.68. Table \ref{tab:rn_architecture_improvements} explains the major improvements achieved.
 
 The most important difference is the complete removal of the bridge and bringing the \emph{JavaScript Interface (JSI)} in its place. This change aimed to eliminate the unnecessary delays the bridge caused and the uncertainty of data delivery. Moreover, \emph{JSI} enables the cooperation between Native components and JavaScript via the ability to reference C++ Host objects and call their methods directly \cite{matijevic_rn_rearchitecture}.
 

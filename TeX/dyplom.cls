@@ -27,12 +27,12 @@
 % do klasy mwrep
 \ProcessOptions
 \if@archiwum
-	\LoadClass[12pt,openany,doublesided]{mwrep} % ładujemy klasę bazową, do opcji
+	\LoadClass[12pt,openany,twoside]{mwrep} % ładujemy klasę bazową, do opcji
 	% podanych w dokumencie dodajemy 12pt
 	% i openany oraz doublesided
 \fi
 \if@druk
-	\LoadClass[12pt]{mwrep} % ładujemy klasę bazową, do opcji
+	\LoadClass[12pt,twoside]{mwrep} % ładujemy klasę bazową, do opcji
 	% podanych w dokumencie dodajemy 12pt
 \fi
 \if@en
